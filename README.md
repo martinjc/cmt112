@@ -24,16 +24,16 @@ It is expected that before each week’s contact session you will have:
 
 Activities within each contact session will depend on you having completed the recommended reading, watching and doing.
 
+During most weeks there will be some element of group exercise to be completed. It will not always be possible to complete these exercises during the lab time allotted. Students are expected to work in their groups to complete the lab exercises by the given deadline.
+
+Each week you will be asked to individually review and provide feedback on one or more of the other group's solutions to that weeks activities.
+
 There are no formal/traditional ‘lectures’ on this course. You have better things to do with your time than to sit and watch me read from slides, and I have better things to do than to stand in front of you reading slides for hours on end! Our contact sessions will be focused on activities that reinforce the learning you do outside of class: group discussions, group and individual exercises based on that week’s topics, and practical implementation exercises where you put the skills and knowledge learnt into practice. All the content that would usually have been delivered through ‘lectures’ is available online for you to read/watch/engage with as part of your own study.
 
 Each 20 credit module is equivalent to approximately 200 hours of study. Our contact time makes up about 30-40 hours of this 200. The online reading, videos and tutorials are perhaps somewhere around 70 hours of study. This leaves you 100 hours for your own study, for completing group and individual lab exercises, and for completing the coursework assignments.
 
 ## Course Engagement
 All contact sessions for the course are compulsory.
-
-During most weeks there will be some element of group exercise to be completed. It will not always be possible to complete these exercises during the lab time allotted. Students are expected to work in their groups to complete the lab exercises by the given deadline.
-
-Each week you will be asked to individually review and provide feedback on one or more of the other group's solutions to that weeks activities.
 
 Engagement with the online activities may be monitored through analytics software.
 
