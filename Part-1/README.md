@@ -24,6 +24,23 @@ We start by looking at the history, structure and some of the key technologies o
 During the contact session for this topic we will assess our learning with a quick game of 'Buzzword Bingo'. Groups will be given a bingo card with a list of topics. Topics will be drawn at random. Groups will be invited to provide a description of the selected topic. Provided the description/definition is 'sufficient' to the satisfaction of all other groups, everyone in the room can mark off the topic. There will be prizes for the first vertical and horizontal row, and the first full house.
 
 
+## Introduction to HTML
 
+Now we know what the Internet is, and we are beginning to get to grips with some of the technologies that allow the Web to operate, so we'll start to look at the languages that allow us to create web pages.
+
+### Compulsory Reading
 
 * Mozilla Developer Network [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+
+
+### Videos
+
+* Writing an HTML Document
+* HTML Elements
+* Developing Locally - Simple Web Server
+* Using Git
+
+
+### Activities
+
+During the contact session for this topic we will put what we have learnt into practice by individually creating a simple HTML web page. We will practice using version control software to ensure our code is safely versioned and stored.   
