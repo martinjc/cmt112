@@ -73,7 +73,3 @@ The module leader for CMT112 is Martin Chorley.
 My office is N/2.15, and during the Autumn semester I am generally available there Monday, Tuesday and Thursday afternoons.
 
 I can be emailed at [chorleymj@cf.ac.uk](mailto:chorleymj@cardiff.ac.uk), and can be found on Twitter as [@martinjc](https://www.twitter.com/martinjc).
-
-
-
-[Test](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112/blob/master/1/test.md)
