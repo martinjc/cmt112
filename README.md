@@ -5,4 +5,4 @@ Course notes, links, videos and reading for CMT112 - Web Application Development
 [Latest Module Description](https://data.cardiff.ac.uk/legacy/grails/module/CMT112/18A.html)
 
 
-[Test](blob/master/1/test.md)
+[Test](../blob/master/1/test.md)
