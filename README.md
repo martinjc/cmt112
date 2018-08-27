@@ -24,6 +24,8 @@ Contact sessions take place on Thursday mornings from 9:30am to 1pm in X/X.XX in
 
 All course material including notes, presentations, videos, recommended reading and practical exercises are available on Learning Central, the School's GitLab server, and on Github.
 
+The material is arranged by topic. In each topic there will be links to things to read (both 'compulsory' reading which must be done each week, and 'extra' reading for those who are interested), videos to watch and code samples to examine. There will also be descriptions of the activities we will be doing during each week's contact session, and details of the individual/group lab exercises.
+
 It is expected that before each week’s contact session you will have:
 
 * read the relevant sections of the notes and watched any accompanying videos
@@ -32,7 +34,7 @@ It is expected that before each week’s contact session you will have:
 * worked through any recommended external tutorials
 * completed any online quizzes
 
-Activities within each contact session will depend on you having completed the recommended reading, watching and doing.
+Activities within each contact session will depend on you having completed the recommended reading, watching and doing. At the end of each contact session you will be advised of which material you need to engage with before the next week's session.
 
 During most weeks there will be some element of group exercise to be completed. It will not always be possible to complete these exercises during the lab time allotted. Students are expected to work in their groups to complete the lab exercises by the given deadline.
 
