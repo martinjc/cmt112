@@ -9,9 +9,9 @@ Course notes, links, videos and reading for CMT112 - Web Application Development
 
 The module is broken down into three parts:
 
-* [Introduction to HTML, CSS & JS](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112/tree/master/Part-1) - (Weeks 1 - 4)
-* [JavaScript Fundamentals](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112/tree/master/Part-2) (Weeks 4 - 8)
-* [Server Side Development](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112/tree/master/Part-3) (Weeks 8 - 10)
+* [Introduction to HTML, CSS & JS](Part-1/) - (Weeks 1 - 4)
+* [JavaScript Fundamentals](Part-2/) (Weeks 4 - 8)
+* [Server Side Development](Part-3/) (Weeks 8 - 10)
 
 
 
