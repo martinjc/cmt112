@@ -1,0 +1,19 @@
+{
+  "name": "cmt112",
+  "version": "0.0.1",
+  "description": "Course Website for CMT112",
+  "main": "index.html",
+  "dependencies": {
+    "npm": "^6.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.cs.cf.ac.uk:scm2mjc/cmt112.git"
+  },
+  "author": "Martin Chorley",
+  "license": "MIT"
+}
