@@ -39,8 +39,60 @@ Now we know what the Internet is, and we are beginning to get to grips with some
 * HTML Elements
 * Developing Locally - Simple Web Server
 * Using Git
+* Brief intro to CSS
 
 
 ### Activities
 
 During the contact session for this topic we will put what we have learnt into practice by individually creating a simple HTML web page. We will practice using version control software to ensure our code is safely versioned and stored.   
+
+
+## HTML + CSS
+
+Having learnt about the way we structure our content to create web pages, we now start to look at how to visually style and layout our web pages using CSS.
+
+### Compulsory Reading
+
+* Learn to Code HTML + CSS
+* Learn CSS layout
+* All about Grid systems
+
+### Videos
+
+* CSS - Selectors and Specificity
+* CSS - Positioning and Layout
+* Gitlab Pages
+
+### Activities
+
+In this contact session we will start to think about CSS layout, and spend some time thinking about the common layouts we see and use often. We'll then start implementing a layout using CSS, and deploy the sites we create to Gitlab Pages.
+
+### Peer Review
+
+Following this session, you will be asked to review one or more group's code, and leave them some constructive feedback on their website.  
+
+## Responsive Web design
+
+Now we can annotate our content and documents so a web browser can understand their structure, and can visually style that content and lay it out on a page, we will start to think about how our users access this content and what that means for our webpage design.
+
+### Compulsory Reading
+
+* Responsive Web design
+* Mobile First Design - why it's great and why it sucks
+* Don't overthink it Grids
+
+### Videos
+
+* Mobile First + responsive
+* Media queries
+* Responsive images
+* CSS frameworks
+* Units and sizing
+
+### Activities
+
+In this contact session we will examine web pages on a range of devices and see what works and what doesn't when it comes to mobile web design. We will then re-implement our page from last week (or build a new page) that works across a range of devices and screen sizes.
+
+### Peer Review
+
+Following this session, you will be asked to review one or more group's code, and leave them some constructive feedback on their website.  
