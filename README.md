@@ -34,7 +34,7 @@ It is expected that before each week’s contact session you will have:
 * worked through any recommended external tutorials
 * completed any online quizzes
 
-Activities within each contact session will depend on you having completed the recommended reading, watching and doing. At the end of each contact session you will be advised of which material you need to engage with before the next week's session.
+!> Activities within each contact session will depend on you having completed the recommended reading, watching and doing. At the end of each contact session you will be advised of which material you need to engage with before the next week's session.
 
 During most weeks there will be some element of group exercise to be completed. It will not always be possible to complete these exercises during the lab time allotted. Students are expected to work in their groups to complete the lab exercises by the given deadline.
 
@@ -45,7 +45,7 @@ There are no formal/traditional ‘lectures’ on this course. You have better t
 Each 20 credit module is equivalent to approximately 200 hours of study. Our contact time makes up about 30-40 hours of this 200. The online reading, videos and tutorials are perhaps somewhere around 70 hours of study. This leaves you 100 hours for your own study, for completing group and individual lab exercises, and for completing the coursework assignments.
 
 ## Course Engagement
-All contact sessions for the course are compulsory.
+!> All contact sessions for the course are compulsory.
 
 Engagement with the online activities may be monitored through analytics software.
 
@@ -66,7 +66,7 @@ Coursework 2 is worth 70% of the module marks, and involves developing an intera
 * Hand out Week 7
 * Hand in Week 12
 
-All assignments will be submitted through Learning Central. Marks and written feedback will be returned via GradeCentre. This will be supplemented by oral feedback during a contact session.
+?> All assignments will be submitted through Learning Central. Marks and written feedback will be returned via GradeCentre. This will be supplemented by oral feedback during a contact session.
 
 ## Lecturing Staff
 
