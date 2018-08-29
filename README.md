@@ -72,6 +72,6 @@ Coursework 2 is worth 70% of the module marks, and involves developing an intera
 
 The module leader for CMT112 is Martin Chorley.
 
-My office is N/2.15, and during the Autumn semester I am generally available there Monday, Tuesday and Thursday afternoons.
+My office is N/2.15, and during the Autumn semester I am generally available there Monday, Tuesday and Thursday afternoons. It's usually best to email me if you'd like to come see me about something.
 
 I can be emailed at [chorleymj@cf.ac.uk](mailto:chorleymj@cardiff.ac.uk), and can be found on Twitter as [@martinjc](https://www.twitter.com/martinjc).
