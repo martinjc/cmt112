@@ -14,12 +14,16 @@ The reading for this topic will introduce you to HyperText Markup Language, or H
 You should watch all these videos before the contact session in Week 1.
 
 * Writing an HTML Document
+
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2a886651-3aa0-4ddb-963d-e480a94b8564&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
 * HTML Elements
 * Developing Locally - Simple Web Server
 * Using Git
 * Brief intro to CSS
 
 
-## Activities
+## Lab Activity - Creating an HTML Page
 
-During the contact session for this topic we will put what we have learnt into practice by individually creating a simple HTML web page. We will also practice using version control software to ensure our code is safely versioned and stored.   
+During the [lab activity](part-1/html-intro/lab-exercise) for this topic we will put what we have learnt into practice by individually creating a simple HTML web page. We will also practice using version control software to ensure our code is safely versioned and stored.
+
