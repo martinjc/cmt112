@@ -17,10 +17,14 @@ The reading for this topic will begin to show you how to combine the structure o
 * CSS - Positioning and Layout
 * Gitlab Pages
 
-## Activities
+## Activity - CSS Specificity
 
-In this contact session we will start to think about CSS layout, and spend some time thinking about the common layouts we see and use often. In our groups we will examine some frequently used websites and try to evaluate the underlying structure and layout used. We'll then start implementing a layout using CSS, and will deploy the sites we create to Gitlab Pages.
+In this activity we will test our understanding of how CSS is applied by Web Browsers. We will look at calculating CSS specificity and working out which CSS rule will apply to our HTML.
 
-## Peer Review
+## Activity - Web Page Layout
 
-Following this session, you will be asked to review one or more group's code, and leave them some constructive feedback on their website. 
+In this activity we will start to think about CSS layout, and spend some time thinking about the common layouts we see and use often. In our groups we will examine some frequently used websites and try to evaluate the underlying structure and layout used. We'll then start implementing a layout using CSS, and will deploy the sites we create to Gitlab Pages.
+
+## Activity - Peer Review
+
+Following this session, you will be asked to review one or more group's code, and leave them some constructive feedback on their website through the GitLab repository. More instructions, and group allocations will be provided soon.
