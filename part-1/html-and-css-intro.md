@@ -24,6 +24,7 @@ You should watch all these videos before the contact session in Week 1.
 * Brief intro to CSS
 
 
+
 ## Activity - Creating an HTML Page
 
 During the [lab activity](part-1/labs/html-intro-lab) for this topic we will put what we have learnt into practice by individually creating a simple HTML web page. We will also practice using version control software to ensure our code is safely versioned and stored.
