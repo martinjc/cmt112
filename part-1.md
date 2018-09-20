@@ -4,11 +4,11 @@ Part 1 begins by examining the Internet, including how it works and its history.
 
 ### Week 1
 
-During Week 1 we will cover the [fundamentals of the Internet](part-1/internet-intro) and using [HTML to add structure to content](part-1/html-intro), which allows us to create documents that can be understood by web browsers.
+During Week 1 we will cover the [fundamentals of the Internet](part-1/internet-intro) and using [HTML to add structure to content](part-1/html-and-css-intro), which allows us to create documents that can be understood by web browsers.
 
 ### Week 2
 
-During Week 2 we will look at [styling our documents using CSS](part-1/html-and-css). We'll learn how we tell the browser how it should layout and present our structured content. We'll also look at deploying our web pages to our GitLab server.
+During Week 2 we will look at [styling our documents using CSS](part-1/html-css-and-layout). We'll learn how we tell the browser how it should layout and present our structured content. We'll also look at deploying our web pages to our GitLab server.
 
 We'll also look at the first assessment for the module, where you will be tasked with implementing a new Website for a University.
 
