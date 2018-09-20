@@ -53,6 +53,8 @@ We can view our new HTML page in a number of ways. The easiest is to open a new 
 
 ![Our first web page](../../_img/1.2.1/hello-world.png).
 
+### Committing our changes
+
 We're pretty impressed with our first web page, so let's commit it to our git repository. On the command line, type:
 
 ```bash
@@ -198,6 +200,37 @@ git commit -m "added a paragraph"
 
 ?> How would we revert these changes using Git if we then decided we didn't like the content addition?
 
+
+
+### Adding CSS
+
+Once we've got some HTML content, we can start to style it using CSS.
+
+We can add CSS to our HTML files by including it in a separate file. Create a new file in your text editor, and write a CSS rule that will apply to all paragraph elements:
+
+![CSS file](../../_img/1.2.1/css-file.png)
+
+Before we can link the CSS to our HTML, we need to save the file. Here I have saved it as `style.css` in a subfolder named `css` within the same directory as
+the `index.html` file. 
+
+```
+cmt112-labs/
+  |- Week1/
+    |- index.html
+      |- css/
+        |- style.css
+```
+
+We can then link this CSS to our HTML file using a link element in the head of our HTML:
+
+![Link CSS file to HTML](../../_img/1.2.1/css-link.png)
+
+If we refresh the page in our browser, we'll see the CSS rules applied to our paragraph elements:
+
+![HTML and CSS](../../_img/1.2.1/hello-world-css.png)
+
+### Going Further
+
 Now it is your turn to start writing HTML. Experiment with adding more content, using some of the HTML tags we have already seen in this week's reading and videos. Try and add the following types of content to your page:
 
 * a link to another webpage
@@ -207,5 +240,6 @@ Now it is your turn to start writing HTML. Experiment with adding more content, 
 * several paragraphs of text
 * a link from one part of your page to another
 
-?> Remember to commit your changes frequently!
+Use CSS rules to change the formatting of your content.
 
+?> Remember to commit your changes frequently, and definitely commit your final code at the end of the lab!
