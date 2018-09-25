@@ -14,14 +14,20 @@ The reading for this topic will introduce you to HyperText Markup Language, or H
 
 You should watch all these videos before the contact session in Week 1.
 
+* Introduction to HTML - [slides](/_slides/1-2-intro-to-html.html ':target=_blank' ':ignore')
+* HTML Document Structure - [slides](/_slides/1-2-html-document-structure.html ':target=_blank' ':ignore')
+* HTML Tags - [slides](/_slides/1-2-html-tags.html ':target=_blank' ':ignore')
+* Nesting Tags - [slides](/_slides/1-2-nesting-tags.html ':target=_blank' ':ignore')
+* Block and Inline - [slides](/_slides/1-2-block-inline.html ':target=_blank' ':ignore')
+* Coding HTML - [slides](/_slides/1-2-coding-html.html ':target=_blank' ':ignore')
+* Introduction to CSS - [slides](/_slides/1-2-intro-to-css.html ':target=_blank' ':ignore')
+
 * Writing an HTML Document
 
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2a886651-3aa0-4ddb-963d-e480a94b8564&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
-* HTML Elements
 * Developing Locally - Simple Web Server
 * Using Git
-* Brief intro to CSS
 
 
 
