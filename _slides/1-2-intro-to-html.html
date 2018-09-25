@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    
+        <title></title>
+    
+    
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+        <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../lib/reveal/css/reveal.css">
+        <link rel="stylesheet" href="../lib/reveal/lib/css/zenburn.css">
+        <!-- My CSS Overrides -->
+        <link rel="stylesheet" href="css/slide_style.css">
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="../lib/reveal/lib/css/zenburn.css">
+    
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? '../lib/reveal/css/print/pdf.css' : '../lib/reveal/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>    
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+<!-- 
+*
+*
+*  End of HEAD
+*
+*
+-->
+
+
+<section data-markdown>
+  <textarea data-template> 
+  # Introduction to HTML
+  </textarea>
+</section>
+                
+<section data-markdown data-separator-notes="^Note:">
+    <textarea data-template> 
+## HyperText
+## Markup
+## Language
+
+Note:
+HTML stands for HyperText Markup Language. In the simplest terms, it’s the language we use to build webpages. It is not really a ‘programming’ language, it is really a ‘markup’ language
+      </textarea>
+</section>
+             
+             
+<section data-background-image="img/1.2/content.png" data-background-size="contain">
+
+  <aside class="notes">
+          so let’s imagine we have some content that we’d like to put on the web. This could be anything, from simple pieces of text, graphics and images, lists, tables, all the way through to complex interactive content.
+  </aside>             
+</section>
+
+<section data-background-image="img/1.2/content_labelled.png" data-background-size="contain">
+
+<aside class="notes">
+      … we want our browser to be able to understand what that content is, so that it knows how to structure the webpage, and how to display things on the screen. This process, of taking our content and displaying it on the screen is known as rendering.
+</aside>
+
+</section>
+
+<section data-background-image="img/1.2/content_markedup.png" data-background-size="contain">
+
+<aside class="notes">
+      We use HTML tags to markup our content so that the browser will understand what our content is, and how to render it. there are many different tags in HTML, which can be used to add meaning and structure to different types of content, and we’ll look at some of these in later videos
+</aside>
+
+</section>
+
+
+<section data-background-video="https://media.giphy.com/media/3oriePo8JgIvPxUWL6/giphy.mp4" data-background-size="contain" data-background-video-loop=true>
+
+</section>
+
+<section data-markdown data-transition="slide-in none">
+    <textarea data-template> 
+
+```html
+<a href="https://www.mdn.com">
+  this is a link
+</a>
+```
+
+<span class="fragment current-only">This is an anchor element. It is used to create hyperlinks</span>
+<span class="fragment current-only" data-code-focus="1-3">The whole thing together is referred to as an element</span>
+<span class="fragment current-only" data-code-focus="1">It has an opening tag at the beginning</span>
+<span class="fragment current-only" data-code-focus="3">And it has a closing tag at the end</span>
+<span class="fragment current-only" data-code-focus="2">In between the opening and closing tags, we have the element content</span>
+
+Note:
+As an example of a simple HTML element, here is an ‘anchor’ element. It is used to create hyperlinks between or within webpages. The whole thing together referred to as an element. it has an opening tag at the beginning, and a closing tag at the end. in between the opening and closing tags we have the element content. In this case, it is just some text, but this content could be anything - even another HTML element. We’ll see examples of this ‘nesting’ later.
+
+</textarea>
+</section>
+
+
+<section data-transition="none" data-markdown>
+<textarea data-template> 
+
+```html
+<a href="https://www.mdn.com">
+  this is a link
+</a>
+```
+
+<span class="fragment current-only" data-code-focus="1">Inside our opening tag we have an attribute.</span>
+<aside class="notes">
+inside our opening tag, we have an ‘attribute’. This contains some extra information about the element, which can allow extra functionality. In this case, our attribute is an ‘href’ attribute, and it tells us where this anchor element should ‘link’ to. Clicking on this link in a webpage will take you to www.mdn.com - the Mozilla Developer Network, which is an excellent resource for learning about web technologies. Each attribute consists of multiple parts - the ‘name’ of the attribute, and the ‘value’ of the attribute, separated by an equals sign. The value of the attribute is enclosed in quotes, and there is a space between the element name and the name of the attribute. You can use either single or double quotes to enclose attribute values, but whichever you use you should be consistent throughout your HTML code
+</aside>
+</textarea>
+</section>
+
+<section data-background-image="img/1.2/anchor_annotated.png" data-background-size="contain">
+
+<aside class="notes">
+  Putting it all together, we have an opening ‘a’ tag and a closing ‘a’ tag, which together make up our anchor element. Our opening tag has an attribute which has a name and a value, and the element encloses some content. This is everything that goes in to making a basic HTML element.
+</aside>
+
+</section>
+
+<section data-markdown>
+<textarea data-template>
+
+### HyperText Markup Language
+
+* Language used to create webpages
+* Annotate content with tags
+  * add structure and meaning to our content
+* tags denote elements
+  * some elements can have attributes
+  * attributes made up of name-value pair
+
+
+Note:
+In summary, HTML stands for HyperText Markup Language, which is the language we markup content with in order to create webpages. We annotate or markup our content with tags to tell our web browser what the content is, what it does, and how it should be displayed. Tags are used to create HTML elements. Some HTML elements can have attributes, which consist of a name-value pair and allow us to add extra functionality to our documents.   That’s it for the basics of HTML, in the next video we’ll go on to look at HTML document structure and see how we can put all this together.
+</textarea>
+</section>
+
+<!-- 
+*
+*
+*  FOOTER
+*
+*
+-->
+</div>
+</div>
+<script src="../lib/reveal/lib/js/head.min.js"></script>
+<script src="../lib/reveal/js/reveal.js"></script>
+
+<script>
+
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        width: "100%",
+        height: "100%",
+
+        controls: false,
+        progress: true,
+        slideNumber: true,
+        history: true,
+        center: true,
+
+        margin: 0,
+        minScale: 1,
+        maxScale: 1,
+
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+
+        chalkboard: {
+            toggleChalkboardButton: false,
+        },
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            { src: "../lib/reveal/lib/js/classList.js", condition: function() { return !document.body.classList; } },
+            { src: "../lib/reveal/plugin/markdown/marked.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: "../lib/reveal/plugin/markdown/markdown.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: "../lib/highlight/js/highlight.js"},
+            { src: "../lib/reveal/plugin/chalkboard/chalkboard.js"},
+            { src: "../lib/reveal/plugin/code-focus/reveal-code-focus.js", callback: function() { RevealCodeFocus(); } },
+            { src: "../lib/reveal/plugin/zoom-js/zoom.js", async: true },
+            { src: "../lib/reveal/plugin/notes/notes.js", async: true },
+        ],
+        keyboard: {
+            67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+            66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+            46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+              8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+            68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+        },
+    });
+
+</script>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</body>
+</html>
