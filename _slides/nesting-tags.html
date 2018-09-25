@@ -398,16 +398,11 @@
 
              -->
 
-<section data-markdown>
-    <textarea data-template>
-       
-# HTML Document Structure
-    </textarea> 
+<section data-markdown data-separator-notes="^Note:">
+    # Nesting tags
 </section>
-        
-<section data-transition="slide-in none" data-markdown data-separator-notes="^Note:"> 
-<textarea data-template> 
 
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
 ```html
 <!DOCTYPE html>
 <html>
@@ -420,93 +415,103 @@
     </body>
 </html>
 ```
-
+<span class="fragment current-only" data-code-focus="3-6"></span>
+<span class="fragment current-only" data-code-focus="7-9"></span>
+<span class="fragment current-only" data-code-focus="2,10"></span>
+<span class="fragment current-only" data-code-focus="4,5"></span>
+<span class="fragment current-only" data-code-focus="3,6"></span>
+<span class="fragment current-only" data-code-focus="8"></span>
+<span class="fragment current-only" data-code-focus="7,9"></span>
 Note:
-This is a very basic ‘minimal’ HTML document. Let’s break it down into the component parts.
-</textarea> </section>
-
-
-<section data-transition="none" data-markdown data-separator-notes="^Note:"> <textarea data-template> 
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Hello World!</title>
-    </head>
-    <body>
-        <p>Hello World!</p>
-    </body>
-</html>
-```
-<span class="fragment current-only" data-code-focus="1">The first item included in an HTML document is the Document Type Declaration (DTD)</span>
-<span class="fragment current-only" data-code-focus="2,10">Following the DTD we have an opening `<html>` tag, with a matching closing `</html>` at the end of the document</span>
-<span class="fragment current-only" data-code-focus="3-6,7-9">Nested inside our `html` element we find the `head` and the `body`</span>
-<span class="fragment current-only" data-code-focus="3-6">The `head` element contains information about our HTML document</span>
-<span class="fragment current-only" data-code-focus="7-9">The `body` element contains the content of the webpage</span>
-Note:
-The very first item included in every HTML document is the document type declaration, or DTD. This tells the web browser what version of HTML (or other language) the page is written in. This document type declaration here is the document type declaration for HTML5, the latest standard of HTML. After the doctype we find the opening and closing ‘html’ tags. These create an HTML element.These create an HTML element and define the beginning and end of our HTML document. All the content (visible and non-visible) for our webpage comes between these two tags.  Nested inside our ‘html’ element we find the ‘head’ element and the ‘body’ element. Again, both have an opening and a closing tag, and have their own content nested within them. The head element contains lots of information about the document. This is not usually content that is shown by the browser within the page (with the exception of the title element). You can include lots of things within the head element such as information about the page author, a description of the page, page icons, links to stylesheets, and so on. We’ll look at the ‘head’ element in more detail in a later video. The ‘body’ element is where the content of the webpage goes. This all of the content that a user will see when they view your webpage.
- </textarea> </section>
-
-<section data-transition="none" data-markdown data-separator-notes="^Note:"> <textarea data-template> 
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Hello World!</title>
-    </head>
-    <body>
-        <p>Hello World!</p>
-    </body>
-</html>
-```
-<span class="fragment current-only" data-code-focus="3-6">The `head` element contains information about the page</span>
-<span class="fragment current-only" data-code-focus="4">This `meta` element tells the web browser which character set has been used to write the webpage</span>
-<span class="fragment current-only" data-code-focus="5">The `title` element gives the title of the webpage</span>
-<span class="fragment current-only">https://github.com/joshbuchea/HEAD</span>
-Note:
-The head element can contain lots of information about the page. In this example it contains two elements. The first element is a meta element. Meta elements are used to provide structured metadata that describes our document. The second element is a title element. This gives the title of the webpage. This is often displayed by the web browser somewhere within the browsers user interface (for example in the page tab in Chrome). This is usually the only content that is placed in the head that will be seen by the user when viewing your page, although some metadata such as the description may be seen in search engine results.
- </textarea> </section>
-
-<section data-transition="none" data-markdown data-separator-notes="^Note:"> <textarea data-template> 
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Hello World!</title>
-    </head>
-    <body>
-        <p>Hello World!</p>
-    </body>
-</html>
-```
-<span class="fragment current-only" data-code-focus="7-9">The `body` element is where we put the content of the page</span>
-<span class="fragment current-only" data-code-focus="8">The content of this page is a single `p` element, containing the text 'Hello World!'</span>
-Note:
-The body element is where we put the content of the webpage. Everything that should be seen by the user should be nested inside the body. In this example, we have a single p element containing the text 'Hello World'. p elements are used to markup paragraphs of text within an HTML document.
+We have already seen this nesting in action in our simple example.
  </textarea> </section>
 
 <section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
-### HTML document structure
-
-* All HTML documents start with a DTD
-* Document is contained within starting `<html>` and closing `</html>` tags
-* Document has two parts
-    * `head` contains information about the document
-    * `body` contains the visible contents of the document
-
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <a href="https://www.cardiff.ac.uk">Cardiff University</a>
+    </body>
+</html>
+```
+<span class="fragment current-only" data-code-focus="8"></span>
 Note:
-In summary, we know that all HTML documents start with a document type declaration. After this we have an opening html tag, which defines the start of our document, and must be matched at the end of the document with a closing 'html' tag. Inside the document we have two parts: the head and the body. The head element contains information about the document while the body contains the visible contents of the document. In the next video we'll see how we can take this knowledge and create our first webpage!
+Here we have an anchor element creating a link to the Cardiff University webpage
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <a href="https://www.cardiff.ac.uk">
+            <img src="https://static.cf.ac.uk/cfui/1.9.6.beta.3/img/logo.png" alt="Cardiff University">
+        </a>
+    </body>
+</html>
+```
+<span class="fragment current-only" data-code-focus="8-10"></span>
+Note:
+But instead of just having some text content in the anchor, we could use another HTML element, such as an image
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+<p data-height="400" data-theme-id="dark" data-slug-hash="NaKPQd" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Image Links" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/NaKPQd/">Image Links</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+ </textarea> </section>
+
+<section>
+    <h2>Nesting tags</h2>
+    <p>We must remember to close our tags in the same order they were opened</p>
+</section>
+
+<section data-markdown data-separator-notes="^Note:"> 
+<textarea data-template> 
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <p>
+            Hello <strong>World!</strong>
+        </p>
+    </body>
+</html>
+```
+<span class="fragment current-only" data-code-focus="9"></span>
+<span class="fragment current-only" data-code-focus="8"></span>
+<span class="fragment current-only" data-code-focus="9"></span>
+<span class="fragment current-only" data-code-focus="10"></span>
+Note:
+Because we opened the strong tag after we opened the paragraph tag, we must close it before we close the paragraph tag
+ </textarea> </section>
+
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+### Nesting HTML tags
+
+* We can nest HTML elements inside one another
+* This helps describe the logical structure of the document
+    * Can describe parent -> child or sibling -> sibling relationship
+* It can also create new functionality
+* We must remember to close tags in the order they were opened
+    * Last to open = first to close
  </textarea> </section>
 
 
 
-             <!-- 
+            <!-- 
 
 
                 Begin of FOOTER
