@@ -40,91 +40,6 @@
 *
 -->
 
-<section data-markdown data-separator-notes="^Note:">
-# Coding HTML
-</section>
-
-<section data-markdown data-separator-notes="^Note:">
-### Commenting
-
-We can add comments to our HTML code
-
-Comments will not be displayed to the user
-</section>
-
-<section data-markdown data-separator-notes="^Note:"> 
-<textarea data-template> 
-```html
-<!-- this is a comment -->
-<body>
-    <p>
-        Hello World!
-    </p>
-</body>
-```
-
-Note:
-jkjh
-</textarea> </section>
-
-<section data-markdown data-separator-notes="^Note:">
-### HTML Formatting
-
-Some HTML tags can add extra meaning to our text
-
-These tags may add additional formatting
-</section>
-
-<section data-markdown data-separator-notes="^Note:"><textarea data-template>
-### HTML Formatting
-
-| Tag           | Meaning                 |
-|:-------------:|:-----------------------:|
-| `<em>`        | emphasised text         |
-| `<strong>`    | important text          |
-| `<small>`     | small text              |
-| `<sub>`       | subscripted text        |
-| `<sup>`       | superscript text        |
-| `<ins>`       | inserted text           |
-| `<del>`       | deleted text            |
-| `<mark>`      | marked/highlighted text |
-
-</textarea>
-</section>
-
-<section data-markdown data-separator-notes="^Note:">
-### Special Characters
-
-Some characters in HTML are ‘reserved’ characters
-
-These must be replaced by ‘HTML entities’ to use them in a webpage
-</section>
-
-<section data-markdown data-separator-notes="^Note:"><textarea data-template>
-### HTML Formatting
-
-| Entity        | Description        | Output
-|:-------------:|:------------------:|:-------------:|
-|  `&nbsp;`     | non-breaking space |               |
-|  `&lt;`       | less than          | <             |
-|  `&gt;`       | greater than       | >             |
-|  `&amp;`      | ampersand          | &amp;         |
-|  `&cent;`     | cent               | ¢             |
-|  `&pound;`    | pound              | £             |
-|  `&yen;`      | yen                | ¥             |
-|  `&euro;`     | euro               | €             |
-</textarea>
-</section>
-
-<section data-markdown data-separator-notes="^Note:">
-### Coding HTML
-
-* We can add comments to our HTML code to make it more understandable
-* We can use extra HTML tags to add meaning to text
-* Some characters are reserved and; we use special entities to represent them
-
-</section>
-
 <section data-markdown>
 # Block and Inline
 </section>
@@ -156,6 +71,7 @@ Some HTML tags produce **inline elements**
 </section>
 
 <section data-markdown data-separator-notes="^Note:">
+<textarea data-template>
 ### Block and Inline
 
 So, for example:
@@ -164,25 +80,32 @@ So, for example:
 
 `<img>` is an inline element
 
-</section>
+</textarea></section>
 
-<section>
-    <h1><div></h1>
+<section data-markdown>
+<textarea data-template>
+# `<div>`
 
-    <p>`<div>` elements are used to divide content</p>
-    <p>Used as containers for other elements</p>
-    <p>Convey no semantic meaning to their contents, other than to group the contents together</p>
+`<div>` elements are used to divide content
+
+Used as containers for other elements
+
+Convey no semantic meaning to their contents, other than to group the contents together
+</textarea></section>
+
+<section data-markdown data-separator-notes="^Note:">
+<textarea data-template>
+# `<span>`
+
+`<span>` elements are also used to contain content
+
+Convey no semantic meaning to their contents
+</textarea>
 </section>
 
 <section data-markdown data-separator-notes="^Note:">
-    <h1>`<span>`</h1>
-
-    <p>`<span>` elements are also used to contain content</p>
-    <p>Convey no semantic meaning to their contents</p>
-</section>
-
-<section data-markdown data-separator-notes="^Note:">
-    <h3>Block and Inline</h3>
+<textarea data-template>
+### Block and Inline
 
 * `<div>` is a **block** level tag that can group other elements together
 
@@ -191,27 +114,16 @@ So, for example:
 * Both tags **add no special meaning** other than to select or group content
 
 * Combined with CSS they can be used to style sections or portions of a document
+</textarea>
 </section>
 
 <section data-markdown data-separator-notes="^Note:">
-### Block and Inline</h3>
+### Block and Inline
 
 * We can change how elements behave using CSS
 * Also have further options beyond 'block' and 'inline'
 
-</section>
-
-<section data-markdown data-separator-notes="^Note:">
-# Summary
-
-* HTML is used to annotate our content for the web
-* Use HTML tags to create HTML elements
-* Elements add meaning to our content
-* Nest elements inside one another to add structure to our document
-* Different elements have different functionality (and appearance)
-</section>
-
- 
+</section> 
 
 <!-- 
 *
