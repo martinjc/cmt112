@@ -1,534 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    
+        <title></title>
+    
+    
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+        <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../lib/reveal/css/reveal.css">
+        <link rel="stylesheet" href="../lib/reveal/lib/css/zenburn.css">
+    
+        <style>
+            /**
+             * A modification of 'Simple' reveal.js theme.
+             * A simple theme for reveal.js presentations, similar
+             * to the default theme. The accent color is darkblue.
+             *
+             * Original theme Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
+             * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+             */
+            @import url('https://fonts.googleapis.com/css?family=Raleway:300,400|Roboto:300');
+            section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
+              color: #fff; }
+    
+            .screenshot {
+                max-width: 100%;
+                width: 100%;
+                height: 100%;
+                max-height: 100%;
+            }
+    
+            /*********************************************
+             * GLOBAL STYLES
+             *********************************************/
+            body {
+              background: #fff;
+              background-color: #fff; }
+    
+            .reveal {
+              font-family: "Roboto", sans-serif;
+              font-size: 40px;
+              font-weight: normal;
+              color: #000; }
+    
+            ::selection {
+              color: #fff;
+              background: rgba(0, 0, 0, 0.99);
+              text-shadow: none; }
+    
+            ::-moz-selection {
+              color: #fff;
+              background: rgba(0, 0, 0, 0.99);
+              text-shadow: none; }
+    
+            .reveal .slides > section,
+            .reveal .slides > section > section {
+              line-height: 1.3;
+              font-weight: inherit; }
+    
+            /*********************************************
+             * HEADERS
+             *********************************************/
+            .reveal h1,
+            .reveal h2,
+            .reveal h3,
+            .reveal h4,
+            .reveal h5,
+            .reveal h6 {
+              margin: 0 0 20px 0;
+              color: #000;
+              font-family: 'Raleway', sans-serif;
+              font-weight: normal;
+              line-height: 1.2;
+              letter-spacing: -0.01em;
+              text-transform: none;
+              text-shadow: none;
+              word-wrap: break-word; }
+    
+            .reveal h1 {
+              font-size: 2.5em; }
+    
+            .reveal h2 {
+              font-size: 2em; }
+    
+            .reveal h3 {
+              font-size: 1.5em; }
+    
+            .reveal h4 {
+              font-size: 1em; }
+    
+            .reveal h1 {
+              text-shadow: none; }
+    
+            /*********************************************
+             * OTHER
+             *********************************************/
+            .reveal p {
+              margin: 20px 0;
+              line-height: 1.3; }
+    
+            /* Ensure certain elements are never larger than the slide itself */
+            .reveal img,
+            .reveal video,
+            .reveal iframe {
+              max-width: 95%;
+              max-height: 95%; }
+    
+            .reveal strong,
+            .reveal b {
+              font-weight: bold; }
+    
+            .reveal em {
+              font-style: italic; }
+    
+            .reveal ol,
+            .reveal dl,
+            .reveal ul {
+              display: inline-block;
+              text-align: left;
+              margin: 0 0 0 1em; }
+    
+            .reveal ol {
+              list-style-type: decimal; }
+    
+            .reveal ul {
+              list-style-type: disc; }
+    
+            .reveal ul ul {
+              list-style-type: square; }
+    
+            .reveal ul ul ul {
+              list-style-type: circle; }
+    
+            .reveal ul ul,
+            .reveal ul ol,
+            .reveal ol ol,
+            .reveal ol ul {
+              display: block;
+              margin-left: 40px; }
+    
+            .reveal dt {
+              font-weight: bold; }
+    
+            .reveal dd {
+              margin-left: 40px; }
+    
+            .reveal q,
+            .reveal blockquote {
+              quotes: none; }
+    
+            .reveal blockquote {
+              display: block;
+              position: relative;
+              width: 70%;
+              margin: 20px auto;
+              padding: 5px;
+              font-style: italic;
+              background: rgba(255, 255, 255, 0.05);
+              box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+    
+            .reveal blockquote p:first-child,
+            .reveal blockquote p:last-child {
+              display: inline-block; }
+    
+            .reveal q {
+              font-style: italic; }
+    
+            .reveal pre {
+              display: block;
+              position: relative;
+              width: 90%;
+              margin: 20px auto;
+              text-align: left;
+              font-size: 0.55em;
+              font-family: monospace;
+              line-height: 1.2em;
+              word-wrap: break-word;
+              box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+    
+            .reveal code {
+              font-family: monospace; }
+    
+            .reveal pre code {
+              display: block;
+              padding: 5px;
+              overflow: auto;
+              max-height: 400px;
+              word-wrap: normal; }
+    
+            .reveal table {
+              margin: auto;
+              border-collapse: collapse;
+              border-spacing: 0; }
+    
+            .reveal table th {
+              font-weight: bold; }
+    
+            .reveal table th,
+            .reveal table td {
+              text-align: left;
+              padding: 0.2em 0.5em 0.2em 0.5em;
+              border-bottom: 1px solid; }
+    
+            .reveal table th[align="center"],
+            .reveal table td[align="center"] {
+              text-align: center; }
+    
+            .reveal table th[align="right"],
+            .reveal table td[align="right"] {
+              text-align: right; }
+    
+            .reveal table tbody tr:last-child th,
+            .reveal table tbody tr:last-child td {
+              border-bottom: none; }
+    
+            .reveal sup {
+              vertical-align: super; }
+    
+            .reveal sub {
+              vertical-align: sub; }
+    
+            .reveal small {
+              display: inline-block;
+              font-size: 0.6em;
+              line-height: 1.2em;
+              vertical-align: top; }
+    
+            .reveal small * {
+              vertical-align: top; }
+    
+            /*********************************************
+             * LINKS
+             *********************************************/
+            .reveal a {
+              color: #00008B;
+              text-decoration: none;
+              -webkit-transition: color .15s ease;
+              -moz-transition: color .15s ease;
+              transition: color .15s ease; }
+    
+            .reveal a:hover {
+              color: #0000f1;
+              text-shadow: none;
+              border: none; }
+    
+            .reveal .roll span:after {
+              color: #fff;
+              background: #00003f; }
+    
+            /*********************************************
+             * IMAGES
+             *********************************************/
+            .reveal section img {
+              margin: 15px 0px;
+              background: rgba(255, 255, 255, 0.12);
+              border: 4px solid #000;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+    
+            .reveal section img.plain {
+              border: 0;
+              box-shadow: none; }
+    
+            .reveal a img {
+              -webkit-transition: all .15s linear;
+              -moz-transition: all .15s linear;
+              transition: all .15s linear; }
+    
+            .reveal a:hover img {
+              background: rgba(255, 255, 255, 0.2);
+              border-color: #00008B;
+              box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+    
+            /*********************************************
+             * NAVIGATION CONTROLS
+             *********************************************/
+            .reveal .controls .navigate-left,
+            .reveal .controls .navigate-left.enabled {
+              border-right-color: #00008B; }
+    
+            .reveal .controls .navigate-right,
+            .reveal .controls .navigate-right.enabled {
+              border-left-color: #00008B; }
+    
+            .reveal .controls .navigate-up,
+            .reveal .controls .navigate-up.enabled {
+              border-bottom-color: #00008B; }
+    
+            .reveal .controls .navigate-down,
+            .reveal .controls .navigate-down.enabled {
+              border-top-color: #00008B; }
+    
+            .reveal .controls .navigate-left.enabled:hover {
+              border-right-color: #0000f1; }
+    
+            .reveal .controls .navigate-right.enabled:hover {
+              border-left-color: #0000f1; }
+    
+            .reveal .controls .navigate-up.enabled:hover {
+              border-bottom-color: #0000f1; }
+    
+            .reveal .controls .navigate-down.enabled:hover {
+              border-top-color: #0000f1; }
+    
+            /*********************************************
+             * PROGRESS BAR
+             *********************************************/
+            .reveal .progress {
+              background: rgba(0, 0, 0, 0.2); }
+    
+            .reveal .progress span {
+              background: #00008B;
+              -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+              -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+              transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+    
+            /********************************************
+             * REVEAL code-focus styling
+             *
+             *******************************************/
+    
+            .reveal .slides section .fragment.current-only {
+                opacity: 1;
+                visibility: visible;
+                display: none;
+            }
+            .reveal .slides section .fragment.current-only.current-fragment {
+                display: block;
+            }
+    
+            /* Solarized Light theme */
+            .line { display: block; }
+            .line.focus { background: #fdf6e3; color: #657b83; }
+            .line.focus .hljs-comment, .line.focus .hljs-quote { color: #93a1a1; }
+            .line.focus .hljs-keyword, .line.focus .hljs-selector-tag, .line.focus .hljs-addition { color: #859900; }
+            .line.focus .hljs-number, .line.focus .hljs-string, .line.focus .hljs-meta .hljs-meta-string, .line.focus .hljs-literal, .line.focus .hljs-doctag, .line.focus .hljs-regexp { color: #2aa198; }
+            .line.focus .hljs-title, .line.focus .hljs-section, .line.focus .hljs-name, .line.focus .hljs-selector-id, .line.focus .hljs-selector-class { color: #268bd2; }
+            .line.focus .hljs-attribute, .line.focus .hljs-attr, .line.focus .hljs-variable, .line.focus .hljs-template-variable, .line.focus .hljs-class .hljs-title, .line.focus .hljs-type { color: #b58900; }
+            .line.focus .hljs-symbol, .line.focus .hljs-bullet, .line.focus .hljs-subst, .line.focus .hljs-meta, .line.focus .hljs-meta .hljs-keyword, .line.focus .hljs-selector-attr, .line.focus .hljs-selector-pseudo, .line.focus .hljs-link { color: #cb4b16; }
+            .line.focus .hljs-built_in, .line.focus .hljs-deletion { color: #dc322f; }
+            .line.focus .hljs-formula { background: #eee8d5; }
+            .line.focus .hljs-emphasis { font-style: italic; }
+            .line.focus .hljs-strong { font-weight: bold; }
+    
+            /***************
+            * Image Captions
+            ******************/
+    
+            .attribution {
+                position: fixed;
+                z-index: 30;
+                left: 0px;
+                bottom: 100px;
+                margin: 0px;
+                padding: 0px;
+                background-color: rgba(125,0,0,0.8);
+            }
+    
+            .attribution h3,
+            .attribution p,
+            .attribution a {
+                margin: 0px;
+                padding: 10px;
+                line-height: 1;
+                font-weight: 700;
+                color: #fff;
+            }
+    
+        </style>
+    
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="../lib/reveal/lib/css/zenburn.css">
+    
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? '../lib/reveal/css/print/pdf.css' : '../lib/reveal/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>    
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+
+
+            <!-- 
+
+
+                End of HEAD
+
+             -->
+
 <section data-markdown>
-        # HTML Document Structure
+    <textarea data-template>
+       
+# HTML Document Structure
+    </textarea> 
+</section>
         
-        </section>
-        
-        <section data-transition="slide-in none" data-markdown data-separator-notes="^Note:"><script type="text/template">
-        
-        ```html
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <meta charset="utf-8">
-                <title>Hello World!</title>
-            </head>
-            <body>
-                <p>Hello World!</p>
-            </body>
-        </html>
-        ```
-        
-        Note:
-        This is a very basic ‘minimal’ HTML document. Let’s break it down into the component parts.
-        </script></section>
-        
-        
-        <section data-transition="none" data-markdown data-separator-notes="^Note:"><script type="text/template">
-        
-        ```html
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <meta charset="utf-8">
-                <title>Hello World!</title>
-            </head>
-            <body>
-                <p>Hello World!</p>
-            </body>
-        </html>
-        ```
-        <span class="fragment current-only" data-code-focus="1">The first item included in an HTML document is the Document Type Declaration (DTD)</span>
-        <span class="fragment current-only" data-code-focus="2,10">Following the DTD we have an opening `<html>` tag, with a matching closing `</html>` at the end of the document</span>
-        <span class="fragment current-only" data-code-focus="3-6,7-9">Nested inside our `html` element we find the `head` and the `body`</span>
-        <span class="fragment current-only" data-code-focus="3-6">The `head` element contains information about our HTML document</span>
-        <span class="fragment current-only" data-code-focus="7-9">The `body` element contains the content of the webpage</span>
-        Note:
-        The very first item included in every HTML document is the document type declaration, or DTD. This tells the web browser what version of HTML (or other language) the page is written in. This document type declaration here is the document type declaration for HTML5, the latest standard of HTML. After the doctype we find the opening and closing ‘html’ tags. These create an HTML element.These create an HTML element and define the beginning and end of our HTML document. All the content (visible and non-visible) for our webpage comes between these two tags.  Nested inside our ‘html’ element we find the ‘head’ element and the ‘body’ element. Again, both have an opening and a closing tag, and have their own content nested within them. The head element contains lots of information about the document. This is not usually content that is shown by the browser within the page (with the exception of the title element). You can include lots of things within the head element such as information about the page author, a description of the page, page icons, links to stylesheets, and so on. We’ll look at the ‘head’ element in more detail in a later video. The ‘body’ element is where the content of the webpage goes. This all of the content that a user will see when they view your webpage.
-        </script></section>
-        
-        <section data-transition="none" data-markdown data-separator-notes="^Note:"><script type="text/template">
-        
-        ```html
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <meta charset="utf-8">
-                <title>Hello World!</title>
-            </head>
-            <body>
-                <p>Hello World!</p>
-            </body>
-        </html>
-        ```
-        <span class="fragment current-only" data-code-focus="3-6">The `head` element contains information about the page</span>
-        <span class="fragment current-only" data-code-focus="4">This `meta` element tells the web browser which character set has been used to write the webpage</span>
-        <span class="fragment current-only" data-code-focus="5">The `title` element gives the title of the webpage</span>
-        <span class="fragment current-only">https://github.com/joshbuchea/HEAD</span>
-        Note:
-        The head element can contain lots of information about the page. In this example it contains two elements. The first element is a meta element. Meta elements are used to provide structured metadata that describes our document. The second element is a title element. This gives the title of the webpage. This is often displayed by the web browser somewhere within the browsers user interface (for example in the page tab in Chrome). This is usually the only content that is placed in the head that will be seen by the user when viewing your page, although some metadata such as the description may be seen in search engine results.
-        </script></section>
-        
-        <section data-transition="none" data-markdown data-separator-notes="^Note:"><script type="text/template">
-        
-        ```html
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <meta charset="utf-8">
-                <title>Hello World!</title>
-            </head>
-            <body>
-                <p>Hello World!</p>
-            </body>
-        </html>
-        ```
-        <span class="fragment current-only" data-code-focus="7-9">The `body` element is where we put the content of the page</span>
-        <span class="fragment current-only" data-code-focus="8">The content of this page is a single `p` element, containing the text 'Hello World!'</span>
-        Note:
-        The body element is where we put the content of the webpage. Everything that should be seen by the user should be nested inside the body. In this example, we have a single p element containing the text 'Hello World'. p elements are used to markup paragraphs of text within an HTML document.
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ### HTML document structure
-        
-        * All HTML documents start with a DTD
-        * Document is contained within starting `<html>` and closing `</html>` tags
-        * Document has two parts
-            * `head` contains information about the document
-            * `body` contains the visible contents of the document
-        
-        Note:
-        In summary, we know that all HTML documents start with a document type declaration. After this we have an opening html tag, which defines the start of our document, and must be matched at the end of the document with a closing 'html' tag. Inside the document we have two parts: the head and the body. The head element contains information about the document while the body contains the visible contents of the document. In the next video we'll see how we can take this knowledge and create our first webpage!
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:">
-            # Nesting tags
-        </section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ```html
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <meta charset="utf-8">
-                <title>Hello World!</title>
-            </head>
-            <body>
-                <p>Hello World!</p>
-            </body>
-        </html>
-        ```
-        <span class="fragment current-only" data-code-focus="3-6"></span>
-        <span class="fragment current-only" data-code-focus="7-9"></span>
-        <span class="fragment current-only" data-code-focus="2,10"></span>
-        <span class="fragment current-only" data-code-focus="4,5"></span>
-        <span class="fragment current-only" data-code-focus="3,6"></span>
-        <span class="fragment current-only" data-code-focus="8"></span>
-        <span class="fragment current-only" data-code-focus="7,9"></span>
-        Note:
-        We have already seen this nesting in action in our simple example.
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ```html
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <meta charset="utf-8">
-                <title>Hello World!</title>
-            </head>
-            <body>
-                <a href="https://www.cardiff.ac.uk">Cardiff University</a>
-            </body>
-        </html>
-        ```
-        <span class="fragment current-only" data-code-focus="8"></span>
-        Note:
-        Here we have an anchor element creating a link to the Cardiff University webpage
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ```html
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <meta charset="utf-8">
-                <title>Hello World!</title>
-            </head>
-            <body>
-                <a href="https://www.cardiff.ac.uk">
-                    <img src="https://static.cf.ac.uk/cfui/1.9.6.beta.3/img/logo.png" alt="Cardiff University">
-                </a>
-            </body>
-        </html>
-        ```
-        <span class="fragment current-only" data-code-focus="8-10"></span>
-        Note:
-        But instead of just having some text content in the anchor, we could use another HTML element, such as an image
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        <p data-height="400" data-theme-id="dark" data-slug-hash="NaKPQd" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Image Links" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/NaKPQd/">Image Links</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <h2>Nesting tags</h2>
-            <p>We must remember to close our tags in the same order they were opened</p>
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ```html
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <meta charset="utf-8">
-                <title>Hello World!</title>
-            </head>
-            <body>
-                <p>
-                    Hello <strong>World!</strong>
-                </p>
-            </body>
-        </html>
-        ```
-        <span class="fragment current-only" data-code-focus="9"></span>
-        <span class="fragment current-only" data-code-focus="8"></span>
-        <span class="fragment current-only" data-code-focus="9"></span>
-        <span class="fragment current-only" data-code-focus="10"></span>
-        Note:
-        Because we opened the strong tag after we opened the paragraph tag, we must close it before we close the paragraph tag
-        </script></section>
-        
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ###Nesting HTML tags
-        
-        * We can nest HTML elements inside one another
-        * This helps describe the logical structure of the document
-            * Can describe parent -> child or sibling -> sibling relationship
-        * It can also create new functionality
-        * We must remember to close tags in the order they were opened
-            * Last to open = first to close
-        </script></section>
-        
-        
-        <section data-markdown>
-        # Basic HTML Tags
-        
-        </section>
-        
-        <section data-markdown data-background-image="{{ "/img/1/1.1/content_labelled.png" | prepend: site.baseurl }}" data-background-size="contain" data-separator-notes="^Note:">
-        
-        Note:
-        We have already seen that in order to display content on a webpage, we need to tell the browser what sort of content we have
-        </section>
-        
-        
-        <section data-markdown data-background-image="{{ "/img/1/1.1/content_markedup.png" | prepend: site.baseurl }}" data-background-size="contain" data-separator-notes="^Note:">
-        
-        Note:
-        We have also seen that we use HTML tags to 'annotate' or mark up our content
-        </section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        <h3>HTML Tags</h3>
-        
-        ```html
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <meta charset="utf-8">
-                <title>Hello World!</title>
-            </head>
-            <body>
-                <p>Hello World!</p>
-            </body>
-        </html>
-        ```
-        <span class="fragment current-only" data-code-focus="8"></span>
-        Note:
-        We have also already seen that in our HTML document, our content goes inside the body element
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        <h3>What HTML tags can we use?</h3>
-        
-        Note:
-        There are <emph>lots</emph> of different HTML tags that we can use to annotate our content
-        I'll run through a few here quickly, but there are plenty of sources online to learn about the tags and how to use them
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <h1>```<p>``` ... ```</p>```</h1>
-        
-            <ul>
-                <li>Used to define paragraphs</li>
-                <li>Can contain and separate large chunks of text</li>
-            </ul>
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <h1>`<br>`</h1>
-        
-            <ul>
-                <li>Used to add a line <emph>br</emph>eak inside content</li>
-                <li>Does not wrap content - has no end tag</li>
-                <li>Does not have the same <emph>semantic</emph> meaning as using `<p>` to break content into paragraphs</li>
-                <li>Is <emph>NOT</emph> used to add more whitespace between content</li>
-            </ul>
-        </script></section>
-        
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <h1>`<hX>` ... `</hX>`</h1>
-        
-            <ul>
-                <li>6 different levels of heading tags</li>
-                <ul>
-                    <li>`<h1>` ... `</h1>` to `<h6>` ... `</h6>`</li>
-                </ul>
-                <li>`<h1>` is the largest heading</li>
-                <li>`<h6>` is the smallest heading</li>
-            </ul>
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <p data-height="400" data-theme-id="dark" data-slug-hash="wqOjRx" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Headings" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/wqOjRx/">Headings</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <h1>`<a>` ... `</a>`</h1>
-        
-            <ul>
-                <li>Anchor tags</li>
-                <li>Used to define hyperlinks</li>
-                <li>`href=''` attribute tells us what the content should link to</li>
-            </ul>
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <p data-height="400" data-theme-id="dark" data-slug-hash="ZJPodE" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Anchor - External Content" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/ZJPodE/">Anchor - External Content</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-        </script></section>
-        
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <h1>`<a>` ... `</a>`</h1>
-        
-            <ul>
-                <li>Can also use anchor tags to link between parts of the same document</li>
-                <ul>
-                    <li>Use an `id` attribute to give a unique name to an element</li>
-                    <li>Refer to the `id` in the `href` to link to the element from elsewhere</li>
-                </ul>
-        
-            </ul>
-        </script></section>
-        
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <p data-height="400" data-theme-id="dark" data-slug-hash="oeVyvw" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Anchor - Internal Links" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/oeVyvw/">Anchor - Internal Links</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-        </script></section>
-        
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <h1>`<img>`</h1>
-        
-            <ul>
-                <li>Add images to web pages</li>
-                <li>No closing tag</li>
-                <li>`src` attribute to specify which image to display</li>
-                <li>`alt` attribute gives text description</li>
-            </ul>
-        </script></section>
-        
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <p data-height="800" data-theme-id="dark" data-slug-hash="QMoxyR" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Images" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/QMoxyR/">Images</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-        </script></section>
-        
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <h2>... so many tags ...</h2>
-        </script></section>
-        
-        
-        <section data-markdown data-background-image="{{ "/img/1/1.1/htmldog-tags.png" | prepend: site.baseurl }}" data-background-size="contain" data-separator-notes="^Note:"><script type="text/template">
-            <div class="attribution">
-                <p><a href="https://www.htmldog.com/references/html/tags/">https://www.htmldog.com/references/html/tags/</a></p>
+<section data-transition="slide-in none" data-markdown data-separator-notes="^Note:"> 
+<textarea data-template> 
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <p>Hello World!</p>
+  </body>
+</html>
+```
+
+Note:
+This is a very basic ‘minimal’ HTML document. Let’s break it down into the component parts.
+</textarea> </section>
+
+
+<section data-transition="none" data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello World!</title>
+    </head>
+    
+    <body>
+        <p>Hello World!</p>
+    </body>
+</html>
+```
+<span class="fragment current-only" data-code-focus="1">The first item included in an HTML document is the Document Type Declaration (DTD)</span>
+<span class="fragment current-only" data-code-focus="2,10">Following the DTD we have an opening `<html>` tag, with a matching closing `</html>` at the end of the document</span>
+<span class="fragment current-only" data-code-focus="3-6,7-9">Nested inside our `html` element we find the `head` and the `body`</span>
+<span class="fragment current-only" data-code-focus="3-6">The `head` element contains information about our HTML document</span>
+<span class="fragment current-only" data-code-focus="7-9">The `body` element contains the content of the webpage</span>
+Note:
+The very first item included in every HTML document is the document type declaration, or DTD. This tells the web browser what version of HTML (or other language) the page is written in. This document type declaration here is the document type declaration for HTML5, the latest standard of HTML. After the doctype we find the opening and closing ‘html’ tags. These create an HTML element.These create an HTML element and define the beginning and end of our HTML document. All the content (visible and non-visible) for our webpage comes between these two tags.  Nested inside our ‘html’ element we find the ‘head’ element and the ‘body’ element. Again, both have an opening and a closing tag, and have their own content nested within them. The head element contains lots of information about the document. This is not usually content that is shown by the browser within the page (with the exception of the title element). You can include lots of things within the head element such as information about the page author, a description of the page, page icons, links to stylesheets, and so on. We’ll look at the ‘head’ element in more detail in a later video. The ‘body’ element is where the content of the webpage goes. This all of the content that a user will see when they view your webpage.
+ </textarea> </section>
+
+<section data-transition="none" data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <p>Hello World!</p>
+    </body>
+</html>
+```
+<span class="fragment current-only" data-code-focus="3-6">The `head` element contains information about the page</span>
+<span class="fragment current-only" data-code-focus="4">This `meta` element tells the web browser which character set has been used to write the webpage</span>
+<span class="fragment current-only" data-code-focus="5">The `title` element gives the title of the webpage</span>
+<span class="fragment current-only">https://github.com/joshbuchea/HEAD</span>
+Note:
+The head element can contain lots of information about the page. In this example it contains two elements. The first element is a meta element. Meta elements are used to provide structured metadata that describes our document. The second element is a title element. This gives the title of the webpage. This is often displayed by the web browser somewhere within the browsers user interface (for example in the page tab in Chrome). This is usually the only content that is placed in the head that will be seen by the user when viewing your page, although some metadata such as the description may be seen in search engine results.
+ </textarea> </section>
+
+<section data-transition="none" data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <p>Hello World!</p>
+    </body>
+</html>
+```
+<span class="fragment current-only" data-code-focus="7-9">The `body` element is where we put the content of the page</span>
+<span class="fragment current-only" data-code-focus="8">The content of this page is a single `p` element, containing the text 'Hello World!'</span>
+Note:
+The body element is where we put the content of the webpage. Everything that should be seen by the user should be nested inside the body. In this example, we have a single p element containing the text 'Hello World'. p elements are used to markup paragraphs of text within an HTML document.
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+### HTML document structure
+
+* All HTML documents start with a DTD
+* Document is contained within starting `<html>` and closing `</html>` tags
+* Document has two parts
+    * `head` contains information about the document
+    * `body` contains the visible contents of the document
+
+Note:
+In summary, we know that all HTML documents start with a document type declaration. After this we have an opening html tag, which defines the start of our document, and must be matched at the end of the document with a closing 'html' tag. Inside the document we have two parts: the head and the body. The head element contains information about the document while the body contains the visible contents of the document. In the next video we'll see how we can take this knowledge and create our first webpage!
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:">
+    # Nesting tags
+</section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <p>Hello World!</p>
+    </body>
+</html>
+```
+<span class="fragment current-only" data-code-focus="3-6"></span>
+<span class="fragment current-only" data-code-focus="7-9"></span>
+<span class="fragment current-only" data-code-focus="2,10"></span>
+<span class="fragment current-only" data-code-focus="4,5"></span>
+<span class="fragment current-only" data-code-focus="3,6"></span>
+<span class="fragment current-only" data-code-focus="8"></span>
+<span class="fragment current-only" data-code-focus="7,9"></span>
+Note:
+We have already seen this nesting in action in our simple example.
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <a href="https://www.cardiff.ac.uk">Cardiff University</a>
+    </body>
+</html>
+```
+<span class="fragment current-only" data-code-focus="8"></span>
+Note:
+Here we have an anchor element creating a link to the Cardiff University webpage
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <a href="https://www.cardiff.ac.uk">
+            <img src="https://static.cf.ac.uk/cfui/1.9.6.beta.3/img/logo.png" alt="Cardiff University">
+        </a>
+    </body>
+</html>
+```
+<span class="fragment current-only" data-code-focus="8-10"></span>
+Note:
+But instead of just having some text content in the anchor, we could use another HTML element, such as an image
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+<p data-height="400" data-theme-id="dark" data-slug-hash="NaKPQd" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Image Links" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/NaKPQd/">Image Links</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <h2>Nesting tags</h2>
+    <p>We must remember to close our tags in the same order they were opened</p>
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <p>
+            Hello <strong>World!</strong>
+        </p>
+    </body>
+</html>
+```
+<span class="fragment current-only" data-code-focus="9"></span>
+<span class="fragment current-only" data-code-focus="8"></span>
+<span class="fragment current-only" data-code-focus="9"></span>
+<span class="fragment current-only" data-code-focus="10"></span>
+Note:
+Because we opened the strong tag after we opened the paragraph tag, we must close it before we close the paragraph tag
+ </textarea> </section>
+
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+###Nesting HTML tags
+
+* We can nest HTML elements inside one another
+* This helps describe the logical structure of the document
+    * Can describe parent -> child or sibling -> sibling relationship
+* It can also create new functionality
+* We must remember to close tags in the order they were opened
+    * Last to open = first to close
+ </textarea> </section>
+
+
+<section data-markdown>
+# Basic HTML Tags
+
+</section>
+
+<section data-markdown data-background-image="{{ "/img/1/1.1/content_labelled.png" | prepend: site.baseurl }}" data-background-size="contain" data-separator-notes="^Note:">
+
+Note:
+We have already seen that in order to display content on a webpage, we need to tell the browser what sort of content we have
+</section>
+
+
+<section data-markdown data-background-image="{{ "/img/1/1.1/content_markedup.png" | prepend: site.baseurl }}" data-background-size="contain" data-separator-notes="^Note:">
+
+Note:
+We have also seen that we use HTML tags to 'annotate' or mark up our content
+</section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+<h3>HTML Tags</h3>
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <p>Hello World!</p>
+    </body>
+</html>
+```
+<span class="fragment current-only" data-code-focus="8"></span>
+Note:
+We have also already seen that in our HTML document, our content goes inside the body element
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+<h3>What HTML tags can we use?</h3>
+
+Note:
+There are <emph>lots</emph> of different HTML tags that we can use to annotate our content
+I'll run through a few here quickly, but there are plenty of sources online to learn about the tags and how to use them
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <h1>```<p>``` ... ```</p>```</h1>
+
+    <ul>
+        <li>Used to define paragraphs</li>
+        <li>Can contain and separate large chunks of text</li>
+    </ul>
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <h1>`<br>`</h1>
+
+    <ul>
+        <li>Used to add a line <emph>br</emph>eak inside content</li>
+        <li>Does not wrap content - has no end tag</li>
+        <li>Does not have the same <emph>semantic</emph> meaning as using `<p>` to break content into paragraphs</li>
+        <li>Is <emph>NOT</emph> used to add more whitespace between content</li>
+    </ul>
+ </textarea> </section>
+
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <h1>`<hX>` ... `</hX>`</h1>
+
+    <ul>
+        <li>6 different levels of heading tags</li>
+        <ul>
+            <li>`<h1>` ... `</h1>` to `<h6>` ... `</h6>`</li>
+        </ul>
+        <li>`<h1>` is the largest heading</li>
+        <li>`<h6>` is the smallest heading</li>
+    </ul>
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <p data-height="400" data-theme-id="dark" data-slug-hash="wqOjRx" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Headings" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/wqOjRx/">Headings</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <h1>`<a>` ... `</a>`</h1>
+
+    <ul>
+        <li>Anchor tags</li>
+        <li>Used to define hyperlinks</li>
+        <li>`href=''` attribute tells us what the content should link to</li>
+    </ul>
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <p data-height="400" data-theme-id="dark" data-slug-hash="ZJPodE" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Anchor - External Content" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/ZJPodE/">Anchor - External Content</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+ </textarea> </section>
+
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <h1>`<a>` ... `</a>`</h1>
+
+    <ul>
+        <li>Can also use anchor tags to link between parts of the same document</li>
+        <ul>
+            <li>Use an `id` attribute to give a unique name to an element</li>
+            <li>Refer to the `id` in the `href` to link to the element from elsewhere</li>
+        </ul>
+
+    </ul>
+ </textarea> </section>
+
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <p data-height="400" data-theme-id="dark" data-slug-hash="oeVyvw" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Anchor - Internal Links" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/oeVyvw/">Anchor - Internal Links</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+ </textarea> </section>
+
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <h1>`<img>`</h1>
+
+    <ul>
+        <li>Add images to web pages</li>
+        <li>No closing tag</li>
+        <li>`src` attribute to specify which image to display</li>
+        <li>`alt` attribute gives text description</li>
+    </ul>
+ </textarea> </section>
+
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <p data-height="800" data-theme-id="dark" data-slug-hash="QMoxyR" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Images" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/QMoxyR/">Images</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+ </textarea> </section>
+
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <h2>... so many tags ...</h2>
+ </textarea> </section>
+
+
+<section data-markdown data-background-image="{{ "/img/1/1.1/htmldog-tags.png" | prepend: site.baseurl }}" data-background-size="contain" data-separator-notes="^Note:"> <textarea data-template> 
+    <div class="attribution">
+        <p><a href="https://www.htmldog.com/references/html/tags/">https://www.htmldog.com/references/html/tags/</a></p>
+    </div>
+
+ </textarea> </section>
+
+
+<section data-markdown data-background-image="{{ "/img/1/1.1/mdn-html.png" | prepend: site.baseurl }}" data-background-size="contain" data-separator-notes="^Note:"> <textarea data-template> 
+    <div class="attribution">
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">https://developer.mozilla.org/en-US/docs/Web/HTML</a></p>
+    </div>
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:">
+# Coding HTML
+</section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+### Commenting
+
+We can add comments to our HTML code
+
+Comments will not be displayed to the user
+
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+```html
+<!-- this is a comment -->
+<body>
+    <p>
+        Hello World!
+    </p>
+</body>
+```
+
+Note:
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+### HTML Formatting
+
+Some HTML tags can add extra meaning to our text
+
+These tags may add additional formatting
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+### HTML Formatting
+
+| Tag           | Meaning                 |
+|:-------------:|:-----------------------:|
+| `<em>`        | emphasised text         |
+| `<strong>`    | important text          |
+| `<small>`     | small text              |
+| `<sub>`       | subscripted text        |
+| `<sup>`       | superscript text        |
+| `<ins>`       | inserted text           |
+| `<del>`       | deleted text            |
+| `<mark>`      | marked/highlighted text |
+
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+### Special Characters
+
+Some characters in HTML are ‘reserved’ characters
+
+These must be replaced by ‘HTML entities’ to use them in a webpage
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+### HTML Formatting
+
+| Entity        | Description        | Output
+|:-------------:|:------------------:|:-------------:|
+|  `&nbsp;`     | non-breaking space |               |
+|  `&lt;`       | less than          | <             |
+|  `&gt;`       | greater than       | >             |
+|  `&amp;`      | ampersand          | &amp;         |
+|  `&cent;`     | cent               | ¢             |
+|  `&pound;`    | pound              | £             |
+|  `&yen;`      | yen                | ¥             |
+|  `&euro;`     | euro               | €             |
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+### Coding HTML
+
+* We can add comments to our HTML code to make it more understandable
+* We can use extra HTML tags to add meaning to text
+* Some characters are reserved and; we use special entities to represent them
+
+ </textarea> </section>
+
+<section data-markdown>
+# Block and Inline
+</section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+### **Block** and Inline
+
+Some HTML tags produce **block elements**
+
+* **start** and **end** with a **new line**
+* **stack** together
+* take up **all** available **width**
+* can contain both **block** and **inline** elements
+* are used for **larger** pieces of **content**
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+### Block and **Inline**
+
+Some HTML tags produce **inline elements**
+
+* start without a **new line**
+* **line up** next to each other
+* as **wide** as their **content**
+* can contain other **inline** elements
+* **cannot contain** other **block elements**
+* used for **smaller** pieces of **content**
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    ### Block and Inline
+
+    So, for example:
+
+    `<p>` is a block level element
+
+    `<img>` is an inline element
+
+
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <h1>`<div>`</h1>
+
+    <p>`<div>` elements are used to divide content</p>
+    <p>Used as containers for other elements</p>
+    <p>Convey no semantic meaning to their contents, other than to group the contents together</p>
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <h1>`<span>`</h1>
+
+    <p>`<span>` elements are also used to contain content</p>
+    <p>Convey no semantic meaning to their contents</p>
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+    <h3>Block and Inline</h3>
+
+* `<div>` is a **block** level tag that can group other elements together
+
+* `<span>` is an **inline** element that can contain text
+
+* Both tags **add no special meaning** other than to select or group content
+
+* Combined with CSS they can be used to style sections or portions of a document
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+### Block and Inline</h3>
+
+* We can change how elements behave using CSS
+* Also have further options beyond 'block' and 'inline'
+ </textarea> </section>
+
+<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+# Summary
+
+* HTML is used to annotate our content for the web
+* Use HTML tags to create HTML elements
+* Elements add meaning to our content
+* Nest elements inside one another to add structure to our document
+* Different elements have different functionality (and appearance)
+ </textarea> </section>
+
+             <!-- 
+
+
+                Begin of FOOTER
+
+
+
+             -->
             </div>
+        </div>
+        <script src="../lib/reveal/lib/js/head.min.js"></script>
+        <script src="../lib/reveal/js/reveal.js"></script>
         
-        </script></section>
+        <script>
         
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                width: "100%",
+                height: "100%",
         
-        <section data-markdown data-background-image="{{ "/img/1/1.1/mdn-html.png" | prepend: site.baseurl }}" data-background-size="contain" data-separator-notes="^Note:"><script type="text/template">
-            <div class="attribution">
-                <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">https://developer.mozilla.org/en-US/docs/Web/HTML</a></p>
-            </div>
-        </script></section>
+                controls: false,
+                progress: true,
+                slideNumber: true,
+                history: true,
+                center: true,
         
-        <section data-markdown data-separator-notes="^Note:">
-        # Coding HTML
-        </section>
+                margin: 0,
+                minScale: 1,
+                maxScale: 1,
         
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ### Commenting
+                transition: 'none', // none/fade/slide/convex/concave/zoom
         
-        We can add comments to our HTML code
+                chalkboard: {
+                    toggleChalkboardButton: false,
+                },
         
-        Comments will not be displayed to the user
+                // More info https://github.com/hakimel/reveal.js#dependencies
+                dependencies: [
+                    { src: "../lib/reveal/lib/js/classList.js", condition: function() { return !document.body.classList; } },
+                    { src: "../lib/reveal/plugin/markdown/marked.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: "../lib/reveal/plugin/markdown/markdown.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: "../lib/highlight/js/highlight.js"},
+                    { src: "../lib/reveal/plugin/chalkboard/chalkboard.js"},
+                    { src: "../lib/reveal/plugin/code-focus/reveal-code-focus.js", callback: function() { RevealCodeFocus(); } },
+                    { src: "../lib/reveal/plugin/zoom-js/zoom.js", async: true },
+                    { src: "../lib/reveal/plugin/notes/notes.js", async: true },
+                ],
+                keyboard: {
+                    67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+                    66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+                    46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+                     8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+                    68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+                },
+            });
         
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ```html
-        <!-- this is a comment -->
-        <body>
-            <p>
-                Hello World!
-            </p>
-        </body>
-        ```
-        
-        Note:
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ### HTML Formatting
-        
-        Some HTML tags can add extra meaning to our text
-        
-        These tags may add additional formatting
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ### HTML Formatting
-        
-        | Tag           | Meaning                 |
-        |:-------------:|:-----------------------:|
-        | `<em>`        | emphasised text         |
-        | `<strong>`    | important text          |
-        | `<small>`     | small text              |
-        | `<sub>`       | subscripted text        |
-        | `<sup>`       | superscript text        |
-        | `<ins>`       | inserted text           |
-        | `<del>`       | deleted text            |
-        | `<mark>`      | marked/highlighted text |
-        
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ### Special Characters
-        
-        Some characters in HTML are ‘reserved’ characters
-        
-        These must be replaced by ‘HTML entities’ to use them in a webpage
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ### HTML Formatting
-        
-        | Entity        | Description        | Output
-        |:-------------:|:------------------:|:-------------:|
-        |  `&nbsp;`     | non-breaking space |               |
-        |  `&lt;`       | less than          | <             |
-        |  `&gt;`       | greater than       | >             |
-        |  `&amp;`      | ampersand          | &amp;         |
-        |  `&cent;`     | cent               | ¢             |
-        |  `&pound;`    | pound              | £             |
-        |  `&yen;`      | yen                | ¥             |
-        |  `&euro;`     | euro               | €             |
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ### Coding HTML
-        
-        * We can add comments to our HTML code to make it more understandable
-        * We can use extra HTML tags to add meaning to text
-        * Some characters are reserved and; we use special entities to represent them
-        
-        </script></section>
-        
-        <section data-markdown>
-        # Block and Inline
-        </section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ### **Block** and Inline
-        
-        Some HTML tags produce **block elements**
-        
-        * **start** and **end** with a **new line**
-        * **stack** together
-        * take up **all** available **width**
-        * can contain both **block** and **inline** elements
-        * are used for **larger** pieces of **content**
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ### Block and **Inline**
-        
-        Some HTML tags produce **inline elements**
-        
-        * start without a **new line**
-        * **line up** next to each other
-        * as **wide** as their **content**
-        * can contain other **inline** elements
-        * **cannot contain** other **block elements**
-        * used for **smaller** pieces of **content**
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-          ### Block and Inline
-        
-          So, for example:
-        
-          `<p>` is a block level element
-        
-          `<img>` is an inline element
-        
-        
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <h1>`<div>`</h1>
-        
-            <p>`<div>` elements are used to divide content</p>
-            <p>Used as containers for other elements</p>
-            <p>Convey no semantic meaning to their contents, other than to group the contents together</p>
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <h1>`<span>`</h1>
-        
-            <p>`<span>` elements are also used to contain content</p>
-            <p>Convey no semantic meaning to their contents</p>
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-            <h3>Block and Inline</h3>
-        
-        * `<div>` is a **block** level tag that can group other elements together
-        
-        * `<span>` is an **inline** element that can contain text
-        
-        * Both tags **add no special meaning** other than to select or group content
-        
-        * Combined with CSS they can be used to style sections or portions of a document
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        ### Block and Inline</h3>
-        
-        * We can change how elements behave using CSS
-        * Also have further options beyond 'block' and 'inline'
-        </script></section>
-        
-        <section data-markdown data-separator-notes="^Note:"><script type="text/template">
-        # Summary
-        
-        * HTML is used to annotate our content for the web
-        * Use HTML tags to create HTML elements
-        * Elements add meaning to our content
-        * Nest elements inside one another to add structure to our document
-        * Different elements have different functionality (and appearance)
-        </script></section>
+        </script>
+        <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    </body>
+    </html>
+    
