@@ -53,72 +53,137 @@ HTML intended to define structure of document
 </section>
 
 <section data-markdown data-separator-notes="^Note:">
-### Block and **Inline**
+### CSS
 
-Some HTML tags produce **inline elements**
-
-* start without a **new line**
-* **line up** next to each other
-* as **wide** as their **content**
-* can contain other **inline** elements
-* **cannot contain** other **block elements**
-* used for **smaller** pieces of **content**
+* Cascading Style Sheets
+* rules that tell a browser how to display an element
 </section>
 
-<section data-markdown data-separator-notes="^Note:">
+<section data-markdown data-separator-notes="^Note:" data-transition="slide-in none">
 <textarea data-template>
-### Block and Inline
+### CSS
 
-So, for example:
+```css
+selector {
+    property: value;
+    property: value;
+    property: value;
+}
+```
+<span class="fragment current-only" data-code-focus="1">**selector** specifies **which HTML** element(s) to style</span>
 
-`<p>` is a block level element
+<span class="fragment current-only" data-code-focus="1-5">selector is followed by **declaration block** (`{`…`}`)</span>
+<span class="fragment current-only" data-code-focus="2">declaration block consists of one ...</span>
+<span class="fragment current-only" data-code-focus="2-4">... or more declarations</span>
+<span class="fragment current-only" data-code-focus="2">declarations consist of property and value, separated by colon, ended by semi-colon</span>
 
-`<img>` is an inline element
-
+Note:
 </textarea></section>
 
-<section data-markdown>
+<section data-markdown data-separator-notes="^Note:" data-transition="slide-in none">
 <textarea data-template>
-# `<div>`
+### CSS
 
-`<div>` elements are used to divide content
+```css
+h1 {
+    text-align: right;
+    color: blue;
+}
+```
 
-Used as containers for other elements
-
-Convey no semantic meaning to their contents, other than to group the contents together
+Note:
 </textarea></section>
 
 <section data-markdown data-separator-notes="^Note:">
-<textarea data-template>
-# `<span>`
+<textarea data-template>   
+### Element Selector
 
-`<span>` elements are also used to contain content
+Select all HTML elements of the same type using the tag name
 
-Convey no semantic meaning to their contents
+```css
+p { ... }
+```
+
+```css
+h1 { ... }
+```
+
+```css
+article { ... }
+```
 </textarea>
 </section>
 
 <section data-markdown data-separator-notes="^Note:">
-<textarea data-template>
-### Block and Inline
+<textarea data-template>   
+### id Selector
 
-* `<div>` is a **block** level tag that can group other elements together
+Select elements based on the value of their `id` attribute
 
-* `<span>` is an **inline** element that can contain text
+```css
+#heading1 { ... }
+```
 
-* Both tags **add no special meaning** other than to select or group content
+will match only the first `<h1>..</h1>` element below:
 
-* Combined with CSS they can be used to style sections or portions of a document
+```html
+<h1 id="heading1">Heading 1</h1>
+<h1 id="heading2">Heading 2</h1>
+```
 </textarea>
 </section>
 
 <section data-markdown data-separator-notes="^Note:">
-### Block and Inline
+<textarea data-template>   
+### class Selector
 
-* We can change how elements behave using CSS
-* Also have further options beyond 'block' and 'inline'
+Select elements based on the value of their `class` attribute
 
-</section> 
+```css
+.centre { ... }
+```
+
+will match everything with a class of `centre`:
+
+```html
+<p class="centre">...</p>
+<h1 class="centre">...</h1>
+```
+</textarea>
+</section>
+
+<section data-markdown data-separator-notes="^Note:">
+### Including CSS
+
+* Three options:
+    * External Style Sheets
+    * Internal Style Sheets
+    * Inline Styles
+</section>
+
+<section data-markdown data-separator-notes="^Note:">
+<textarea data-template>   
+### External Style Sheet
+
+Define styles in external `.css` document
+
+```css
+p {
+  text-align: right;
+  color: blue;
+}
+h1 {
+  margin-left: 30px;
+}
+```
+
+Include in HTML using `<link>` tag
+
+```html
+<link rel="stylesheet" href="style.css">
+```
+</textarea>
+</section>
 
 <!-- 
 *
@@ -136,7 +201,7 @@ Convey no semantic meaning to their contents
     
         // More info https://github.com/hakimel/reveal.js#configuration
         Reveal.initialize({
-            width: "100%",
+            width: "80%",
             height: "100%",
     
             controls: false,
@@ -147,7 +212,7 @@ Convey no semantic meaning to their contents
     
             margin: 0,
             minScale: 1,
-            maxScale: 1,
+            maxScale: 2,
     
             transition: 'none', // none/fade/slide/convex/concave/zoom
     
