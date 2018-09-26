@@ -14,21 +14,14 @@ The reading for this topic will introduce you to HyperText Markup Language, or H
 
 You should watch all these videos before the contact session in Week 1.
 
-* Introduction to HTML - [slides](../cmt112/_slides/1-2-intro-to-html.html ':target=_blank' ':ignore')
-* HTML Document Structure - [slides](../cmt112/_slides/1-2-html-document-structure.html ':target=_blank' ':ignore')
-* HTML Tags - [slides](../cmt112/_slides/1-2-html-tags.html ':target=_blank' ':ignore')
-* Nesting Tags - [slides](../cmt112/_slides/1-2-nesting-tags.html ':target=_blank' ':ignore')
-* Block and Inline - [slides](../cmt112/_slides/1-2-block-inline.html ':target=_blank' ':ignore')
-* Coding HTML - [slides](../cmt112/_slides/1-2-coding-html.html ':target=_blank' ':ignore')
-* Introduction to CSS - [slides](../cmt112/_slides/1-2-intro-to-css.html ':target=_blank' ':ignore')
+#### Introduction to HTML
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=8d6f11f2-286b-4b67-aa82-a96100cb81f7&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
-* Writing an HTML Document
+#### Introduction to CSS
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=6c950784-bba6-4f48-8ffe-a96700c932ee&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2a886651-3aa0-4ddb-963d-e480a94b8564&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
-
-* Developing Locally - Simple Web Server
-* Using Git
-
+#### Writing a Web Page
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d593bc50-a4a7-4d97-8306-a96700cc4642&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 
 ## Activity - Creating an HTML Page
