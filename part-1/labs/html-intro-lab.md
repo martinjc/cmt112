@@ -51,7 +51,7 @@ cmt112-labs
 
 We can view our new HTML page in a number of ways. The easiest is to open a new Google Chrome window, then drag the `index.html` file from a File Explorer window and drop it onto our web browser window. This will open and display the file:
 
-![Our first web page](../../_img/1.2.1/hello-world.png).
+![Our first web page](img/1.2.1/hello-world.png).
 
 ### Committing our changes
 
@@ -116,11 +116,11 @@ git commit -m "hello world web page"
 
 An important part of being a web developer is being able to understand how the browser views and processes your page. To help us do this, the browser contains a set of tools that we can use to examine our page and how it is loaded and displayed by the browser. To open the developer tools in Chrome, use the menu, and select ‘More tools’ and then ‘Developer tools’:
 
-![Opening the Developer Tools](../../_img/1.2.1/developer-tools.png)
+![Opening the Developer Tools](img/1.2.1/developer-tools.png)
 
 The developer window will open within your browser. The different tabs allow you to examine different aspects of the web browser and your page. The ‘Elements’ tab shows you the source code of your web page, as well as the CSS styles that have been applied to the elements of the page. Hovering over an element in the ‘Elements’ tab will highlight the element in the page above, and tell you its size. The right hand side of the developer window will show you the element’s CSS styles, and give a graphic representation of the element’s size in terms of margin, border and padding:
 
-![Developer Tools open](../../_img/1.2.1/developer-tools-open.png)
+![Developer Tools open](img/1.2.1/developer-tools-open.png)
 
 We can edit the content of our webpage (temporarily) from within the developer tools. Double click on the `h1` element, and we can change the text content. If you refresh the page, the original file will be loaded from disk, and your changes will be gone.
 
@@ -150,11 +150,11 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 
 If we enter the address that Python gives us (`http://0.0.0.0:8000`) in the address bar of the browser, we will see the directory listing for our web server:
 
-![Directory listing on server](../../_img/1.2.1/local-server-directory.png)
+![Directory listing on server](img/1.2.1/local-server-directory.png)
 
 You can see two directories: our `Week1` directory where our webpage is saved, and the special `.git` folder created by Git, where the data for our Git repository is stored. If we click on the `Week1` directory, we will see our `index.html` page:
 
-![Web page on local server](../../_img/1.2.1/local-server-page.png)
+![Web page on local server](img/1.2.1/local-server-page.png)
 
 ?> Now you can see why we named our HTML page `index.html` - a web server will automatically serve a page named `index.html` when a request is made for a given directory. By using this name, the index page will automatically be loaded rather than the server displaying a directory listing as it did for the parent directory.
 
@@ -189,7 +189,7 @@ This is all you need to start developing web pages, so let's add some more conte
 
 Which means our page will now look like:
 
-![Web page content](../../_img/1.2.1/page-content.png)
+![Web page content](img/1.2.1/page-content.png)
 
 We like the change we've made to the page, so let's commit these changes:
 
@@ -208,7 +208,7 @@ Once we've got some HTML content, we can start to style it using CSS.
 
 We can add CSS to our HTML files by including it in a separate file. Create a new file in your text editor, and write a CSS rule that will apply to all paragraph elements:
 
-![CSS file](../../_img/1.2.1/css-file.png)
+![CSS file](img/1.2.1/css-file.png)
 
 Before we can link the CSS to our HTML, we need to save the file. Here I have saved it as `style.css` in a subfolder named `css` within the same directory as
 the `index.html` file. 
@@ -223,11 +223,11 @@ cmt112-labs/
 
 We can then link this CSS to our HTML file using a link element in the head of our HTML:
 
-![Link CSS file to HTML](../../_img/1.2.1/css-link.png)
+![Link CSS file to HTML](img/1.2.1/css-link.png)
 
 If we refresh the page in our browser, we'll see the CSS rules applied to our paragraph elements:
 
-![HTML and CSS](../../_img/1.2.1/hello-world-css.png)
+![HTML and CSS](img/1.2.1/hello-world-css.png)
 
 ### Going Further
 
