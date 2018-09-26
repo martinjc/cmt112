@@ -14,13 +14,13 @@ The reading for this topic will introduce you to HyperText Markup Language, or H
 
 You should watch all these videos before the contact session in Week 1.
 
-* Introduction to HTML - [slides](../_slides/1-2-intro-to-html.html ':target=_blank' ':ignore')
-* HTML Document Structure - [slides](../_slides/1-2-html-document-structure.html ':target=_blank' ':ignore')
-* HTML Tags - [slides](../_slides/1-2-html-tags.html ':target=_blank' ':ignore')
-* Nesting Tags - [slides](../_slides/1-2-nesting-tags.html ':target=_blank' ':ignore')
-* Block and Inline - [slides](../_slides/1-2-block-inline.html ':target=_blank' ':ignore')
-* Coding HTML - [slides](../_slides/1-2-coding-html.html ':target=_blank' ':ignore')
-* Introduction to CSS - [slides](../_slides/1-2-intro-to-css.html ':target=_blank' ':ignore')
+* Introduction to HTML - [slides](../cmt112/_slides/1-2-intro-to-html.html ':target=_blank' ':ignore')
+* HTML Document Structure - [slides](../cmt112/_slides/1-2-html-document-structure.html ':target=_blank' ':ignore')
+* HTML Tags - [slides](../cmt112/_slides/1-2-html-tags.html ':target=_blank' ':ignore')
+* Nesting Tags - [slides](../cmt112/_slides/1-2-nesting-tags.html ':target=_blank' ':ignore')
+* Block and Inline - [slides](../cmt112/_slides/1-2-block-inline.html ':target=_blank' ':ignore')
+* Coding HTML - [slides](../cmt112/_slides/1-2-coding-html.html ':target=_blank' ':ignore')
+* Introduction to CSS - [slides](../cmt112/_slides/1-2-intro-to-css.html ':target=_blank' ':ignore')
 
 * Writing an HTML Document
 
