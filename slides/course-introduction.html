@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    
+        <title></title>
+    
+    
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+        <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../lib/reveal/css/reveal.css">
+        <link rel="stylesheet" href="../../lib/reveal/lib/css/zenburn.css">
+        <!-- My CSS Overrides -->
+        <link rel="stylesheet" href="css/slide_style.css">
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="../../lib/reveal/lib/css/zenburn.css">
+    
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? '../../lib/reveal/css/print/pdf.css' : '../../lib/reveal/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>    
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+<!-- 
+*
+*
+*  End of HEAD
+*
+*
+-->
+
+<section>
+    <h1>CMT112<br>
+    Web Application Development</h1>
+    <p>Course Introduction</p>
+</section>
+
+<section>
+    <ul>
+        <li>Interactive Web Applications</li>
+        <li>First principles - no experience required</li>
+    </ul>
+</section>
+
+
+<section>
+    <h3>Course structure</h3>
+    <ul>
+        <li>Session 1 - The Internet, HTML &amp; CSS</li>
+        <li>Session 2 - JavaScript</li>
+        <li>Session 3 - Server-Side and Web Development</li>
+    </ul>
+</section>
+
+<section>
+    <h3>Timetable</h3>
+    <ul>
+        <li>Thursdays in Weeks 1-11</li>
+        <li> C/2.04 &amp; C/2.05</li>
+        <ul>
+            <li>9am - 11am - MSc Computing, MSc Data Science and Analytics</li>
+            <li>11am - 1pm - MSc Computing and IT Management, MSc Computational and Data Journalism</li>
+        </ul>
+        <li><strong>All sessions are compulsory!</strong></li>
+    </ul>
+</section>
+
+<section>
+    <h1>Module Leader</h1>
+    <p>Me - Martin</p>
+    <p>@martinjc</p>
+    <p>chorleymj@cardiff.ac.uk</p>
+    <p>Office: N/2.15</p>
+</section>
+
+<section>
+    <h3>Course Structure</h3>
+    <p>Your time is precious</p>
+    <p>20 credits is approximately 200 hours of work</p>
+</section>
+
+<section data-background-image="https://media.giphy.com/media/Z6jJyKzFKzA08/source.gif">
+    <h3 style="text-shadow: 0px 0px 2px white;">There is a better way for you to spend your time than listening to me read out slides at the front of the class!</h3>
+</section>
+
+<section>
+    <h1>So: we'll have very few formal 'lectures'</h1>
+</section>
+
+<section>
+    <h3>Notes, reading material and videos provided online</h3>
+    <h3 class="fragment">You will need to read the notes and reading material before class</h3>
+    <h3 class="fragment">You will need to watch the videos of lectures and demonstrations before class</h3>
+</section>
+
+<section>
+    <h2>In class</h2>
+    <h3 class="fragment">We will discuss the material you have read/watched</h3>
+    <h3 class="fragment">We will complete activities to explore the issues we are learning about</h3>
+    <h3 class="fragment">We will put the new skills we have gained into practice</h3>
+</section>
+
+<section>
+    <h1>Assessment</h1>
+    <p>Coursework 1 (30%) - Out Week 2, In Week 5</p>
+    <p>Coursework 2 (70%) - Out Week 7, In Week 12</p>
+</section>
+
+<section>
+    <h1>CMT112<br>
+    Web Application Development</h1>
+    <p>Course Introduction</p>
+</section>
+
+<!-- 
+*
+*
+*  FOOTER
+*
+*
+-->
+</div>
+</div>
+<script src="../../lib/reveal/lib/js/head.min.js"></script>
+<script src="../../lib/reveal/js/reveal.js"></script>
+
+<script>
+
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        width: "80%",
+        height: "100%",
+
+        controls: false,
+        progress: true,
+        slideNumber: true,
+        history: true,
+        center: true,
+
+        margin: 0,
+        minScale: 1,
+        maxScale: 1,
+
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+
+        chalkboard: {
+            toggleChalkboardButton: false,
+        },
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            { src: "../../lib/reveal/lib/js/classList.js", condition: function() { return !document.body.classList; } },
+            { src: "../../lib/reveal/plugin/markdown/marked.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: "../../lib/reveal/plugin/markdown/markdown.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: "../../lib/highlight/js/highlight.js"},
+            { src: "../../lib/reveal/plugin/chalkboard/chalkboard.js"},
+            { src: "../../lib/reveal/plugin/code-focus/reveal-code-focus.js", callback: function() { RevealCodeFocus(); } },
+            { src: "../../lib/reveal/plugin/zoom-js/zoom.js", async: true },
+            { src: "../../lib/reveal/plugin/notes/notes.js", async: true },
+        ],
+        keyboard: {
+            67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+            66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+            46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+              8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+            68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+        },
+    });
+
+</script>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</body>
+</html>
