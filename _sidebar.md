@@ -4,7 +4,6 @@
 * [1.2 Introduction to HTML & CSS](part-1/html-and-css-intro)
     * [1.2.1 Lab Exercise](part-1/labs/html-intro-lab) 
 * [1.3 More HTML & CSS](part-1/html-css-and-layout)
-    * [1.3.1 Lab Exercise](part-1/labs/css-layout-lab)
 * [1.4 Responsive Web Design](part-1/responsive)
 * [2. JavaScript Fundamentals](/part-2)
 * [3. Server-Side Development](/part-3)
