@@ -80,19 +80,9 @@ selector {
 Note:
 </textarea></section>
 
-<section data-markdown data-separator-notes="^Note:" data-transition="slide-in none">
-<textarea data-template>
-### CSS
-
-```css
-h1 {
-    text-align: right;
-    color: blue;
-}
-```
-
-Note:
-</textarea></section>
+<section>
+    <p data-height="400" data-theme-id="dark" data-slug-hash="qPWZKB" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Simple CSS Example" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/qPWZKB/">Simple CSS Example</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+</section>
 
 <section data-markdown data-separator-notes="^Note:">
 <textarea data-template>   
@@ -114,6 +104,10 @@ article { ... }
 </textarea>
 </section>
 
+<section>
+    <p data-height="400" data-theme-id="dark" data-slug-hash="xXKVyK" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Element Selector" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/xXKVyK/">Element Selector</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+</section>
+
 <section data-markdown data-separator-notes="^Note:">
 <textarea data-template>   
 ### id Selector
@@ -131,6 +125,10 @@ will match only the first `<h1>..</h1>` element below:
 <h1 id="heading2">Heading 2</h1>
 ```
 </textarea>
+</section>
+
+<section>
+    <p data-height="400" data-theme-id="dark" data-slug-hash="oGvxJb" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="id Selector" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/oGvxJb/">id Selector</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 </section>
 
 <section data-markdown data-separator-notes="^Note:">
@@ -152,31 +150,18 @@ will match everything with a class of `centre`:
 </textarea>
 </section>
 
-<section data-markdown data-separator-notes="^Note:">
-<textarea data-template>   
-### Combining selectors
-
-Can combine selectors
-
-```css
-p.centre {
-    text-align: right;
-    color: blue;
-}
-div.important h1 {
-    margin-left: 30px;
-}
-```
-</textarea>
+<section>
+    <p data-height="265" data-theme-id="dark" data-slug-hash="XerdOw" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="class Selector" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/XerdOw/">class Selector</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 </section>
 
-<section data-markdown data-separator-notes="^Note:">
-### Including CSS
-
-* Three options:
-    * External Style Sheets
-    * Internal Style Sheets
-    * Inline Styles
+<section>
+<h3>Including CSS</h3>
+<p>Three options:
+<ul>
+    <li class="fragment fade-out">Inline Styles</li>
+    <li class="fragment fade-out">Internal Style Sheets</li>
+    <li>External Style Sheets</li>
+</ul></p>
 </section>
 
 <section data-markdown data-separator-notes="^Note:">
@@ -203,11 +188,28 @@ Include in HTML using `<link>` tag
 </textarea>
 </section>
 
+<section data-markdown data-separator-notes="^Note:">
+### Combining CSS Selectors
+
+* Can combine selectors to select elements within elements, or elements before or after certain elements, ...
+</section>
+
+<section data-background-image="img/1.2/css-selectors.png" data-background-size="contain">
+<div class="attribution">
+    <p><a href="https://www.w3.org/TR/css3-selectors/">https://www.w3.org/TR/css3-selectors/</a></p>
+</div>
+</section>
+    
+
 <section data-markdown>
 ### CSS
 
 * Cascading Style Sheets
-* rules that tell a browser how to display an element
+* Apply layout, presentation and styling to our html
+* Rules that tell a browser how to display an element
+* Select by element type, class, id
+    * Combine selectors to select more specific elements
+* Many different CSS properties to apply
 </section>
 
 <!-- 
