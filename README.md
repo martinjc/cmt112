@@ -4,6 +4,8 @@ These pages contain the course notes, links, videos and reading for CMT112 - Web
 
 [Latest Module Description](https://data.cardiff.ac.uk/legacy/grails/module/CMT112/18A.html)
 
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=4e92212f-eb52-4f61-ad7f-a96800d94f42&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
 ## Structure
 
 The module is broken down into three parts:
@@ -16,7 +18,7 @@ The module is broken down into three parts:
 
 ## Schedule
 
-Contact sessions take place on Thursday mornings from 9:30am to 1pm in X/X.XX in Weeks 1 to 10. An additional contact session will be held in Week 11, but no new material will be presented, this session will be a coursework surgery for the final assessment in the module.
+Contact sessions take place on Thursday mornings from 9:00am to 1pm in C/2.04 & C/2.05 in Weeks 1 to 10. An additional contact session will be held in Week 11, but no new material will be presented, this session will be a coursework surgery for the final assessment in the module.
 
 
 ## Course Resources
