@@ -15,13 +15,19 @@ The reading for this topic will introduce you to HyperText Markup Language, or H
 You should watch all these videos before the contact session in Week 1.
 
 #### Introduction to HTML
+<p><small>If the embed does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8d6f11f2-286b-4b67-aa82-a96100cb81f7" target="blank">link to the full version of the video</a></small></p>
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=8d6f11f2-286b-4b67-aa82-a96100cb81f7&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
+
 #### Introduction to CSS
+<p><small>If the embed does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3217bae9-6f52-4695-a284-a96800be814f" target="blank">link to the full version of the video</a></small></p>
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3217bae9-6f52-4695-a284-a96800be814f&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
+
 #### Writing a Web Page
+<p><small>If the embed does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=09133cfa-71aa-42b8-bd83-a96800c81732" target="blank">link to the full version of the video</a></small></p>
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=09133cfa-71aa-42b8-bd83-a96800c81732&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
 
 ## Activity - Creating an HTML Page
 
