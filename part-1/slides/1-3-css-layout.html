@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    
+        <title></title>
+    
+    
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+        <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../lib/reveal/css/reveal.css">
+        <link rel="stylesheet" href="../../lib/reveal/lib/css/zenburn.css">
+        <!-- My CSS Overrides -->
+        <link rel="stylesheet" href="css/slide_style.css">
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="../../lib/reveal/lib/css/zenburn.css">
+    
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? '../../lib/reveal/css/print/pdf.css' : '../../lib/reveal/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>    
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+<!-- 
+*
+*
+*  End of HEAD
+*
+*
+-->
+
+<section data-markdown>
+# CSS Layout
+</section>
+        
+
+<section data-markdown data-separator-notes="^Note:">
+### **Block** and Inline
+
+Some HTML tags produce **block elements**
+
+* **start** and **end** with a **new line**
+* **stack** together
+* take up **all** available **width**
+* can contain both **block** and **inline** elements
+* are used for **larger** pieces of **content**
+</section>
+    
+<section data-markdown data-separator-notes="^Note:">
+### Block and **Inline**
+
+Some HTML tags produce **inline elements**
+
+* start without a **new line**
+* **line up** next to each other
+* as **wide** as their **content**
+* can contain other **inline** elements
+* **cannot contain** other **block elements**
+* used for **smaller** pieces of **content**
+</section>
+
+<section data-markdown data-separator-notes="^Note:">
+### Block and Inline
+
+* `div` is a **block** level tag that can group elements together
+* `span` is an **inline** element that can contain text
+* Both tags **add no** special **meaning** (semantics) other than to select or group content
+* Combined with CSS they can be used to style portions of a document
+</section>
+
+<section data-markdown data-separator-notes="^Note:">
+### `display:`
+
+* Can change how elements are displayed
+* make inline elements act like block elements and vice versa
+* also have inline-block, flex, table, none ...
+</section>
+
+<section data-markdown data-separator-notes="^Note:">
+### It's all a box
+
+* CSS allows us to position and size HTML elements
+* We can consider HTML elements as boxes
+    * boxes contain **Content**
+    * boxes have **Padding** around the **Content**
+    * boxes have a **Border** around the **Padding**
+    * boxes have a **Margin** around the **Border**
+</section>
+
+
+<section data-background-image="img/1.3/box-model.png" data-background-size="contain">
+
+<aside class="notes">
+    The box model normally...
+</aside>
+</section>
+
+
+<section data-background-image="img/1.3/box-model-border-box.png" data-background-size="contain">
+<div class="attribution">
+    <p>box-sizing: border-box</p>
+</div>
+<aside class="notes">
+    box-sizing-border-box
+</aside>
+</section>
+
+<section data-markdown data-separator-notes="^Note:">
+### CSS Positioning
+
+
+* `float` property allows us to float our elements out of their parent elements and around the page
+    * may need to combine with `clear` and `overflow` to ensure size/position are correct
+* `position` property - specify `relative`, `absolute` positioning
+</section>
+
+<section data-markdown data-separator-notes="^Note:">
+### CSS `margin: auto`
+
+
+* can use `margin:auto` to centre block content on a page
+* need to set `width` (or `max-width`) 
+</section>
+
+
+<section data-markdown data-separator-notes="^Note:">
+### CSS Layout
+
+
+* CSS layout can be complex
+    * many different ways to accomplish a particular layout
+    * need to think about responsive design
+</section>
+
+<section data-background-image="img/1.3/wireframing.jpg" data-background-size="contain">
+<div class="attribution">
+    <p>Creative Commons BY 2.0 by <a href="https://www.flickr.com/photos/baldiri/">baldiri</a></p>
+</div>
+<aside class="notes">
+    plan content layout using boxes, software or hand sketching, allow thought about layout and usability before code - don't be afraid to iterate
+</aside>
+</section>
+
+<section data-markdown data-separator-notes="^Note:">
+### Grids
+
+* popular concept in web design
+* specify columns - have HTML elements cover multiple columns
+</section>
+
+<section data-background-image="img/1.3/columns.png" data-background-size="contain">
+</section>
+
+<section data-background-image="img/1.3/columns-gutter.png" data-background-size="contain">
+</section>
+
+<section data-background-image="img/1.3/columns-gutter-rows.png" data-background-size="contain">
+</section>
+
+<section data-background-image="img/1.3/content-desktop.png" data-background-size="contain">
+</section>
+
+<section data-background-image="img/1.3/content-mobile.png" data-background-size="contain">
+</section>
+
+<section data-markdown data-separator-notes="^Note:">
+### flexbox
+
+* relatively new option for layout
+* lots of info online:
+    * https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes
+    * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+</section>
+
+
+<section data-markdown data-separator-notes="^Note:">
+### CSS-Grid
+
+* even newer option for layout
+* lots of info online:
+    * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+    * https://css-tricks.com/snippets/css/complete-guide-grid/
+
+
+</section>
+
+<section data-markdown data-separator-notes="^Note:">
+# CSS Layout
+
+* Everything is a box!
+* Think about content and usability first
+* Grids can help
+* `flexbox` and `grid`
+</section>
+<!-- 
+*
+*
+*  FOOTER
+*
+*
+-->
+</div>
+</div>
+<script src="../../lib/reveal/lib/js/head.min.js"></script>
+<script src="../../lib/reveal/js/reveal.js"></script>
+
+<script>
+
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        width: "80%",
+        height: "100%",
+
+        controls: false,
+        progress: true,
+        slideNumber: true,
+        history: true,
+        center: true,
+
+        margin: 0,
+        minScale: 1,
+        maxScale: 3,
+
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+
+        chalkboard: {
+            toggleChalkboardButton: false,
+        },
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            { src: "../../lib/reveal/lib/js/classList.js", condition: function() { return !document.body.classList; } },
+            { src: "../../lib/reveal/plugin/markdown/marked.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: "../../lib/reveal/plugin/markdown/markdown.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: "../../lib/highlight/js/highlight.js"},
+            { src: "../../lib/reveal/plugin/chalkboard/chalkboard.js"},
+            { src: "../../lib/reveal/plugin/code-focus/reveal-code-focus.js", callback: function() { RevealCodeFocus(); } },
+            { src: "../../lib/reveal/plugin/zoom-js/zoom.js", async: true },
+            { src: "../../lib/reveal/plugin/notes/notes.js", async: true },
+        ],
+        keyboard: {
+            67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+            66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+            46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+              8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+            68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+        },
+    });
+
+</script>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</body>
+</html>

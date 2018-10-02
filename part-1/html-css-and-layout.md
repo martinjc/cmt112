@@ -13,9 +13,29 @@ The reading for this topic will begin to show you how to combine the structure o
 
 ## Videos
 
-* CSS - Selectors and Specificity
-* CSS - Positioning and Layout
-* Gitlab Pages
+You should watch all these videos before the contact session in Week 2.
+
+#### CSS - Selectors and Specificity
+
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=87a7d88b-05ab-4892-82f7-a96d00d1b566" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=87a7d88b-05ab-4892-82f7-a96d00d1b566&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
+#### CSS - Selectors and Specificity - Example Code
+
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=445a57b2-c030-499d-a051-60ed2a8ec568" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=445a57b2-c030-499d-a051-60ed2a8ec568&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
+
+#### CSS - Positioning and Layout
+
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b20c5ca3-d566-4f3e-b52f-a96d00d4fd91" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=b20c5ca3-d566-4f3e-b52f-a96d00d4fd91&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
+#### Gitlab Pages
+
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7e29b813-b7d5-4af8-a124-a96d00dcb591" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7e29b813-b7d5-4af8-a124-a96d00dcb591&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
 
 ## Activity - CSS Specificity
 
