@@ -77,3 +77,7 @@ The module leader for CMT112 is Martin Chorley.
 My office is N/2.15, and during the Autumn semester I am generally available there Monday, Tuesday and Thursday afternoons. It's usually best to email me if you'd like to come see me about something.
 
 I can be emailed at [chorleymj@cf.ac.uk](mailto:chorleymj@cardiff.ac.uk), and can be found on Twitter as [@martinjc](https://www.twitter.com/martinjc).
+
+## Feedback
+
+As well as the formal end-of-module feedback and the slightly less formal mid-module feedback, I am keen to hear from students throughout the module, and I am keen to keep improving the module wherever I can. In previous years, students have asked that more time be spent introducing JavaScript, so this year we will start on this topic a week earlier. Past feedback has also asked for further in-depth coverage of server-side technologies, so we will look at this more in the later parts of the course. If you have any feedback, please feel free to let me know!

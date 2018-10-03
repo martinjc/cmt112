@@ -33,3 +33,22 @@ You should watch all these videos before the contact session in Week 1.
 
 During the [lab activity](part-1/labs/html-intro-lab) for this topic we will put what we have learnt into practice by individually creating a simple HTML web page. We will also practice using version control software to ensure our code is safely versioned and stored.
 
+## Code Examples
+
+There are some example pieces of code for this topic. The source code for each example can be viewed in the GitLab project '[cmt112-examples](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples)' and the end result can be seen on the [GitLab pages site for that project](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/).
+
+* Hello World [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/hello-world/index.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/hello-world/)
+* Headings, Paragraphs and Line BReaks [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/h-p-br/index.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/h-p-br/)
+* Links [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/links/index.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/links/)
+* Images [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/images/index.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/images/)
+* Centred Image [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/images/centred-image.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/images/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/images/centred-image.html)
+* Formatting [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/formatting/index.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/formatting/)
+* Lists [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/lists/index.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/lists/)
+* Grouping [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/grouping/index.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/grouping/)
+* CSS Intro
+    * 1 [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/cssintro/1/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/cssintro/1/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/cssintro/1/)
+    * 2 [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/cssintro/2/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/cssintro/2/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/cssintro/2/)
+    * 3 [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/cssintro/3/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/cssintro/3/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/cssintro/3/)
+    * 4 [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/cssintro/4/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/cssintro/4/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/cssintro/4/)
+    * 5 [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/cssintro/5/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/cssintro/5/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/cssintro/5/)
+    * 6 [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/cssintro/6/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-2/cssintro/6/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-2/cssintro/6/)
