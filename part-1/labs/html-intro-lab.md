@@ -148,7 +148,7 @@ This will start a web server in the current directory, which will sit and wait f
 Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 ```
 
-If we enter the address that Python gives us (`http://0.0.0.0:8000`) in the address bar of the browser, we will see the directory listing for our web server:
+If we enter the local IP address for the machine (`http://127.0.0.1:8000`) in the address bar of the browser, we will see the directory listing for our web server:
 
 ![Directory listing on server](img/1.2.1/local-server-directory.png)
 
