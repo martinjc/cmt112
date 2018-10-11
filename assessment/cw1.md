@@ -6,7 +6,7 @@ It has been handed out in Week 2 and is due for submission by 09:30am on 1st Nov
 
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=76d96c89-31bc-4c2a-af47-a97600da0de4&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
-## Assigment
+## Assignment
 
 Congratulations! You have just been hired as a junior web developer! For your first role at the company, you have been asked to produce a prototype website for an important potential client – PontyBridge University. The client has supplied some potential material for the website, and the company has given you some sketch outlines for the pages you need to create. These files are attached.
 
