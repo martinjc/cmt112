@@ -33,6 +33,9 @@ Outside of the supplied content, you are free to add content to the website howe
 The client has asked that valid HTML and CSS is used wherever possible, and that the use of non-validating code is kept to a minimum. If non-validating code must be used, this should be explained and justified. With your website code, you are asked to submit a document containing the results of validation alongside justification for the non-validating code
 
 
+!> You should not use any external CSS frameworks for the assignment, although the use of an existing CSS Reset is permitted.
+
+
 ## Learning Central
 
 The assignment and associated reference material can be found [on Learning Central, under 'Assessment' in the CMT112 module](https://learningcentral.cf.ac.uk/webapps/blackboard/content/listContent.jsp?course_id=_387571_1&content_id=_4632651_1). 
