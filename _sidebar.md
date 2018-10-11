@@ -8,3 +8,5 @@
 * [1.4 Responsive Web Design](part-1/responsive)
 * [2. JavaScript Fundamentals](/part-2)
 * [3. Server-Side Development](/part-3)
+* [Assessment](assessment)
+    * [Coursework 1](assessment/cw1)
