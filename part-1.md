@@ -14,11 +14,11 @@ We'll also look at the first assessment for the module, where you will be tasked
 
 ### Week 3
 
-During Week 3 we will look at creating web pages that work on all the devices that may access them by making them [responsive](part-1/responsive). We'll also look at CSS framework libraries which can simplify some of our development tasks. 
+During Week 3 we will look at creating web pages that work on all the devices that may access them by making them [responsive](part-1/responsive-css-1). We'll also look at CSS framework libraries which can simplify some of our development tasks. 
 
 ### Week 4
 
-In Week 4 we'll  look at more advanced CSS layout techniques such as Flexbox and CSS-Grid. We'll also start to experiment with JavaScript.  
+In Week 4 we'll  look at more advanced CSS layout techniques such as [Flexbox and CSS-Grid](part-1/responsive-css-2). We'll also start to look at the JavaScript programming language.  
 
 
 
