@@ -6,6 +6,7 @@
 * [1.3 Further HTML & CSS](part-1/html-css-and-layout)
     * [1.3.1 Lab Exercise](part-1/labs/css-layout-lab)
 * [1.4 Responsive Web Design](part-1/responsive-css-1)
+    * [1.4.1 Lab Exercise](part-1/labs/responsive-css-lab)
 * [1.5 Further CSS Layouts](part-1/responsive-css-2)
 * [2. JavaScript Fundamentals](/part-2)
 * [2.1 Introduction to JS](part-2/intro-to-js)
