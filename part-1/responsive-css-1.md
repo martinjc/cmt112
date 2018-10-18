@@ -7,6 +7,7 @@ Now we can annotate our content and documents so a web browser can understand th
 * [Responsive Web design](https://alistapart.com/article/responsive-web-design) - One of the first articles written about the concept of responsive web design, and it still holds up as a 'manifesto' for modern web design practice
 * [Mobile First Design - why it's great and why it sucks](https://mayvendev.com/blog/mobilefirst) - Another argument for responsive web design, this time working from the angle that we should design from the phone up, rather than the desktop down.
 * [Responsive Images Done Right](https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/)
+* [Responsive Images - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) A good introduction to Responsive Images from MDN
 
 ### Helpful Links
 
