@@ -18,7 +18,7 @@ During Week 3 we will look at creating web pages that work on all the devices th
 
 ### Week 4
 
-In Week 4 we'll  look at more advanced CSS layout techniques such as [Flexbox and CSS-Grid](part-1/responsive-css-2). We'll also start to look at the JavaScript programming language.  
+In Week 4 we'll  look at more advanced CSS layout techniques such as [Flexbox and CSS-Grid](part-1/responsive-css-2). We'll also start to look at the [JavaScript](part-2) programming language.  
 
 
 
