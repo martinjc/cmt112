@@ -44,3 +44,16 @@ In this contact session we will re-implement our page from last week (or build a
 ### Peer Review
 
 Following this session, you will be asked to review one or more group's code, and leave them some constructive feedback on their website.  
+
+## Code Examples
+
+There are some example pieces of code for this topic. The source code for each example can be viewed in the GitLab project '[cmt112-examples](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples)' and the end result can be seen on the [GitLab pages site for that project](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/).
+
+
+* CSS Sizing - Percents 
+    * Part 1 [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-4/css-sizing/percents/1/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-4/css-sizing/percents/1/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-4/css-sizing/percents/1/)
+    * Part 2 [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-4/css-sizing/percents/2/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-4/css-sizing/percents/2/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-4/css-sizing/percents/2/)
+* CSS Sizing - VHVW [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-4/css-sizing/vhvw/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-4/css-sizing/vhvw/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-4/css-sizing/vhvw/)
+* Media Queries [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-4/media-query/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-4/media-query/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-4/media-query/)
+* Responsive Images [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-4/images/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-4/images/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-4/images/)
+
