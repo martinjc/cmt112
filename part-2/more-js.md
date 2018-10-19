@@ -12,7 +12,17 @@ In this section we'll really start getting to grips with some of the features an
 
 ### Videos
 
-JS Objects, functions, closures
+You should watch all these videos before the contact session in Week 5.
+
+#### Introduction to JavaScript - Objects
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2f9b73f7-8fc4-4ba1-a5e7-a97600fe9614" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2f9b73f7-8fc4-4ba1-a5e7-a97600fe9614&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
+
+#### Introduction to JavaScript - Functions and Scope
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=db12e030-0712-4575-a52a-a97600fe8e4b" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=db12e030-0712-4575-a52a-a97600fe8e4b&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
 
 ## Code Examples
 
