@@ -1,5 +1,4 @@
-## Further Responsive CSS Layout
-
+## Overview
 In this part we'll look at some of the newer and more advanced techniques we can use to build responsive web pages. Flexbox and CSS Grid are two layout 
 
 
@@ -38,5 +37,6 @@ There is no specific lab activity connected to this section - we will be spendin
 
 There are some example pieces of code for this topic. The source code for each example can be viewed in the GitLab project '[cmt112-examples](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples)' and the end result can be seen on the [GitLab pages site for that project](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/).
 
-* Flexbox
-* CSS Grid
+* Simple grid (without CSS-Grid) [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/simple-grid/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/simple-grid/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-5/simple-grid/)
+* Flexbox example [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/flex/1/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/flex/1/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-5/flex/1)
+* Responsive Flexbox example [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/flex/2/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/flex/2/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-5/flex/2)
