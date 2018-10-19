@@ -8,6 +8,7 @@ In this part we'll look at some of the newer and more advanced techniques we can
 * [Using Media Queries For Responsive Design In 2018](https://www.smashingmagazine.com/2018/02/media-queries-responsive-design-2018/)
 * [Basic concepts of flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) - MDN tutorial on Flexbox
 * [Basic concepts of grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) - MDN tutorial on grids
+* [Flexbox the Animated Tutorial](https://medium.com/@js_tut/flexbox-the-animated-tutorial-8075cbe4c1b2) - a nice way of learning about different CSS-Flex properties
 
 
 ### Helpful Links
