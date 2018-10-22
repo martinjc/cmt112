@@ -153,4 +153,38 @@ You can see that Line 14 of the code is now highlighted as the next line to be e
 
 ![Setting a breakpoint](img/post-two-prompts.png)
 
-Our 'Scope' section now has two local variables, `x` with a value of `"45"` and `y` with a value of `"78"`. Click the step button again. and our next line of code will be run, adding `x` and `y` together, and storing the result in the variable `z`.
+Our 'Scope' section now has two local variables, `x` with a value of `"45"` and `y` with a value of `"78"`. Click the step button again. and our next line of code will be run, adding `x` and `y` together, and storing the result in the variable `z`:
+
+![Setting a breakpoint](img/answer-string.png)
+
+The problem seems to be that our values are being stored as Strings. You can tell this by the fact that the values in the variables are wrapped in double quote (`"`) characters. When we try to add them together on line 15, rather than JavaScript performing numerical addition (and so adding 45 and 78 to get 123) it performs **string concatenation** and glues the two strings together, giving the result `"4578"`.
+
+We can test that this really is the problem by using the 'Watch' section of the debugging pane. This allows us to monitor variable values, but we can also enter JavaScript expressions here. Click the `+` in the Watch section to add a new Watch expression, and type `typeof z`. The debugger will report that the type of `z` is `string`, just as we suspected:
+
+![Setting a breakpoint](img/watch-expression.png)
+
+We can fix this code easily, by telling JavaScript to treat the values returned from the prompt as numbers (or Integers) rather than Strings. Edit lines 13 and 14 of your code:
+
+```html
+let x = parseInt(prompt("I will add two numbers. What is the first number?"));
+let y = parseInt(prompt("What is the second number?"));
+```
+
+The `parseInt` function takes a string as input and attempts to convert it to an integer. Reload your page and step through its operation again, and this time you will see that the variables are treated as numbers rather than strings, and that our page delivers us the answer we expect at the end:
+
+![Setting a breakpoint](img/correct-answer.png)
+
+### Coding in JavaScript
+
+Now we can debug our JavaScript, let's have a go at solving some problems. There are two challenges for this lab session, you should be able to complete the first relatively easily given the exercise above. The second may take a little longer. 
+
+!> Complete each task in a separate file and make sure the code is pushed to GitLab so everyone has access to it at the end of the session.
+
+#### Multiplication
+You should write a JavaScript program that asks the user for three numbers, (asking for a single number three separate times), multiplies the numbers together, and then returns the answer to the user, either via the console or an alert.
+
+#### Guess the Number
+You should write a JavaScript program that allows a player to enter a number between 0 and 100 that the computer will then guess. The player should respond whether the guess is the same as the number (Yes), Higher or Lower. The game should loop and continue guessing and asking if the number is correct, until it gets it right.
+
+Try to break your program by giving the computer the wrong answer, or a nonsensical answer. Can you add more code to the program to make sure it can cope with these types of inputs?
+
