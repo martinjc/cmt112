@@ -28,4 +28,9 @@ You should watch all these videos before the contact session in Week 4.
 
 There are some example pieces of code for this topic. The source code for each example can be viewed in the GitLab project '[cmt112-examples](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples)' and the end result can be seen on the [GitLab pages site for that project](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/).
 
-* Basic JS
+* Variable Types [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/2-1/basic-js/types.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-1/basic-js/types.html)
+* Numerical Operators [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/2-1/basic-js/numbers.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-1/basic-js/numbers.html)
+* Booleans [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/2-1/basic-js/booleans.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-1/basic-js/booleans.html)
+* Looping [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/2-1/basic-js/looping.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-1/basic-js/looping.html)
+* Arrays [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/2-1/basic-js/arrays.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-1/basic-js/arrays.html)
+* Array Functions [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/2-1/basic-js/array-functions.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-1/basic-js/array-functions.html)
