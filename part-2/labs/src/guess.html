@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the Number</title>
+</head>
+<body>
+    <script>
+
+    function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - (min+1))) + min;
+    }
+
+    var low = 0;
+    var high = 100;
+
+    console.log('Welcome to Guess my Number!');
+
+    console.log('You, the player, are thinking of a number between 1 and 100. I, the clever computer will try to guess it in as few attempts as possible.');
+
+    var number_to_guess = prompt('Think of a number between ' + low + ' and ' + high);
+
+    var guess = getRandomInt(low, high);
+
+    response = prompt("Is it " + guess + "(Yes, Higher, Lower)?");
+
+    while(response !== 'Yes' && response !== 'Higher' && response !== 'Lower'){
+        response = prompt('Please answer Yes, Higher or Lower');
+    }
+
+    var attempts = 1
+
+    while(response !== 'Yes') {
+        if(response === 'Higher') {
+            low = guess + 1;
+        }else if( response === 'Lower') {
+            high = guess - 1;
+        }
+        guess = getRandomInt(low, high);
+        response = prompt('Is it ' + guess + "(Yes, Higher, Lower)?");
+
+        while(response!== "Yes" && response !== "Higher" && response !== "Lower") {
+            response= prompt("Please answer Yes, Higher or Lower: ")
+        }
+
+        attempts += 1;
+    }
+
+    console.log("I guessed it! the number was " + guess + ".");
+    console.log("It took me only " + attempts + " attempts.");
+    </script>
+</body>
+</html>
