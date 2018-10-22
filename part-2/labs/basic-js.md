@@ -186,5 +186,7 @@ You should write a JavaScript program that asks the user for three numbers, (ask
 #### Guess the Number
 You should write a JavaScript program that allows a player to enter a number between 0 and 100 that the computer will then guess. The player should respond whether the guess is the same as the number (Yes), Higher or Lower. The game should loop and continue guessing and asking if the number is correct, until it gets it right.
 
+?> A template to be used as a starting point for this task can be found in the [cmt112-examples repository](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/2-1/lab/guess.html).
+
 Try to break your program by giving the computer the wrong answer, or a nonsensical answer. Can you add more code to the program to make sure it can cope with these types of inputs?
 
