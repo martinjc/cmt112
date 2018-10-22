@@ -10,6 +10,7 @@
 * [1.5 Further CSS Layouts](part-1/responsive-css-2)
 * [2. JavaScript Fundamentals](/part-2)
 * [2.1 Introduction to JS](part-2/intro-to-js)
+    * [2.1.1 JavaScript and Debugging](part-2/labs/basic-js)
 * [2.2 More JavaScript](part-2/more-js)
 * [2.3 Forms, Events and the DOM ](part-2/forms-events-dom)
 * [3. Server-Side Development](/part-3)
