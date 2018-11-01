@@ -93,14 +93,14 @@ This function accepts a String as input and should return that String with `hell
 - file: `sumall.js`
 - test: `test/test_sumall.js`
 
-This function accepts a number as input. It then returns the sum of all numbers lower than or equal to this value. For example, if given the input `5`, it should return `15` - (`5 + 4 + 3 + 2 + 1`)
+This function accepts a number as input. It then returns the sum of all numbers _lower than or equal to_ this value. For example, if given the input `5`, it should return `15` - (`5 + 4 + 3 + 2 + 1`)
 
 3.) Sumall35
 
 - file: `sumall35.js`
 - test: `test/test_sumall35.js`
 
-This function accepts a number as input. It then returns the sum of all numbers lower than or equal to this value that are exactly divisible by 3 or 5. For example, if given the input `7`, it should return `14` - (`6 + 5 + 3`)
+This function accepts a number as input. It then returns the sum of all numbers _lower than_ this value that are exactly divisible by 3 or 5. For example, if given the input `7`, it should return `14` - (`6 + 5 + 3`)
 
 4.) Largest
 
