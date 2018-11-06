@@ -170,3 +170,96 @@ If we want a parent element (or grand parent, or any kind of ancestor) to deal w
 
 ?> Can you modify the code so that it prints the number of the list item that has been clicked? Does it work as you expect?
 
+If you're not seeing the behaviour you expect, then most likely, you've modified the code like this:
+
+```js
+for (var i = 0; i < list_items.length; i++) {
+  list_items[i].addEventListener("click", function() {
+    console.log("list item " + i + " clicked");
+  });
+}
+```
+
+But this keeps printing out "list item 3 clicked" to the console whenever you click a list item:
+
+![Starting Page](img/week6-closure.png)
+
+This is because you have created a `closure` with your anonymous inner function. This function has access to all the variables that were in scope at the time of its creation. So, although we might expect `i` to only be in _scope_ during the execution of the for loop, JavaScript actually makes it available to our anonymous inner function (our event listener) later on too.
+
+This means that essentially the value of `i` is not considered at 'compile' time (when the browser first reads the JavaScript code). Instead, the browser simply remembers that it needs to run your function when it registers a `click` event on the list item, and when it does, it needs to check what the value of `i` is so it can be printed out to the console. Of course, by the time a click has been registered on the list item, our for loop has already run, and so `i` has the value of 3. No matter which item you click, the value of `i` will not change in the code, and so `list item 3 clicked` is printed to the console.
+
+There are two solutions to this problem. One is to wrap our eventListener code in another function which accepts the current version of `i` as input, and call it immediately:
+
+```js
+for (var i = 0; i < list_items.length; i++) {
+  (function(i) {
+    list_items[i].addEventListener("click", function() {
+      console.log("list item " + i + " clicked");
+    });
+  })(i);
+}
+```
+
+The simpler solution is just to use the `let` keyword for our `for` loop counter variable. This will declare `i` as a variable that is only in scope within the for loop, removing the problem of the closure retaining access to the global `i` variable after the `for` loop has stopped iterating:
+
+```js
+for (let i = 0; i < list_items.length; i++) {
+  list_items[i].addEventListener("click", function() {
+    console.log("list item " + i + " clicked");
+  });
+}
+```
+
+?> Can you add a listener that will turn the title of the page purple when the mouse is above the `h1` element?
+
+&nbsp;
+
+?> Going back to our work with the debugger a couple of weeks ago, can you add a breakpoint that will pause the code when an element with a 'click' event listener registered is clicked on?
+
+### Form input
+
+Now lets add a textbox and an input button to our page, and a list that we'll be adding some output to. The basic idea is that we want to be able to enter text in the text box and have it added to our list:
+
+```html
+<label for="nameTextField"></label>
+<input type="text" id="nameTextField">
+<input type="button" value="Okay!" id="okayButton">
+```
+
+And lets add some JavaScript that listens for the user pressing the 'Okay' button, and prints the contents of the text box to the console:
+
+```js
+let okay_button = document.getElementById("okayButton");
+okay_button.addEventListener("click", function() {
+  let nameTextBox = document.getElementById("nameTextField");
+  console.log(nameTextBox.value);
+});
+```
+
+Now we can get the contents of the text box when the user clicks "Okay", lets add this input to our list, and clear the text box for the next value to be added:
+
+```js
+let okay_button = document.getElementById("okayButton");
+okay_button.addEventListener("click", function() {
+  let nameTextBox = document.getElementById("nameTextField");
+  let textValue = nameTextBox.value;
+
+  let outputList = document.getElementById("outputList");
+
+  let newListItem = document.createElement("li");
+  let textContent = document.createTextNode(textValue);
+
+  newListItem.appendChild(textContent);
+  outputList.appendChild(newListItem);
+
+  nameTextBox.value = "";
+});
+```
+
+### Going Further
+
+We've got the beginnings of a basic 'to-do list' application here, but it's very rudimentary. See if you can improve the functionality.
+
+- Can you add some basic error checking to the input to prevent empty items being added to the list?
+- Can you add the functionality to allow a user to remove an item from the list by clicking on it?
+- Can you sort the list alphabetically?
