@@ -20,8 +20,6 @@ We'll start by cloning our existing repository to the lab machine you will be wo
 git clone git@gitlab.cs.cf.ac.uk:cmt112/<GROUPNAME>.git
 ```
 
-We have the following layout for code in our project:
-
 We'll need a new folder in our project for this week's work. Make a new folder (either in the file explorer or on the command line using the `mkdir` command), and call it 'week6-javascript'. Inside that folder, create an `index.html`. This is the base file for this week's project.
 
 ```html
