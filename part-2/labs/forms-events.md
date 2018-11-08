@@ -234,6 +234,16 @@ okay_button.addEventListener("click", function() {
 });
 ```
 
+Lets also add a list that we can use to add some output too:
+
+```html
+<label for="nameTextField"></label>
+<input type="text" id="nameTextField">
+<input type="button" value="Okay!" id="okayButton">
+<ul id="outputList">
+</ul>
+```
+
 Now we can get the contents of the text box when the user clicks "Okay", lets add this input to our list, and clear the text box for the next value to be added:
 
 ```js
