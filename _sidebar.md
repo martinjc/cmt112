@@ -14,7 +14,7 @@
 - [2.2 More JavaScript](part-2/more-js)
   - [2.2.1 JavaScript Problems](part-2/labs/more-js)
 - [2.3 Forms, Events and the DOM ](part-2/forms-events-dom)
-  [2.3.1 JavaScript Events and Forms](part-2/labs/forms-events)
+  - [2.3.1 JavaScript Events and Forms](part-2/labs/forms-events)
 - [3. Server-Side Development](/part-3)
 - [Assessment](assessment)
   - [Coursework 1](assessment/cw1)
