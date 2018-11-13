@@ -4,9 +4,9 @@ In this section we'll start to look at running JavaScript on the server using no
 
 ### Compulsory Reading
 
-- [Eloquent JavaScript - Chapter 20](http://eloquentjavascript.net/20_node.html) - This chapter includes an introduction to `node.js`, how to run code using `node`, how to use `npm` to install additional modules, and how to build a simple web server.
-- [What is a Web Framework?](https://jeffknupp.com/blog/2014/03/03/what-is-a-web-framework/) - This post focuses on explaining some of the concepts of using a server side Web Framework
-  .
+-   [Eloquent JavaScript - Chapter 20](http://eloquentjavascript.net/20_node.html) - This chapter includes an introduction to `node.js`, how to run code using `node`, how to use `npm` to install additional modules, and how to build a simple web server.
+-   [What is a Web Framework?](https://jeffknupp.com/blog/2014/03/03/what-is-a-web-framework/) - This post focuses on explaining some of the concepts of using a server side Web Framework
+    .
 
 ### Videos
 
@@ -24,4 +24,4 @@ You should watch all these videos before the contact session in Week 7.
 
 ## Code Examples
 
-There are some example pieces of code for this topic. The source code for each example can be viewed in the GitLab project '[cmt112-examples](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples)' and the end result can be seen on the [GitLab pages site for that project](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/).
+There are some example pieces of code for this topic. The source code for each example can be viewed in the GitLab project '[cmt112-examples](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples)' and the end result can be seen on the [GitLab pages site for that project](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/). The examples for this week are all server-side code, so there are no demonstration webpages. You can see them in the folder `3-1` in the project repository.
