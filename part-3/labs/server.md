@@ -22,6 +22,8 @@ git clone git@gitlab.cs.cf.ac.uk:cmt112/<GROUPNAME>.git
 
 We'll need a new folder in our project for this week's work. Make a new folder (either in the file explorer or on the command line using the `mkdir` command), and call it 'week7-server-side-js'.
 
+!> We'll be working with Node again today, so as we did in Week 5, we'll need to remember to add a `.gitignore` file to make sure our `node_modules` folder is not included in our Git repository
+
 ### A simple Web Server
 
 Inside the directory for this week, run the following command:
@@ -228,6 +230,65 @@ const server = http.createServer(function(request, response) {
   }
 });
 ```
+
+The result in the web browser doesn't look very different, but if we open the 'Network' tab in the developer tools, we can see the data has definitely been returned as `application/json` rather than `text/plain`.
+
+![Return JSON data](img/json-response.png)
+
+Now lets add a little more functionality to our server. First, we're going to install a module called `[moment](https://momentjs.com/)`. Moment is a handy JavaScript library for dealing with times and dates, and we're going to use it so that our server can tell us what time it is.
+
+```
+npm install moment --save
+```
+
+NPM will download and install the moment library in our node_modules folder, and will save it to our package.json. Saving a library as a dependency in this way means that when we share our code with someone they can use the package.json file and npm to make sure they have all the requirements installed that are needed for the code to run.
+
+!> You did remember to add node_modules to your .gitignore file, didn't you?
+
+You can create a `.gitignore` file that will stop `node_modules` being added to your Git repository with the following command:
+
+```bash
+echo 'node_modules' > .gitignore
+```
+
+Now that moment is installed, we can require it:
+
+```js
+const http = require("http");
+const url = require("url");
+const moment = require("moment");
+```
+
+And then use it in our server:
+
+```js
+if (u.pathname === "/hello") {
+  return_JSON("Hello World!", response);
+} else if (u.pathname === "/goodbye") {
+  return_JSON("Goodbye!", response);
+} else if (u.pathname === "/time") {
+  var now = new moment().utc();
+  var data = {
+    now: now,
+    year: now.year(),
+    month: now.month(),
+    day: now.day(),
+    hour: now.hour(),
+    minute: now.minute()
+  };
+  return_JSON(data, response);
+} else {
+  return_JSON("How can I help?", response);
+}
+```
+
+Now when we make a request to `http://127.0.0.1:3000/time` we get told the current time, and the data is returned to us in JSON format.
+
+Next week, we'll go on to look at how we could make this request using JavaScript, and how we could use the data that is returned to us in the response.
+
+### Going further
+
+?> Can you add more functionality to the server? Look at the `fs` module in Node. Could you add some functionality that allows the server to read and return a local file?
 
 ### Further Reading
 
