@@ -1,5 +1,7 @@
 ## Lab Exercise: Server Side JavaScript
 
+!> Before you start on today's Lab Exercise, please take 5 minutes to complete the mid-module feedback form here: http://bit.ly/cmt112-mmf. This is completely anonymous, but will help me to continue improving this module. I will look at the responses to the form and discuss them with you at the contact session in Week 9.
+
 We are now going to start having a look at using JavaScript on the server using [NodeJS](https://nodejs.org/en/). [Node](https://nodejs.org/en/about/) is basically a JavaScript engine (the [V8 engine](https://en.wikipedia.org/wiki/Chrome_V8)), but instead of running inside a web browser, it runs on the command line, and includes a lot of handy JavaScript modules for doing certain tasks (like reading and writing files, or running servers).
 
 !> Node should already be installed on your lab machine. If you get an error message when trying to run node stating `command not found` try another lab machine.
@@ -50,14 +52,14 @@ const server_ip = "127.0.0.1";
 
 // create a server
 const server = http.createServer(function(request, response) {
-  response.statusCode = 200;
-  response.setHeader("Content-Type", "text/plain");
-  response.end("Hello World!");
+    response.statusCode = 200;
+    response.setHeader("Content-Type", "text/plain");
+    response.end("Hello World!");
 });
 
 // start the server listening
 server.listen(server_port, server_ip, function() {
-  console.log(`server running at http://${server_ip}:${server_port}/`);
+    console.log(`server running at http://${server_ip}:${server_port}/`);
 });
 ```
 
@@ -96,10 +98,10 @@ it will start in a debug mode, and pause once our code starts running. If you th
 
 ```js
 const server = http.createServer(function(request, response) {
-  debugger;
-  response.statusCode = 200;
-  response.setHeader("Content-Type", "text/plain");
-  response.end("Hello World!");
+    debugger;
+    response.statusCode = 200;
+    response.setHeader("Content-Type", "text/plain");
+    response.end("Hello World!");
 });
 ```
 
@@ -120,11 +122,11 @@ or by printing the information we need to the command line:
 ```js
 // create a server
 const server = http.createServer(function(request, response) {
-  debugger;
-  console.log(request.headers);
-  response.statusCode = 200;
-  response.setHeader("Content-Type", "text/plain");
-  response.end("Hello World!");
+    debugger;
+    console.log(request.headers);
+    response.statusCode = 200;
+    response.setHeader("Content-Type", "text/plain");
+    response.end("Hello World!");
 });
 ```
 
@@ -137,11 +139,11 @@ Let's replace the headers with some more useful information that we'll print to 
 ```js
 // create a server
 const server = http.createServer(function(request, response) {
-  debugger;
-  console.log(`received a ${request.method} request to url ${request.url}`);
-  response.statusCode = 200;
-  response.setHeader("Content-Type", "text/plain");
-  response.end("Hello World!");
+    debugger;
+    console.log(`received a ${request.method} request to url ${request.url}`);
+    response.statusCode = 200;
+    response.setHeader("Content-Type", "text/plain");
+    response.end("Hello World!");
 });
 ```
 
@@ -168,20 +170,20 @@ Then we can change our server function so that it checks the path used and respo
 
 ```js
 const server = http.createServer(function(request, response) {
-  console.log(`received a ${request.method} request to url ${request.url}`);
+    console.log(`received a ${request.method} request to url ${request.url}`);
 
-  const u = url.parse(request.url, true);
+    const u = url.parse(request.url, true);
 
-  response.statusCode = 200;
-  response.setHeader("Content-Type", "text/plain");
+    response.statusCode = 200;
+    response.setHeader("Content-Type", "text/plain");
 
-  if (u.pathname === "/hello") {
-    response.end("Hello World!");
-  } else if (u.pathname === "/goodbye") {
-    response.end("Goodbye!");
-  } else {
-    response.end("How can I help?");
-  }
+    if (u.pathname === "/hello") {
+        response.end("Hello World!");
+    } else if (u.pathname === "/goodbye") {
+        response.end("Goodbye!");
+    } else {
+        response.end("How can I help?");
+    }
 });
 ```
 
@@ -205,9 +207,9 @@ First we'll add a new function to our server:
 
 ```js
 const return_JSON = function(json_data, response) {
-  response.statusCode = 200;
-  response.setHeader("Content-Type", "application/json");
-  response.end(JSON.stringify(json_data));
+    response.statusCode = 200;
+    response.setHeader("Content-Type", "application/json");
+    response.end(JSON.stringify(json_data));
 };
 ```
 
@@ -216,18 +218,18 @@ Then we'll use this function to return data in our response:
 ```js
 // create a server
 const server = http.createServer(function(request, response) {
-  debugger;
-  console.log(`received a ${request.method} request to url ${request.url}`);
+    debugger;
+    console.log(`received a ${request.method} request to url ${request.url}`);
 
-  const u = url.parse(request.url, true);
+    const u = url.parse(request.url, true);
 
-  if (u.pathname === "/hello") {
-    return_JSON("Hello World!", response);
-  } else if (u.pathname === "/goodbye") {
-    return_JSON("Goodbye!", response);
-  } else {
-    return_JSON("How can I help?", response);
-  }
+    if (u.pathname === "/hello") {
+        return_JSON("Hello World!", response);
+    } else if (u.pathname === "/goodbye") {
+        return_JSON("Goodbye!", response);
+    } else {
+        return_JSON("How can I help?", response);
+    }
 });
 ```
 
@@ -263,22 +265,22 @@ And then use it in our server:
 
 ```js
 if (u.pathname === "/hello") {
-  return_JSON("Hello World!", response);
+    return_JSON("Hello World!", response);
 } else if (u.pathname === "/goodbye") {
-  return_JSON("Goodbye!", response);
+    return_JSON("Goodbye!", response);
 } else if (u.pathname === "/time") {
-  var now = new moment().utc();
-  var data = {
-    now: now,
-    year: now.year(),
-    month: now.month(),
-    day: now.day(),
-    hour: now.hour(),
-    minute: now.minute()
-  };
-  return_JSON(data, response);
+    var now = new moment().utc();
+    var data = {
+        now: now,
+        year: now.year(),
+        month: now.month(),
+        day: now.day(),
+        hour: now.hour(),
+        minute: now.minute()
+    };
+    return_JSON(data, response);
 } else {
-  return_JSON("How can I help?", response);
+    return_JSON("How can I help?", response);
 }
 ```
 
