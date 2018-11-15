@@ -2,7 +2,7 @@
 
 Coursework 1 is worth 30% of the marks for the module.
 
-It has been handed out in Week 2 and is due for submission by 09:30am on 1st November 2018. Marks and written feedback will be returned via email within four working weeks.
+It has been handed out in Week 2 and was due for submission by 09:30am on 1st November 2018. Marks and written feedback will be returned via email within four working weeks.
 
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=76d96c89-31bc-4c2a-af47-a97600da0de4&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
