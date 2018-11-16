@@ -20,3 +20,19 @@ You should watch all these videos before the contact session in Week 8.
 ## Code Examples
 
 There are some example pieces of code for this topic. The source code for each example can be viewed in the GitLab project '[cmt112-examples](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples)' and the end result can be seen on the [GitLab pages site for that project](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/).
+
+### Sunrise-Sunset
+
+These examples use the [Sunrise-Sunset API](https://sunrise-sunset.org/api), a simple API which accepts Latitude and Longitude coordinates as input and returns details on the time of sunrise and sunset at that location.
+
+- XMLHttpRequest - Event Listener [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/sunrise-sunset/xhr-listener) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/sunrise-sunset/xhr-listener)
+- XMLHttpRequest OnReadyStateChange [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/sunrise-sunset/xhr-onreadystate) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/sunrise-sunset/xhr-onreadystate)
+- Fetch [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/sunrise-sunset/fetch) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/sunrise-sunset/fetch)
+
+### Spotify
+
+These examples use the Spotify API. They are more complicated, as login is required to access data
+
+- Login - An example showing logging in to an API using OAuth< [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/spotify/login) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/spotify/login/login.html)
+- Recently Played - An example showing logging in to an API using OAuth and retrieving some data [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/spotify/recently-played) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/spotify/recently-played/login.html)
+- POST - An example showing logging in to an API using OAuth and then POSTing some data to the API [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/spotify/post) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/spotify/post/login.html)
