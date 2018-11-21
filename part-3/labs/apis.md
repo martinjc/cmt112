@@ -27,36 +27,32 @@ Lets set up a basic page with a text input box and an action button, and give it
 ```html
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Document</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
-</head>
-
-<body>
-    <div id="input">
-        <form>
-            <label for="search_term">Enter a name to search for:
-                <input type="text" id="search_term">
-            </label>
-            <input type="button" id="search_button" value="Search">
-        </form>
-    </div>
-    <div id="output">
-    </div>
-    <script src="js/api.js">
-    </script>
-</body>
-
+    <body>
+        <div id="input">
+            <form>
+                <label for="search_term"
+                    >Enter a name to search for: <input type="text" id="search_term" />
+                </label>
+                <input type="button" id="search_button" value="Search" />
+            </form>
+        </div>
+        <div id="output"></div>
+        <script src="js/api.js"></script>
+    </body>
 </html>
 ```
 
 ```css
 body {
-    font-family: 'Montserrat', 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", "Helvetica Nueue", Helvetica, Arial, sans-serif;
     font-size: 2em;
 }
 
@@ -66,21 +62,21 @@ body {
     margin: auto;
 }
 
-input[type=text] {
-    border:2px solid #ccc; 
+input[type="text"] {
+    border: 2px solid #ccc;
     border-radius: 5px;
 }
 
-input[type=text]:focus {
-    border-color:#333; 
+input[type="text"]:focus {
+    border-color: #333;
 }
 
-input[type=button] {
+input[type="button"] {
     background-color: #eee;
-    border:0 none;
-    cursor:pointer;
+    border: 0 none;
+    cursor: pointer;
     border-radius: 5px;
-    font-family: 'Montserrat', 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", "Helvetica Nueue", Helvetica, Arial, sans-serif;
     font-size: 1em;
 }
 ```
@@ -101,52 +97,51 @@ Here we are acquiring a reference to the 'Search' button using `getElementById` 
 Lets add a function that will take some parameters for an API call, and convert them into a String:
 
 ```js
-const encodeParameters = function (params) {
+const encodeParameters = function(params) {
     var strArray = [];
-    Object.keys(params).forEach(function (key) {
+    Object.keys(params).forEach(function(key) {
         var paramString = encodeURIComponent(key) + "=" + encodeURIComponent(params[key]);
         strArray.push(paramString);
     });
     return strArray.join("&");
-}
+};
 ```
 
-This function will take an object of parameters like this: 
+This function will take an object of parameters like this:
 
 ```js
 let parameters = {
     name: "martin",
-    job: "paper work",
-}
+    job: "paper work"
+};
 ```
 
 and turn it into a String like this:
 
 ```js
-paramString = "name=martin&job=paper%20work"
+paramString = "name=martin&job=paper%20work";
 ```
 
-This means we can store our parameters for API calls in a nice JavaScript data structure (an Object) then turn them into an appropriate String when the time comes. 
+This means we can store our parameters for API calls in a nice JavaScript data structure (an Object) then turn them into an appropriate String when the time comes.
 
 Now, let's make an API request:
 
 ```js
-const makeAPIQuery = function (search_term) {
-
+const makeAPIQuery = function(search_term) {
     let rootURL = "https://api.punkapi.com/v2/beers";
 
     let params = {
-        "beer_name": search_term
+        beer_name: search_term
     };
 
-    let queryURL = rootURL + '?' + encodeParameters(params);
+    let queryURL = rootURL + "?" + encodeParameters(params);
     console.log(queryURL);
 
     let xhttp = new XMLHttpRequest();
-    xhttp.addEventListener('load', processResponse);
-    xhttp.open('GET', queryURL);
+    xhttp.addEventListener("load", processResponse);
+    xhttp.open("GET", queryURL);
     xhttp.send();
-}
+};
 ```
 
 Here we use our encodeParameters function to put together a full query URL we can call to get the data we want. We then create an `XMLHttpRequest` object and tell it to call this URL. Once the API call has finished, a `load` event will fire and call the `processResponse` function.
@@ -154,59 +149,55 @@ Here we use our encodeParameters function to put together a full query URL we ca
 Of course, we haven't written the `processResponse` function, so lets do that next:
 
 ```js
-
-const processResponse = function () {
+const processResponse = function() {
     let response = JSON.parse(this.response);
     console.log(response);
-}
+};
 ```
 
 All we need to do now is call the `makeAPIQuery` function when the user clicks the `Search` button. Putting all of this together, we end up with a basic working example:
 
 ```js
-const processResponse = function () {
+const processResponse = function() {
     let response = JSON.parse(this.response);
     console.log(response);
-}
+};
 
-const encodeParameters = function (params) {
+const encodeParameters = function(params) {
     var strArray = [];
-    Object.keys(params).forEach(function (key) {
+    Object.keys(params).forEach(function(key) {
         var paramString = encodeURIComponent(key) + "=" + encodeURIComponent(params[key]);
         strArray.push(paramString);
     });
     return strArray.join("&");
-}
+};
 
-const makeAPIQuery = function (search_term) {
-
+const makeAPIQuery = function(search_term) {
     let rootURL = "https://api.punkapi.com/v2/beers";
 
     let params = {
-        "beer_name": search_term
+        beer_name: search_term
     };
 
-    let queryURL = rootURL + '?' + encodeParameters(params);
+    let queryURL = rootURL + "?" + encodeParameters(params);
     console.log(queryURL);
 
     let xhttp = new XMLHttpRequest();
-    xhttp.addEventListener('load', processResponse);
-    xhttp.open('GET', queryURL);
+    xhttp.addEventListener("load", processResponse);
+    xhttp.open("GET", queryURL);
     xhttp.send();
-}
-
+};
 
 let submitButton = document.getElementById("search_button");
-submitButton.addEventListener('click', function () {
-
+submitButton.addEventListener("click", function() {
     let search_term = document.getElementById("search_term").value;
 
     if (search_term) {
         makeAPIQuery(search_term);
     }
-
-})
+});
 ```
+
 If you load the page and make a query, you can see the response in the console:
 
 ![API Request](img/api-request.png)
@@ -214,32 +205,32 @@ If you load the page and make a query, you can see the response in the console:
 Once this is working, we can use similar code to that we were looking at in the To-Do List example to add some details of the beer to a list:
 
 ```js
-const createList = function (parentElement) {
-    let newList = document.createElement('ol');
+const createList = function(parentElement) {
+    let newList = document.createElement("ol");
     parentElement.appendChild(newList);
     return newList;
-}
+};
 
-const addListItem = function (parentList, textContent) {
-    let newItem = document.createElement('li');
+const addListItem = function(parentList, textContent) {
+    let newItem = document.createElement("li");
     newItem.appendChild(document.createTextNode(textContent));
     parentList.appendChild(newItem);
-}
+};
 
-const processResponse = function () {
+const processResponse = function() {
     let response = JSON.parse(this.response);
     console.log(response);
     let outputDiv = document.getElementById("output");
     let newList = createList(outputDiv);
-    response.forEach(function (beer) {
+    response.forEach(function(beer) {
         addListItem(newList, beer.name);
     });
-}
+};
 ```
 
 Our full example will now allow us to search for a beer, and will add the results to a list:
 
-![API Request](img/api-request.png)
+![API Request](img/api-request2.png)
 
 ### Doing something else
 
@@ -250,4 +241,3 @@ Now we have a basic example working, can you make it do something more interesti
 ?> Can you change the functionality of the website - rather than searching by beer name, can you search for food pairings instead? You'll need to check the [API documentation](https://punkapi.com/documentation/v2) for the different parameters accepted by the API.
 
 ?> How about combining functionality? Can you have multiple search terms (for instance, search for beers above a certain ABV that go well with fish?)
-
