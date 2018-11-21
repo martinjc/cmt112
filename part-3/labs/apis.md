@@ -1,5 +1,10 @@
 ## Lab Exercise: APIs
 
+!> Before we start - yet another survey for you to complete! The Welcome to Cardiff survey is for all new students to give us their feedback on the first few weeks of their degree programme. Before we start looking at putting an API request together, please take 5 minutes to complete this [survey](https://go.cf.ac.uk/welcomePGT18)
+
+
+### Getting on with it
+
 We are now going to practice using JavaScript to create a page that will take user input and make search requests on the API. The API we will be using is '[Punk API](https://punkapi.com/documentation/v2)' - an API to Brewdog's collection of beer recipes and data. The page we create will allow a user to search the API for particular beers, and will present the data back to the user.
 
 **One person** should take the lead with coding, and the other(s) act as reviewers and editors, helping the lead coder create the code: suggesting solutions for implementation, watching for typos and minor errors, and providing feedback and evaluation. You will also be using Git for version control for the code on this exercise, and will share it to GitLab so that your entire group has access to the final code.
