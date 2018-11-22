@@ -10,7 +10,7 @@ PontyBridge University are back. They’re so impressed with the work you did on
 
 The University has bought a new backend for their Library system. This is a simple server application that allows the University to track the books that they have, the library users, and which users have borrowed which books. Unfortunately, they forgot to buy a front-end for the system, so they need you to write one.
 
-The beta version of the code for the Library server is available at git@gitlab.cs.cf.ac.uk:cmt112/cw2-libraryserver.git, and the developers have promised you the final version by the end of November. You should download the code and familiarise yourself with it. Full usage instructions are included in the Readme.md file contained in the project repository.
+The beta version of the code for the Library server is available at [git@gitlab.cs.cf.ac.uk:cmt112/cw2-libraryserver.git](https://gitlab.cs.cf.ac.uk/cmt112/cw2-libraryserver), and the developers have promised you the final version by the end of November. You should download the code and familiarise yourself with it. Full usage instructions are included in the Readme.md file contained in the project repository.
 
 The applications itself provides a simple server with a REST API which has the following functionality:
 
