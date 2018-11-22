@@ -20,6 +20,7 @@
     -   [3.3.1 Server Side Implementation](part-3/labs/server.md)
 -   [3.2 REST APIs](part-3/apis.md)
     -   [3.2.1 API Searching](part-3/labs/apis.md)
+    -   [3.2.2 API Searching 2](part-3/labs/apis2.md)
 -   [3.3 Further JavaScript](part-3/more-js.md)
 -   [3.4 Build Tools](part-3/build-tools.mc)
 -   [Assessment](assessment)
