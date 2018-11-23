@@ -4,14 +4,8 @@ In this section we look at more ools and techniques that can improve our lives a
 
 ### Compulsory Reading
 
-- [Sass and Less - an Introduction](http://vanseodesign.com/css/css-preprocessors/) - An introduction to CSS Preprocessors such as Sass and Less which can greatly simplify writing our CSS
-- [Jekyll from Scratch - Getting Started](http://pixelcog.com/blog/2013/jekyll-from-scratch-introduction/) - An overview of Jekyll, a static site generator (one of many).
-
-
-
-### Videos
-
-You should watch all these videos before the contact session in Week 10.
+-   [Sass and Less - an Introduction](http://vanseodesign.com/css/css-preprocessors/) - An introduction to CSS Preprocessors such as Sass and Less which can greatly simplify writing our CSS
+-   [Jekyll from Scratch - Getting Started](http://pixelcog.com/blog/2013/jekyll-from-scratch-introduction/) - An overview of Jekyll, a static site generator (one of many).
 
 ## Code Examples
 
