@@ -22,7 +22,7 @@
     -   [3.2.1 API Searching](part-3/labs/apis.md)
     -   [3.2.2 API Searching 2](part-3/labs/apis2.md)
 -   [3.3 Further JavaScript](part-3/more-js.md)
--   [3.4 Build Tools](part-3/build-tools.mc)
+-   [3.4 Build Tools](part-3/build-tools.md)
 -   [Assessment](assessment)
     -   [Coursework 1](assessment/cw1)
     -   [Coursework 2](assessment/cw2)
