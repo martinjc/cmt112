@@ -9,4 +9,10 @@ In this section we look at more ools and techniques that can improve our lives a
 
 ## Code Examples
 
-There are some example pieces of code for this topic. The source code for each example can be viewed in the GitLab project '[cmt112-examples](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples)' and the end result can be seen on the [GitLab pages site for that project](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/).
+There are some example pieces of code for this topic:
+
+* The code for the [website that uses Jekyll is here](https://github.com/martinjc/martinjc.com)
+
+* The code for the [website that does not use Jekyll is here](https://github.com/martinjc/datajconf)
+
+
