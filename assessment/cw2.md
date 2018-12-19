@@ -2,7 +2,7 @@
 
 Coursework 2 is worth 70% of the marks for the module.
 
-It has been handed out in Week 7 and will be due in during Week 12. Marks and written feedback will be returned within four working weeks.
+It has been handed out in Week 7 and will be due in on 24th January 2019. Marks and written feedback will be returned within four working weeks.
 
 ## Assignment
 
