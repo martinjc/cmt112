@@ -48,7 +48,17 @@ API endpoints are implemented in the Server application to allow this functional
 
 You are free to modify the server code as you see fit. You are also free to add additional functionality beyond that requested by the University. Alongside the final source code for your front-end (and the server application if you have modified that) you should submit a short document describing the functionality you have implemented. This does not need to be extensive: one or two sentences on each functional requirement, indicating how and where you have implemented the functionality is fine. You may also include screenshots showing the website functionality.
 
+### Quick explanation of the Coursework
+
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=0b3f6f9a-150f-423f-9e23-a9a000e5ed6f&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
+### In depth look at the Coursework server
+
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=6bd69cfa-2fe2-4ed0-9e94-a9bb00f8b204&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
+### Questions and Answers about the Coursework
+
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=48e37b0b-11d2-46fa-b404-a9bb01042f57&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 ## Learning Central
 
