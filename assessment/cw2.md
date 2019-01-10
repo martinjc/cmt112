@@ -62,6 +62,8 @@ You are free to modify the server code as you see fit. You are also free to add 
 
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=a282cdbf-1ee0-4ed9-98f6-a9d000ed0d91&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=f1685bc3-9348-407e-a217-a9d100dfe06b&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
 ## Learning Central
 
 The assignment and associated reference material can be found [on Learning Central, under 'Assessment' in the CMT112 module]().
