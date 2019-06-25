@@ -36,9 +36,9 @@ It is expected that before each week’s contact session you will have:
 * worked through any recommended external tutorials
 * completed any online quizzes
 
-{{% alert info %}}
+{{% notice warning %}}
 Activities within each contact session will depend on you having completed the recommended reading, watching and doing. At the end of each contact session you will be advised of which material you need to engage with before the next week's session.
-{{% /alert %}}
+{{% /notice %}}
 
 During most weeks there will be some element of group exercise to be completed. It will not always be possible to complete these exercises during the lab time allotted. Students are expected to work in their groups to complete the lab exercises by the given deadline.
 
@@ -50,9 +50,9 @@ Each 20 credit module is equivalent to approximately 200 hours of study. Our con
 
 ## Course Engagement
 
-{{% alert warning %}}
+{{% notice warning %}}
 All contact sessions for the course are compulsory.
-{{% /alert %}}
+{{% /notice %}}
 
 Engagement with the online activities may be monitored through analytics software.
 
@@ -73,9 +73,9 @@ Coursework 2 is worth 70% of the module marks, and involves developing an intera
 * Hand out Week 7
 * Hand in Week 12
 
-{{% alert info %}}
-All assignments will be submitted through Learning Central. Marks and written feedback will be returned via GradeCentre. This will be supplemented by oral feedback during a contact session.
-{{% /alert %}}
+{{% notice note %}}
+All assignments will be submitted through Learning Central. Marks and written feedback will be returned via email. This will be supplemented by oral feedback during a contact session.
+{{% /notice %}}
 
 ## Lecturing Staff
 
