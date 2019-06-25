@@ -1,6 +1,7 @@
 +++
 type="page"
 title="Server-Side Development"
+weight=3
 +++
 
 # 3. Server-Side Development
@@ -13,12 +14,13 @@ In Week 7 we will look at node.js and begin to understand how we might write app
 
 ### Week 8
 
-In Week 8 we will look at REST APIs and the role they can play in a web application, looking at how we might request information or data from an API in a front-end website, and some of the issues facing building a website front-end for an API
+In Week 8 we will look at databases, how we can design and store data in a simple relational database, and access this data in our code.
 
 ### Week 9
 
-In Week 9 we will look at some more advanced JavaScript techniques, including new language features and how to write modular, well-structured code.
+In Week 8 we will look at REST APIs and the role they can play in a web application, looking at how we might request information or data from an API in a front-end website, and some of the issues facing building a website front-end for an API
 
 ### Week 10
 
-In Week 10 we will look at tools and techniques that can improve our lives as developers, and allow us to build simple toolchains that will help get our code ready for production and live deployment.
+In Week 9 we will look at some more advanced JavaScript techniques, including new language features and how to write modular, well-structured code. We will also look at tools and techniques that can improve our lives as developers, and allow us to build simple toolchains that will help get our code ready for production and live deployment.
+

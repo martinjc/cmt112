@@ -1,3 +1,7 @@
++++
+title= "Assessment"
+weight = 4
++++
 # Assessment
 
 This module is assessed through two coursework assignments, there is no exam.

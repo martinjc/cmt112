@@ -1,6 +1,7 @@
 +++
 type="page"
 title="JavaScript Fundamentals"
+weight=2
 +++
 
 # 2. JavaScript Fundamentals

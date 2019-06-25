@@ -1,6 +1,7 @@
 +++
 type="page"
 title="Introduction to HTML, CSS & JS"
+weight=1
 +++
 
 # 1. Introduction to HTML, CSS & JS
