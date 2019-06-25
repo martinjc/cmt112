@@ -1,4 +1,8 @@
-## Lab Exercise - Making our web pages responsive
++++
+title="Lab Exercise: Responsive CSS"
+weight = 3
++++
+
 
 The task in this lab session is to work in your groups to make a responsive website - that is one that adapts to different types of device and screen size to ensure the user experience is optimal.
 

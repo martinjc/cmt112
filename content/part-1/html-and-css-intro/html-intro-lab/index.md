@@ -1,8 +1,12 @@
-## Lab Exercise - Creating a Web Page
++++
+title="Lab Exercise: Creating a Web Page"
++++
 
 During the lab activity for this topic we will put what we have learnt into practice by creating a simple HTML web page. We will also practice using version control software to ensure our code is safely versioned and stored. 
 
-!> This lab assumes that you completed the '[Introduction to Git](http://comsc.pages.cs.cf.ac.uk/introduction-to-git/#/)' exercise during induction week. If you have not already completed this exercise, please [go and work through that exercise](http://comsc.pages.cs.cf.ac.uk/introduction-to-git/#/) first, before coming back to complete this activity.
+{{% alert info %}}
+This lab assumes that you completed the '[Introduction to Git](http://comsc.pages.cs.cf.ac.uk/introduction-to-git/#/)' exercise during induction week. If you have not already completed this exercise, please [go and work through that exercise](http://comsc.pages.cs.cf.ac.uk/introduction-to-git/#/) first, before coming back to complete this activity.
+{{% /alert %}}
 
 For this exercise we'll need a few different applications open. You should search for and open all these applications before we start:
 
@@ -47,7 +51,10 @@ cmt112-labs
      |- index.html
 ```
 
-?> Question: Why do we use the name `index.html` for the web page?
+{{% alert warning %}}
+Question: Why do we use the name `index.html` for the web page?
+{{% /alert %}}
+
 
 We can view our new HTML page in a number of ways. The easiest is to open a new Google Chrome window, then drag the `index.html` file from a File Explorer window and drop it onto our web browser window. This will open and display the file:
 
@@ -110,7 +117,9 @@ git commit -m "hello world web page"
  create mode 100644 Week1/index.html
 ```
 
-!> This is the same process we'll use whenever we want to save a copy of our work - first `git add` the code to our staging area, then `git commit` the code to our repository. You should do this from now on whenever you have made a significant change to your work (there will be reminders to do this occasionally!).
+{{% alert info %}}
+This is the same process we'll use whenever we want to save a copy of our work - first `git add` the code to our staging area, then `git commit` the code to our repository. You should do this from now on whenever you have made a significant change to your work (there will be reminders to do this occasionally!).
+{{% /alert %}}
 
 ### Developer Tools
 
@@ -156,7 +165,9 @@ You can see two directories: our `Week1` directory where our webpage is saved, a
 
 ![Web page on local server](img/1.2.1/local-server-page.png)
 
-?> Now you can see why we named our HTML page `index.html` - a web server will automatically serve a page named `index.html` when a request is made for a given directory. By using this name, the index page will automatically be loaded rather than the server displaying a directory listing as it did for the parent directory.
+{{% alert info %}}
+Now you can see why we named our HTML page `index.html` - a web server will automatically serve a page named `index.html` when a request is made for a given directory. By using this name, the index page will automatically be loaded rather than the server displaying a directory listing as it did for the parent directory.
+{{% /alert %}}
 
 If we look at the command line, we can see the output from our web server, listing the requests made to the web server:
 
@@ -169,7 +180,9 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 
 The first request was for '/', the root directory where the server is running. We can see the code `200` here, indicating this request was successful. (We'll look at response codes in more depth later). This was followed by a request for `/favicon.ico`. This is the browser requesting an icon to display representing the web page. We haven't provided one, so this request has a `404` response - which means the requested resource has not been found. The final request is asking for the `Week1` directory, which succeeds as the browser is able to respond with the `index.html` page.
 
-?> From now on, we'll use a local web browser to serve our web pages while we're developing them. Remember to use `python -m http.server` to start a web server in your root directory whenever you start working on your code.
+{{% alert info %}}
+From now on, we'll use a local web browser to serve our web pages while we're developing them. Remember to use `python -m http.server` to start a web server in your root directory whenever you start working on your code.
+{{% /alert %}}
 
 ### Experimenting with HTML
 
@@ -242,4 +255,6 @@ Now it is your turn to start writing HTML. Experiment with adding more content, 
 
 Use CSS rules to change the formatting of your content.
 
-?> Remember to commit your changes frequently, and definitely commit your final code at the end of the lab!
+{{% alert info %}}
+Remember to commit your changes frequently, and definitely commit your final code at the end of the lab!
+{{% /alert %}}

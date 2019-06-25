@@ -1,4 +1,6 @@
-## Lab Exercise - CSS Layout + GitLab Pages
++++
+title="Lab Exercise: CSS Layout + GitLab Pages"
++++
 
 The task in this lab session is to work in your groups to produce a website with a fairly complex layout. In your group you should look at a website you visit often, and attempt to recreate that website layout using the HTML and CSS we have looked at to date.
 
