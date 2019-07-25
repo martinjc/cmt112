@@ -2,7 +2,7 @@
 
 These pages contain the course notes, links, videos and reading for CMT112 - Web Application Development, an Autumn Semester 20 Credit Level 7 module in the School of Computer Science & Informatics at Cardiff University.
 
-[Latest Module Description](https://data.cardiff.ac.uk/legacy/grails/module/CMT112/18A.html)
+[Latest Module Description](https://data.cardiff.ac.uk/legacy/grails/module/CMT112/19A.html)
 
 <p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4e92212f-eb52-4f61-ad7f-a96800d94f42" target="blank">link to the full version of the video</a></small></p>
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=4e92212f-eb52-4f61-ad7f-a96800d94f42&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
