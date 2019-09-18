@@ -216,14 +216,14 @@ git commit -m "added a paragraph"
 ```
 
 
-{{% panel theme="primary" header="Question" %}}
+{{< panel theme="primary" header="Question" >}}
 How would we revert these changes using Git if we then decided we didn't like the content addition?
 
 {{% expand "click for answer..." %}}
 We can use the `git checkout` command to roll our repository back to a past commit.
 {{% /expand %}}
 
-{{% /panel %}}
+{{< /panel >}}
 
 
 
