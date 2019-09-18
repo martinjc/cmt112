@@ -1,3 +1,8 @@
++++
+title="Forms, Events and the DOM"
+weight=3
++++
+
 ## Overview
 
 In this section we'll start to look at using JavaScript to add interactivity to our pages. We'll look at getting user input, dynamically updating our HTML, and processing interaction events in JS.

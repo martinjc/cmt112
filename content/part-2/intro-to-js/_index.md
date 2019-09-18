@@ -1,3 +1,8 @@
++++
+title="Introduction to JavaScript"
+weight=1
++++
+
 ## Overview
 
 We're now going to start to look at adding interactivity to our HTML & CSS, and to do this we're going to start to learn how to code in JavaScript

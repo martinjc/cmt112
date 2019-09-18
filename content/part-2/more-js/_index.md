@@ -1,3 +1,8 @@
++++
+title="More JavaScript"
+weight=2
++++
+
 ## Overview
 
 In this section we'll really start getting to grips with some of the features and functionality of JavaScript
