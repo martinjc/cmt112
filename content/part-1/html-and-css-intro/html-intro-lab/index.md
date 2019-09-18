@@ -4,20 +4,19 @@ title="Lab Exercise: Creating a Web Page"
 
 During the lab activity for this topic we will put what we have learnt into practice by creating a simple HTML web page. We will also practice using version control software to ensure our code is safely versioned and stored. 
 
-{{% notice info %}}
-This lab assumes that you completed the '[Introduction to Git](http://comsc.pages.cs.cf.ac.uk/introduction-to-git/#/)' exercise during induction week. If you have not already completed this exercise, please [go and work through that exercise](http://comsc.pages.cs.cf.ac.uk/introduction-to-git/#/) first, before coming back to complete this activity.
-{{% /notice %}}
+
+This lab assumes that you completed the [Introduction to Git](http://comsc.pages.cs.cf.ac.uk/introduction-to-git/) exercise during induction week. If you have not already completed this exercise, please [go and work through that exercise](http://comsc.pages.cs.cf.ac.uk/introduction-to-git/) first, before coming back to complete this activity.
 
 For this exercise we'll need a few different applications open. You should search for and open all these applications before we start:
 
-1. Sublime Text - the default text editor on the Windows PCs in COMSC
-2. Git Bash - a command line terminal that we'll use both for version control and running a simple web server
-3. Google Chrome - a web browser for viewing the web page we create
+1. A text editor
+2. A command line terminal
+3. A web browser for viewing the web page we create
 
 Our first step is not to start writing HTML code, but rather to intialise an empty Git repository to use to version our work.  Let's create a directory on our H: drive for our work and then move into that directory:
 
 ```bash
-$ cd /h
+$ cd ~
 $ mkdir cmt112-labs
 $ cd cmt112-labs
 ```
@@ -30,7 +29,7 @@ $ git init
 
 We now have an empty repository that we can store our work in. Later on, we'll add a remote to the repository so that our work is also backed up on the School GitLab server. For now though, we'll just work on our local machine.
 
-Switch to Sublime Text, and we'll start writing our first HTML page. Enter the following code:
+Switch to your text editor, and we'll start writing our first HTML page. Enter the following code:
 
 ```html
 <html>
@@ -122,9 +121,9 @@ git commit -m "hello world web page"
  create mode 100644 Week1/index.html
 ```
 
-{{% notice info %}}
+{{% panel theme="info" header="Notice!" %}}
 This is the same process we'll use whenever we want to save a copy of our work - first `git add` the code to our staging area, then `git commit` the code to our repository. You should do this from now on whenever you have made a significant change to your work (there will be reminders to do this occasionally!).
-{{% /notice %}}
+{{% /panel %}}
 
 ### Developer Tools
 
@@ -142,7 +141,7 @@ We can edit the content of our webpage (temporarily) from within the developer t
 
 Opening files by dropping them into our web browser window is all well and good, but usually our HTML files we be served to our web browser by a web server. This is a special piece of software which runs on a machine waiting for requests from web browsers. When it receives a request for a specific file or resource, it attempts to respond to the web browser with the item requested.
 
-When we are developing a web page we can run a simple local web server that will carry out this request - response process and mimic our web page running on a web server somewhere on the Internet.
+When we are developing a web page we can run a simple local web server that will carry out this request <-> response process and mimic our web page running on a web server somewhere on the Internet.
 
 If you don't already have one open, open a command line and navigate to the folder where our lab code is stored:
 
@@ -170,9 +169,9 @@ You can see two directories: our `Week1` directory where our webpage is saved, a
 
 ![Web page on local server](img/1.2.1/local-server-page.png)
 
-{{% notice info %}}
+{{% panel theme="info" header="Notice!" %}}
 Now you can see why we named our HTML page `index.html` - a web server will automatically serve a page named `index.html` when a request is made for a given directory. By using this name, the index page will automatically be loaded rather than the server displaying a directory listing as it did for the parent directory.
-{{% /notice %}}
+{{% /panel %}}
 
 If we look at the command line, we can see the output from our web server, listing the requests made to the web server:
 
@@ -185,9 +184,9 @@ Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 
 The first request was for '/', the root directory where the server is running. We can see the code `200` here, indicating this request was successful. (We'll look at response codes in more depth later). This was followed by a request for `/favicon.ico`. This is the browser requesting an icon to display representing the web page. We haven't provided one, so this request has a `404` response - which means the requested resource has not been found. The final request is asking for the `Week1` directory, which succeeds as the browser is able to respond with the `index.html` page.
 
-{{% notice info %}}
+{{% panel theme="info" header="Notice!" %}}
 From now on, we'll use a local web browser to serve our web pages while we're developing them. Remember to use `python -m http.server` to start a web server in your root directory whenever you start working on your code.
-{{% /notice %}}
+{{% /panel %}}
 
 ### Experimenting with HTML
 
@@ -216,7 +215,15 @@ git add Week1/index.html
 git commit -m "added a paragraph"
 ```
 
-?> How would we revert these changes using Git if we then decided we didn't like the content addition?
+
+{{% panel theme="primary" header="Question" %}}
+How would we revert these changes using Git if we then decided we didn't like the content addition?
+
+{{% expand "click for answer..." %}}
+We can use the `git checkout` command to roll our repository back to a past commit.
+{{% /expand %}}
+
+{{% /panel %}}
 
 
 
@@ -260,6 +267,6 @@ Now it is your turn to start writing HTML. Experiment with adding more content, 
 
 Use CSS rules to change the formatting of your content.
 
-{{% notice info %}}
+{{% panel theme="info" header="Notice!" %}}
 Remember to commit your changes frequently, and definitely commit your final code at the end of the lab!
-{{% /notice %}}
+{{% /panel %}}
