@@ -18,7 +18,7 @@ The reading for this topic will begin to show you how to combine the structure o
 
 ## Notes
 
-
+- [CSS Selectors and Specificity](css-selectors)
 
 ## Videos
 
