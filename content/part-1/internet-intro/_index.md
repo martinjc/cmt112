@@ -1,6 +1,6 @@
 +++
 title="Introduction to the Internet"
-weight=1
+weight=2
 +++
 
 ## Overview
