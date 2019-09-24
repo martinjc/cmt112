@@ -15,7 +15,7 @@ If you spot anything broken that you think should be working, [get in touch](#le
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=9b9fc6c8-510f-4e41-9095-aace00cf6458&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 
-<small>[Slides for the Course Introduction Video](slides/course-introduction.html)</small>
+<small>[Slides for the Course Introduction Video](slides/course-introduction.html)</smallg>
 
 ## Structure
 
