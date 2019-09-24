@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-    
-        <title></title>
-    
-    
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    
-        <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="../../lib/reveal/css/reveal.css">
-        <link rel="stylesheet" href="../../lib/reveal/lib/css/zenburn.css">
-        <!-- My CSS Overrides -->
-        <link rel="stylesheet" href="css/slide_style.css">
-        <!-- Theme used for syntax highlighting of code -->
-        <link rel="stylesheet" href="../../lib/reveal/lib/css/zenburn.css">
-    
-        <!-- Printing and PDF exports -->
-        <script>
-            var link = document.createElement( 'link' );
-            link.rel = 'stylesheet';
-            link.type = 'text/css';
-            link.href = window.location.search.match( /print-pdf/gi ) ? '../../lib/reveal/css/print/pdf.css' : '../../lib/reveal/css/print/paper.css';
-            document.getElementsByTagName( 'head' )[0].appendChild( link );
-        </script>
-    </head>    
+
+<head>
+    <meta charset="utf-8">
+
+    <title></title>
+
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/reveal/css/reveal.css">
+    <link rel="stylesheet" href="lib/reveal/lib/css/zenburn.css">
+    <!-- My CSS Overrides -->
+    <link rel="stylesheet" href="css/slide_style.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/reveal/lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'lib/reveal/css/print/pdf.css' : 'lib/reveal/css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
 <body>
     <div class="reveal">
         <div class="slides">
 
-<!-- 
+            <!-- 
 *
 *
 *  End of HEAD
@@ -40,27 +42,27 @@
 *
 -->
 
-<section data-markdown>
-# Introduction to CSS
-</section>
+            <section data-markdown>
+                # Introduction to CSS
+            </section>
 
-<section data-markdown data-separator-notes="^Note:">
-### Structure vs. Presentation
+            <section data-markdown data-separator-notes="^Note:">
+                ### Structure vs. Presentation
 
-HTML intended to define structure of document
+                HTML intended to define structure of document
 
-**NOT** intended for presentation/styling
-</section>
+                **NOT** intended for presentation/styling
+            </section>
 
-<section data-markdown data-separator-notes="^Note:">
-### CSS
+            <section data-markdown data-separator-notes="^Note:">
+                ### CSS
 
-* Cascading Style Sheets
-* rules that tell a browser how to display an element
-</section>
+                * Cascading Style Sheets
+                * rules that tell a browser how to display an element
+            </section>
 
-<section data-markdown data-separator-notes="^Note:" data-transition="slide-in none">
-<textarea data-template>
+            <section data-markdown data-separator-notes="^Note:" data-transition="slide-in none">
+                <textarea data-template>
 ### CSS
 
 ```css
@@ -80,12 +82,12 @@ selector {
 Note:
 </textarea></section>
 
-<section>
-    <p data-height="400" data-theme-id="dark" data-slug-hash="qPWZKB" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Simple CSS Example" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/qPWZKB/">Simple CSS Example</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-</section>
+            <section>
+                <p data-height="400" data-theme-id="dark" data-slug-hash="qPWZKB" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Simple CSS Example" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/qPWZKB/">Simple CSS Example</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            </section>
 
-<section data-markdown data-separator-notes="^Note:">
-<textarea data-template>   
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 ### Element Selector
 
 Select all HTML elements of the same type using the tag name
@@ -102,14 +104,14 @@ h1 { ... }
 article { ... }
 ```
 </textarea>
-</section>
+            </section>
 
-<section>
-    <p data-height="400" data-theme-id="dark" data-slug-hash="xXKVyK" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Element Selector" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/xXKVyK/">Element Selector</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-</section>
+            <section>
+                <p data-height="400" data-theme-id="dark" data-slug-hash="xXKVyK" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Element Selector" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/xXKVyK/">Element Selector</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            </section>
 
-<section data-markdown data-separator-notes="^Note:">
-<textarea data-template>   
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 ### id Selector
 
 Select elements based on the value of their `id` attribute
@@ -125,14 +127,14 @@ will match only the first `<h1>..</h1>` element below:
 <h1 id="heading2">Heading 2</h1>
 ```
 </textarea>
-</section>
+            </section>
 
-<section>
-    <p data-height="400" data-theme-id="dark" data-slug-hash="oGvxJb" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="id Selector" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/oGvxJb/">id Selector</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-</section>
+            <section>
+                <p data-height="400" data-theme-id="dark" data-slug-hash="oGvxJb" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="id Selector" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/oGvxJb/">id Selector</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            </section>
 
-<section data-markdown data-separator-notes="^Note:">
-<textarea data-template>   
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 ### class Selector
 
 Select elements based on the value of their `class` attribute
@@ -148,24 +150,25 @@ will match everything with a class of `centre`:
 <h1 class="centre">...</h1>
 ```
 </textarea>
-</section>
+            </section>
 
-<section>
-    <p data-height="265" data-theme-id="dark" data-slug-hash="XerdOw" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="class Selector" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/XerdOw/">class Selector</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-</section>
+            <section>
+                <p data-height="265" data-theme-id="dark" data-slug-hash="XerdOw" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="class Selector" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/XerdOw/">class Selector</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            </section>
 
-<section>
-<h3>Including CSS</h3>
-<p>Three options:
-<ul>
-    <li class="fragment fade-out">Inline Styles</li>
-    <li class="fragment fade-out">Internal Style Sheets</li>
-    <li>External Style Sheets</li>
-</ul></p>
-</section>
+            <section>
+                <h3>Including CSS</h3>
+                <p>Three options:
+                    <ul>
+                        <li class="fragment fade-out">Inline Styles</li>
+                        <li class="fragment fade-out">Internal Style Sheets</li>
+                        <li>External Style Sheets</li>
+                    </ul>
+                </p>
+            </section>
 
-<section data-markdown data-separator-notes="^Note:">
-<textarea data-template>   
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 ### External Style Sheet
 
 Define styles in external `.css` document
@@ -186,88 +189,89 @@ Include in HTML using `<link>` tag
 <link rel="stylesheet" href="style.css">
 ```
 </textarea>
-</section>
+            </section>
 
-<section data-markdown data-separator-notes="^Note:">
-### Combining CSS Selectors
+            <section data-markdown data-separator-notes="^Note:">
+                ### Combining CSS Selectors
 
-* Can combine selectors to select elements within elements, or elements before or after certain elements, ...
-</section>
+                * Can combine selectors to select elements within elements, or elements before or after certain elements, ...
+            </section>
 
-<section data-background-image="img/1.2/css-selectors.png" data-background-size="contain">
-<div class="attribution">
-    <p><a href="https://www.w3.org/TR/css3-selectors/">https://www.w3.org/TR/css3-selectors/</a></p>
-</div>
-</section>
-    
+            <section data-background-image="img/1.2/css-selectors.png" data-background-size="contain">
+                <div class="attribution">
+                    <p><a href="https://www.w3.org/TR/css3-selectors/">https://www.w3.org/TR/css3-selectors/</a></p>
+                </div>
+            </section>
 
-<section data-markdown>
-### CSS
 
-* Cascading Style Sheets
-* Apply layout, presentation and styling to our html
-* Rules that tell a browser how to display an element
-* Select by element type, class, id
-    * Combine selectors to select more specific elements
-* Many different CSS properties to apply
-</section>
+            <section data-markdown>
+                ### CSS
 
-<!-- 
+                * Cascading Style Sheets
+                * Apply layout, presentation and styling to our html
+                * Rules that tell a browser how to display an element
+                * Select by element type, class, id
+                * Combine selectors to select more specific elements
+                * Many different CSS properties to apply
+            </section>
+
+            <!-- 
 *
 *
 *  FOOTER
 *
 *
 -->
-</div>
-</div>
-<script src="../../lib/reveal/lib/js/head.min.js"></script>
-<script src="../../lib/reveal/js/reveal.js"></script>
+        </div>
+    </div>
+    <script src="lib/reveal/lib/js/head.min.js"></script>
+    <script src="lib/reveal/js/reveal.js"></script>
 
-<script>
+    <script>
 
-    // More info https://github.com/hakimel/reveal.js#configuration
-    Reveal.initialize({
-        width: "100%",
-        height: "100%",
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            width: "100%",
+            height: "100%",
 
-        controls: false,
-        progress: true,
-        slideNumber: true,
-        history: true,
-        center: true,
+            controls: false,
+            progress: true,
+            slideNumber: true,
+            history: true,
+            center: true,
 
-        margin: 0,
-        minScale: 1,
-        maxScale: 1,
+            margin: 0,
+            minScale: 1,
+            maxScale: 1,
 
-        transition: 'none', // none/fade/slide/convex/concave/zoom
+            transition: 'none', // none/fade/slide/convex/concave/zoom
 
-        chalkboard: {
-            toggleChalkboardButton: false,
-        },
+            chalkboard: {
+                toggleChalkboardButton: false,
+            },
 
-        // More info https://github.com/hakimel/reveal.js#dependencies
-        dependencies: [
-            { src: "../../lib/reveal/lib/js/classList.js", condition: function() { return !document.body.classList; } },
-            { src: "../../lib/reveal/plugin/markdown/marked.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-            { src: "../../lib/reveal/plugin/markdown/markdown.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-            { src: "../../lib/highlight/js/highlight.js"},
-            { src: "../../lib/reveal/plugin/chalkboard/chalkboard.js"},
-            { src: "../../lib/reveal/plugin/code-focus/reveal-code-focus.js", callback: function() { RevealCodeFocus(); } },
-            { src: "../../lib/reveal/plugin/zoom-js/zoom.js", async: true },
-            { src: "../../lib/reveal/plugin/notes/notes.js", async: true },
-        ],
-        keyboard: {
-            67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
-            66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
-            46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
-              8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
-            68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
-        },
-    });
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: "lib/reveal/lib/js/classList.js", condition: function () { return !document.body.classList; } },
+                { src: "lib/reveal/plugin/markdown/marked.js", condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: "lib/reveal/plugin/markdown/markdown.js", condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: "lib/highlight/js/highlight.js" },
+                { src: "lib/reveal/plugin/chalkboard/chalkboard.js" },
+                { src: "lib/reveal/plugin/code-focus/reveal-code-focus.js", callback: function () { RevealCodeFocus(); } },
+                { src: "lib/reveal/plugin/zoom-js/zoom.js", async: true },
+                { src: "lib/reveal/plugin/notes/notes.js", async: true },
+            ],
+            keyboard: {
+                67: function () { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+                66: function () { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+                46: function () { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+                8: function () { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+                68: function () { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+            },
+        });
 
-</script>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    </script>
+    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </body>
+
 </html>

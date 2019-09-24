@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-    
-        <title></title>
-    
-    
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    
-        <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="../../lib/reveal/css/reveal.css">
-        <link rel="stylesheet" href="../../lib/reveal/lib/css/zenburn.css">
-        <!-- My CSS Overrides -->
-        <link rel="stylesheet" href="css/slide_style.css">
-        <!-- Theme used for syntax highlighting of code -->
-        <link rel="stylesheet" href="../../lib/reveal/lib/css/zenburn.css">
-    
-        <!-- Printing and PDF exports -->
-        <script>
-            var link = document.createElement( 'link' );
-            link.rel = 'stylesheet';
-            link.type = 'text/css';
-            link.href = window.location.search.match( /print-pdf/gi ) ? '../../lib/reveal/css/print/pdf.css' : '../../lib/reveal/css/print/paper.css';
-            document.getElementsByTagName( 'head' )[0].appendChild( link );
-        </script>
-    </head>    
+
+<head>
+    <meta charset="utf-8">
+
+    <title></title>
+
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/reveal/css/reveal.css">
+    <link rel="stylesheet" href="lib/reveal/lib/css/zenburn.css">
+    <!-- My CSS Overrides -->
+    <link rel="stylesheet" href="css/slide_style.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/reveal/lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'lib/reveal/css/print/pdf.css' : 'lib/reveal/css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+
 <body>
     <div class="reveal">
         <div class="slides">
 
-<!-- 
+            <!-- 
 *
 *
 *  End of HEAD
@@ -41,14 +43,14 @@
 -->
 
 
-<section data-markdown>
-  <textarea data-template> 
+            <section data-markdown>
+                <textarea data-template>
   # Introduction to HTML
   </textarea>
-</section>
-                
-<section data-markdown data-separator-notes="^Note:">
-    <textarea data-template> 
+            </section>
+
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 ## HyperText
 ## Markup
 ## Language
@@ -56,39 +58,39 @@
 Note:
 HTML stands for HyperText Markup Language. In the simplest terms, it’s the language we use to build webpages. It is not really a ‘programming’ language, it is really a ‘markup’ language
       </textarea>
-</section>
-             
-             
-<section data-background-image="img/1.2/content.png" data-background-size="contain">
-
-  <aside class="notes">
-          so let’s imagine we have some content that we’d like to put on the web. This could be anything, from simple pieces of text, graphics and images, lists, tables, all the way through to complex interactive content.
-  </aside>             
-</section>
-
-<section data-background-image="img/1.2/content_labelled.png" data-background-size="contain">
-
-<aside class="notes">
-      … we want our browser to be able to understand what that content is, so that it knows how to structure the webpage, and how to display things on the screen. This process, of taking our content and displaying it on the screen is known as rendering.
-</aside>
-
-</section>
-
-<section data-background-image="img/1.2/content_markedup.png" data-background-size="contain">
-
-<aside class="notes">
-      We use HTML tags to markup our content so that the browser will understand what our content is, and how to render it. there are many different tags in HTML, which can be used to add meaning and structure to different types of content, and we’ll look at some of these in later videos
-</aside>
-
-</section>
+            </section>
 
 
-<section data-background-video="https://media.giphy.com/media/3oriePo8JgIvPxUWL6/giphy.mp4" data-background-size="contain" data-background-video-loop=true>
+            <section data-background-image="img/1.2/content.png" data-background-size="contain">
 
-</section>
+                <aside class="notes">
+                    so let’s imagine we have some content that we’d like to put on the web. This could be anything, from simple pieces of text, graphics and images, lists, tables, all the way through to complex interactive content.
+                </aside>
+            </section>
 
-<section data-markdown data-transition="slide-in none">
-    <textarea data-template> 
+            <section data-background-image="img/1.2/content_labelled.png" data-background-size="contain">
+
+                <aside class="notes">
+                    … we want our browser to be able to understand what that content is, so that it knows how to structure the webpage, and how to display things on the screen. This process, of taking our content and displaying it on the screen is known as rendering.
+                </aside>
+
+            </section>
+
+            <section data-background-image="img/1.2/content_markedup.png" data-background-size="contain">
+
+                <aside class="notes">
+                    We use HTML tags to markup our content so that the browser will understand what our content is, and how to render it. there are many different tags in HTML, which can be used to add meaning and structure to different types of content, and we’ll look at some of these in later videos
+                </aside>
+
+            </section>
+
+
+            <section data-background-video="https://media.giphy.com/media/3oriePo8JgIvPxUWL6/giphy.mp4" data-background-size="contain" data-background-video-loop=true>
+
+            </section>
+
+            <section data-markdown data-transition="slide-in none">
+                <textarea data-template>
 
 ```html
 <a href="https://www.mdn.com">
@@ -106,11 +108,11 @@ Note:
 As an example of a simple HTML element, here is an ‘anchor’ element. It is used to create hyperlinks between or within webpages. The whole thing together referred to as an element. it has an opening tag at the beginning, and a closing tag at the end. in between the opening and closing tags we have the element content. In this case, it is just some text, but this content could be anything - even another HTML element. We’ll see examples of this ‘nesting’ later.
 
 </textarea>
-</section>
+            </section>
 
 
-<section data-transition="none" data-markdown>
-<textarea data-template> 
+            <section data-transition="none" data-markdown>
+                <textarea data-template>
 
 ```html
 <a href="https://www.mdn.com">
@@ -123,18 +125,18 @@ As an example of a simple HTML element, here is an ‘anchor’ element. It is u
 inside our opening tag, we have an ‘attribute’. This contains some extra information about the element, which can allow extra functionality. In this case, our attribute is an ‘href’ attribute, and it tells us where this anchor element should ‘link’ to. Clicking on this link in a webpage will take you to www.mdn.com - the Mozilla Developer Network, which is an excellent resource for learning about web technologies. Each attribute consists of multiple parts - the ‘name’ of the attribute, and the ‘value’ of the attribute, separated by an equals sign. The value of the attribute is enclosed in quotes, and there is a space between the element name and the name of the attribute. You can use either single or double quotes to enclose attribute values, but whichever you use you should be consistent throughout your HTML code
 </aside>
 </textarea>
-</section>
+            </section>
 
-<section data-background-image="img/1.2/anchor_annotated.png" data-background-size="contain">
+            <section data-background-image="img/1.2/anchor_annotated.png" data-background-size="contain">
 
-<aside class="notes">
-  Putting it all together, we have an opening ‘a’ tag and a closing ‘a’ tag, which together make up our anchor element. Our opening tag has an attribute which has a name and a value, and the element encloses some content. This is everything that goes in to making a basic HTML element.
-</aside>
+                <aside class="notes">
+                    Putting it all together, we have an opening ‘a’ tag and a closing ‘a’ tag, which together make up our anchor element. Our opening tag has an attribute which has a name and a value, and the element encloses some content. This is everything that goes in to making a basic HTML element.
+                </aside>
 
-</section>
+            </section>
 
-<section data-markdown>
-<textarea data-template>
+            <section data-markdown>
+                <textarea data-template>
 
 ### HyperText Markup Language
 
@@ -149,17 +151,17 @@ inside our opening tag, we have an ‘attribute’. This contains some extra inf
 Note:
 In summary, HTML stands for HyperText Markup Language, which is the language we markup content with in order to create webpages. We annotate or markup our content with tags to tell our web browser what the content is, what it does, and how it should be displayed. Tags are used to create HTML elements. Some HTML elements can have attributes, which consist of a name-value pair and allow us to add extra functionality to our documents.   That’s it for the basics of HTML, in the next video we’ll go on to look at HTML document structure and see how we can put all this together.
 </textarea>
-</section>
+            </section>
 
-<section data-markdown>
-    <textarea data-template>
-       
+            <section data-markdown>
+                <textarea data-template>
+
 # HTML Document Structure
-    </textarea> 
-</section>
-        
-<section data-transition="slide-in none" data-markdown data-separator-notes="^Note:"> 
-<textarea data-template> 
+    </textarea>
+            </section>
+
+            <section data-transition="slide-in none" data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 
 ```html
 <!DOCTYPE html>
@@ -179,7 +181,7 @@ This is a very basic ‘minimal’ HTML document. Let’s break it down into the
 </textarea> </section>
 
 
-<section data-transition="none" data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+            <section data-transition="none" data-markdown data-separator-notes="^Note:"> <textarea data-template>
 
 ```html
 <!DOCTYPE html>
@@ -202,7 +204,7 @@ Note:
 The very first item included in every HTML document is the document type declaration, or DTD. This tells the web browser what version of HTML (or other language) the page is written in. This document type declaration here is the document type declaration for HTML5, the latest standard of HTML. After the doctype we find the opening and closing ‘html’ tags. These create an HTML element.These create an HTML element and define the beginning and end of our HTML document. All the content (visible and non-visible) for our webpage comes between these two tags.  Nested inside our ‘html’ element we find the ‘head’ element and the ‘body’ element. Again, both have an opening and a closing tag, and have their own content nested within them. The head element contains lots of information about the document. This is not usually content that is shown by the browser within the page (with the exception of the title element). You can include lots of things within the head element such as information about the page author, a description of the page, page icons, links to stylesheets, and so on. We’ll look at the ‘head’ element in more detail in a later video. The ‘body’ element is where the content of the webpage goes. This all of the content that a user will see when they view your webpage.
  </textarea> </section>
 
-<section data-transition="none" data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+            <section data-transition="none" data-markdown data-separator-notes="^Note:"> <textarea data-template>
 
 ```html
 <!DOCTYPE html>
@@ -224,7 +226,7 @@ Note:
 The head element can contain lots of information about the page. In this example it contains two elements. The first element is a meta element. Meta elements are used to provide structured metadata that describes our document. The second element is a title element. This gives the title of the webpage. This is often displayed by the web browser somewhere within the browsers user interface (for example in the page tab in Chrome). This is usually the only content that is placed in the head that will be seen by the user when viewing your page, although some metadata such as the description may be seen in search engine results.
  </textarea> </section>
 
-<section data-transition="none" data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+            <section data-transition="none" data-markdown data-separator-notes="^Note:"> <textarea data-template>
 
 ```html
 <!DOCTYPE html>
@@ -244,7 +246,7 @@ Note:
 The body element is where we put the content of the webpage. Everything that should be seen by the user should be nested inside the body. In this example, we have a single p element containing the text 'Hello World'. p elements are used to markup paragraphs of text within an HTML document.
  </textarea> </section>
 
-<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:"> <textarea data-template>
 ### HTML document structure
 
 * All HTML documents start with a DTD
@@ -258,11 +260,11 @@ In summary, we know that all HTML documents start with a document type declarati
 </textarea> </section>
 
 
-<section data-markdown data-separator-notes="^Note:">
-    # Nesting tags
-</section>
+            <section data-markdown data-separator-notes="^Note:">
+                # Nesting tags
+            </section>
 
-<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:"> <textarea data-template>
 ```html
 <!DOCTYPE html>
 <html>
@@ -286,7 +288,7 @@ Note:
 We have already seen this nesting in action in our simple example.
  </textarea> </section>
 
-<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:"> <textarea data-template>
 ```html
 <!DOCTYPE html>
 <html>
@@ -304,7 +306,7 @@ Note:
 Here we have an anchor element creating a link to the Cardiff University webpage
  </textarea> </section>
 
-<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:"> <textarea data-template>
 ```html
 <!DOCTYPE html>
 <html>
@@ -324,17 +326,17 @@ Note:
 But instead of just having some text content in the anchor, we could use another HTML element, such as an image
  </textarea> </section>
 
-<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:"> <textarea data-template>
 <p data-height="400" data-theme-id="dark" data-slug-hash="NaKPQd" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Image Links" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/NaKPQd/">Image Links</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
  </textarea> </section>
 
-<section>
-    <h2>Nesting tags</h2>
-    <p>We must remember to close our tags in the same order they were opened</p>
-</section>
+            <section>
+                <h2>Nesting tags</h2>
+                <p>We must remember to close our tags in the same order they were opened</p>
+            </section>
 
-<section data-markdown data-separator-notes="^Note:"> 
-<textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 ```html
 <!DOCTYPE html>
 <html>
@@ -358,7 +360,7 @@ Because we opened the strong tag after we opened the paragraph tag, we must clos
  </textarea> </section>
 
 
-<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:"> <textarea data-template>
 ### Nesting HTML tags
 
 * We can nest HTML elements inside one another
@@ -369,25 +371,25 @@ Because we opened the strong tag after we opened the paragraph tag, we must clos
     * Last to open = first to close
 </textarea> </section>
 
-<section data-markdown>
-# Basic HTML Tags
+            <section data-markdown>
+                # Basic HTML Tags
 
-</section>
+            </section>
 
-<section data-markdown data-background-image="img/1.2/content_labelled.png" data-background-size="contain" data-separator-notes="^Note:">
+            <section data-markdown data-background-image="img/1.2/content_labelled.png" data-background-size="contain" data-separator-notes="^Note:">
 
-Note:
-We have already seen that in order to display content on a webpage, we need to tell the browser what sort of content we have
-</section>
+                Note:
+                We have already seen that in order to display content on a webpage, we need to tell the browser what sort of content we have
+            </section>
 
 
-<section data-markdown data-background-image="img/1.2/content_markedup.png" data-background-size="contain" data-separator-notes="^Note:">
+            <section data-markdown data-background-image="img/1.2/content_markedup.png" data-background-size="contain" data-separator-notes="^Note:">
 
-Note:
-We have also seen that we use HTML tags to 'annotate' or mark up our content
-</section>
+                Note:
+                We have also seen that we use HTML tags to 'annotate' or mark up our content
+            </section>
 
-<section data-markdown data-separator-notes="^Note:"> <textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:"> <textarea data-template>
 <h3>HTML Tags</h3>
 
 ```html
@@ -407,27 +409,27 @@ Note:
 We have also already seen that in our HTML document, our content goes inside the body element
 </textarea> </section>
 
-<section data-markdown data-separator-notes="^Note:"> 
-### What HTML tags can we use?
+            <section data-markdown data-separator-notes="^Note:">
+                ### What HTML tags can we use?
 
-Note:
-There are <emph>lots</emph> of different HTML tags that we can use to annotate our content
-I'll run through a few here quickly, but there are plenty of sources online to learn about the tags and how to use them
-</section>
+                Note:
+                There are <emph>lots</emph> of different HTML tags that we can use to annotate our content
+                I'll run through a few here quickly, but there are plenty of sources online to learn about the tags and how to use them
+            </section>
 
-<section data-markdown data-separator-notes="^Note:"> 
-<textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 # ```<p>``` ... ```</p>```
 
 <ul>
     <li>Used to define paragraphs</li>
     <li>Can contain and separate large chunks of text</li>
 </ul>
-</textarea> 
-</section>
+</textarea>
+            </section>
 
-<section data-markdown data-separator-notes="^Note:"> 
-<textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 # ```<br>```
 
 <ul>
@@ -436,12 +438,12 @@ I'll run through a few here quickly, but there are plenty of sources online to l
     <li>Does not have the same <emph>semantic</emph> meaning as using `<p>` to break content into paragraphs</li>
     <li>Is <emph>NOT</emph> used to add more whitespace between content</li>
 </ul>
-</textarea> 
-</section>
+</textarea>
+            </section>
 
 
-<section data-markdown data-separator-notes="^Note:"> 
-<textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 # ```<hX>``` ... ```</hX>```
 
 <ul>
@@ -452,15 +454,15 @@ I'll run through a few here quickly, but there are plenty of sources online to l
     <li>`<h1>` is the largest heading</li>
     <li>`<h6>` is the smallest heading</li>
 </ul>
-</textarea> 
-</section>
+</textarea>
+            </section>
 
-<section>
-<p data-height="400" data-theme-id="dark" data-slug-hash="wqOjRx" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Headings" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/wqOjRx/">Headings</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-</section>
+            <section>
+                <p data-height="400" data-theme-id="dark" data-slug-hash="wqOjRx" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Headings" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/wqOjRx/">Headings</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            </section>
 
-<section data-markdown data-separator-notes="^Note:"> 
-<textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 # `<a>` ... `</a>`
 
 <ul>
@@ -469,15 +471,15 @@ I'll run through a few here quickly, but there are plenty of sources online to l
     <li>`href=''` attribute tells us what the content should link to</li>
 </ul>
 </textarea>
-</section>
+            </section>
 
-<section>
-<p data-height="400" data-theme-id="dark" data-slug-hash="ZJPodE" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Anchor - External Content" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/ZJPodE/">Anchor - External Content</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-</section>
+            <section>
+                <p data-height="400" data-theme-id="dark" data-slug-hash="ZJPodE" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Anchor - External Content" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/ZJPodE/">Anchor - External Content</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            </section>
 
 
-<section data-markdown data-separator-notes="^Note:"> 
-<textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 # `<a>` ... `</a>`
 
 <ul>
@@ -489,16 +491,16 @@ I'll run through a few here quickly, but there are plenty of sources online to l
 
 </ul>
 </textarea>
-</section>
+            </section>
 
 
-<section> 
-<p data-height="400" data-theme-id="dark" data-slug-hash="oeVyvw" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Anchor - Internal Links" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/oeVyvw/">Anchor - Internal Links</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-</section>
+            <section>
+                <p data-height="400" data-theme-id="dark" data-slug-hash="oeVyvw" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Anchor - Internal Links" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/oeVyvw/">Anchor - Internal Links</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            </section>
 
 
-<section data-markdown data-separator-notes="^Note:"> 
-<textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 # `<img>`
 
 <ul>
@@ -507,65 +509,65 @@ I'll run through a few here quickly, but there are plenty of sources online to l
     <li>`src` attribute to specify which image to display</li>
     <li>`alt` attribute gives text description</li>
 </ul>
-</textarea> 
-</section>
+</textarea>
+            </section>
 
 
-<section>
-<p data-height="800" data-theme-id="dark" data-slug-hash="QMoxyR" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Images" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/QMoxyR/">Images</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p> 
-</section>
+            <section>
+                <p data-height="800" data-theme-id="dark" data-slug-hash="QMoxyR" data-default-tab="html,result" data-user="martinjc" data-embed-version="2" data-pen-title="Images" class="codepen">See the Pen <a href="https://codepen.io/martinjc/pen/QMoxyR/">Images</a> by Martin Chorley (<a href="https://codepen.io/martinjc">@martinjc</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+            </section>
 
 
-<section>
-<h2>... so many tags ...</h2>
-</section>
+            <section>
+                <h2>... so many tags ...</h2>
+            </section>
 
 
-<section data-background-image="img/1.2/htmldog-tags.png" data-background-size="contain"> 
-<div class="attribution">
-    <p><a href="https://www.htmldog.com/references/html/tags/">https://www.htmldog.com/references/html/tags/</a></p>
-</div>
-</section>
+            <section data-background-image="img/1.2/htmldog-tags.png" data-background-size="contain">
+                <div class="attribution">
+                    <p><a href="https://www.htmldog.com/references/html/tags/">https://www.htmldog.com/references/html/tags/</a></p>
+                </div>
+            </section>
 
 
-<section data-background-image="img/1.2/mdn-html.png" data-background-size="contain"> 
-<div class="attribution">
-    <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">https://developer.mozilla.org/en-US/docs/Web/HTML</a></p>
-</div>
-</section>
-    
-<section data-markdown>
-# Block and Inline
-</section>
+            <section data-background-image="img/1.2/mdn-html.png" data-background-size="contain">
+                <div class="attribution">
+                    <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">https://developer.mozilla.org/en-US/docs/Web/HTML</a></p>
+                </div>
+            </section>
 
-<section data-markdown data-separator-notes="^Note:">
-### **Block** and Inline
+            <section data-markdown>
+                # Block and Inline
+            </section>
 
-Some HTML tags produce **block elements**
+            <section data-markdown data-separator-notes="^Note:">
+                ### **Block** and Inline
 
-* **start** and **end** with a **new line**
-* **stack** together
-* take up **all** available **width**
-* can contain both **block** and **inline** elements
-* are used for **larger** pieces of **content**
+                Some HTML tags produce **block elements**
 
-</section>
+                * **start** and **end** with a **new line**
+                * **stack** together
+                * take up **all** available **width**
+                * can contain both **block** and **inline** elements
+                * are used for **larger** pieces of **content**
 
-<section data-markdown data-separator-notes="^Note:">
-### Block and **Inline**
+            </section>
 
-Some HTML tags produce **inline elements**
+            <section data-markdown data-separator-notes="^Note:">
+                ### Block and **Inline**
 
-* start without a **new line**
-* **line up** next to each other
-* as **wide** as their **content**
-* can contain other **inline** elements
-* **cannot contain** other **block elements**
-* used for **smaller** pieces of **content**
-</section>
+                Some HTML tags produce **inline elements**
 
-<section data-markdown data-separator-notes="^Note:">
-<textarea data-template>
+                * start without a **new line**
+                * **line up** next to each other
+                * as **wide** as their **content**
+                * can contain other **inline** elements
+                * **cannot contain** other **block elements**
+                * used for **smaller** pieces of **content**
+            </section>
+
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 ### Block and Inline
 
 So, for example:
@@ -576,8 +578,8 @@ So, for example:
 
 </textarea></section>
 
-<section data-markdown>
-<textarea data-template>
+            <section data-markdown>
+                <textarea data-template>
 # `<div>`
 
 `<div>` elements are used to divide content
@@ -587,18 +589,18 @@ Used as containers for other elements
 Convey no semantic meaning to their contents, other than to group the contents together
 </textarea></section>
 
-<section data-markdown data-separator-notes="^Note:">
-<textarea data-template>
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 # `<span>`
 
 `<span>` elements are also used to contain content
 
 Convey no semantic meaning to their contents
 </textarea>
-</section>
+            </section>
 
-<section data-markdown data-separator-notes="^Note:">
-<textarea data-template>
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 ### Block and Inline
 
 * `<div>` is a **block** level tag that can group other elements together
@@ -609,30 +611,30 @@ Convey no semantic meaning to their contents
 
 * Combined with CSS they can be used to style sections or portions of a document
 </textarea>
-</section>
+            </section>
 
-<section data-markdown data-separator-notes="^Note:">
-### Block and Inline
+            <section data-markdown data-separator-notes="^Note:">
+                ### Block and Inline
 
-* We can change how elements behave using CSS
-* Also have further options beyond 'block' and 'inline'
+                * We can change how elements behave using CSS
+                * Also have further options beyond 'block' and 'inline'
 
-</section> 
+            </section>
 
-<section data-markdown data-separator-notes="^Note:">
-# Coding HTML
-</section>
+            <section data-markdown data-separator-notes="^Note:">
+                # Coding HTML
+            </section>
 
-<section data-markdown data-separator-notes="^Note:">
-### Commenting
+            <section data-markdown data-separator-notes="^Note:">
+                ### Commenting
 
-We can add comments to our HTML code
+                We can add comments to our HTML code
 
-Comments will not be displayed to the user
-</section>
+                Comments will not be displayed to the user
+            </section>
 
-<section data-markdown data-separator-notes="^Note:"> 
-<textarea data-template> 
+            <section data-markdown data-separator-notes="^Note:">
+                <textarea data-template>
 ```html
 <!-- this is a comment -->
 <body>
@@ -646,15 +648,15 @@ Note:
 jkjh
 </textarea> </section>
 
-<section data-markdown data-separator-notes="^Note:">
-### HTML Formatting
+            <section data-markdown data-separator-notes="^Note:">
+                ### HTML Formatting
 
-Some HTML tags can add extra meaning to our text
+                Some HTML tags can add extra meaning to our text
 
-These tags may add additional formatting
-</section>
+                These tags may add additional formatting
+            </section>
 
-<section data-markdown data-separator-notes="^Note:"><textarea data-template>
+            <section data-markdown data-separator-notes="^Note:"><textarea data-template>
 ### HTML Formatting
 
 | Tag           | Meaning                 |
@@ -669,17 +671,17 @@ These tags may add additional formatting
 | `<mark>`      | marked/highlighted text |
 
 </textarea>
-</section>
+            </section>
 
-<section data-markdown data-separator-notes="^Note:">
-### Special Characters
+            <section data-markdown data-separator-notes="^Note:">
+                ### Special Characters
 
-Some characters in HTML are ‘reserved’ characters
+                Some characters in HTML are ‘reserved’ characters
 
-These must be replaced by ‘HTML entities’ to use them in a webpage
-</section>
+                These must be replaced by ‘HTML entities’ to use them in a webpage
+            </section>
 
-<section data-markdown data-separator-notes="^Note:"><textarea data-template>
+            <section data-markdown data-separator-notes="^Note:"><textarea data-template>
 ### HTML Formatting
 
 | Entity        | Description        | Output
@@ -693,77 +695,78 @@ These must be replaced by ‘HTML entities’ to use them in a webpage
 |  `&yen;`      | yen                | ¥             |
 |  `&euro;`     | euro               | €             |
 </textarea>
-</section>
+            </section>
 
 
 
-<section data-markdown data-separator-notes="^Note:">
-# Summary
+            <section data-markdown data-separator-notes="^Note:">
+                # Summary
 
-* HTML is used to annotate our content for the web
-* Use HTML tags to create HTML elements
-* Elements add meaning to our content
-* Nest elements inside one another to add structure to our document
-* Different elements have different functionality (and appearance)
-</section>
+                * HTML is used to annotate our content for the web
+                * Use HTML tags to create HTML elements
+                * Elements add meaning to our content
+                * Nest elements inside one another to add structure to our document
+                * Different elements have different functionality (and appearance)
+            </section>
 
 
-<!-- 
+            <!-- 
 *
 *
 *  FOOTER
 *
 *
 -->
-</div>
-</div>
-<script src="../../lib/reveal/lib/js/head.min.js"></script>
-<script src="../../lib/reveal/js/reveal.js"></script>
+        </div>
+    </div>
+    <script src="lib/reveal/lib/js/head.min.js"></script>
+    <script src="lib/reveal/js/reveal.js"></script>
 
-<script>
+    <script>
 
-    // More info https://github.com/hakimel/reveal.js#configuration
-    Reveal.initialize({
-        width: "100%",
-        height: "100%",
+        // More info https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            width: "100%",
+            height: "100%",
 
-        controls: false,
-        progress: true,
-        slideNumber: true,
-        history: true,
-        center: true,
+            controls: false,
+            progress: true,
+            slideNumber: true,
+            history: true,
+            center: true,
 
-        margin: 0,
-        minScale: 1,
-        maxScale: 1,
+            margin: 0,
+            minScale: 1,
+            maxScale: 1,
 
-        transition: 'none', // none/fade/slide/convex/concave/zoom
+            transition: 'none', // none/fade/slide/convex/concave/zoom
 
-        chalkboard: {
-            toggleChalkboardButton: false,
-        },
+            chalkboard: {
+                toggleChalkboardButton: false,
+            },
 
-        // More info https://github.com/hakimel/reveal.js#dependencies
-        dependencies: [
-            { src: "../../lib/reveal/lib/js/classList.js", condition: function() { return !document.body.classList; } },
-            { src: "../../lib/reveal/plugin/markdown/marked.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-            { src: "../../lib/reveal/plugin/markdown/markdown.js", condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-            { src: "../../lib/highlight/js/highlight.js"},
-            { src: "../../lib/reveal/plugin/chalkboard/chalkboard.js"},
-            { src: "../../lib/reveal/plugin/code-focus/reveal-code-focus.js", callback: function() { RevealCodeFocus(); } },
-            { src: "../../lib/reveal/plugin/zoom-js/zoom.js", async: true },
-            { src: "../../lib/reveal/plugin/notes/notes.js", async: true },
-        ],
-        keyboard: {
-            67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
-            66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
-            46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
-              8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
-            68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
-        },
-    });
+            // More info https://github.com/hakimel/reveal.js#dependencies
+            dependencies: [
+                { src: "lib/reveal/lib/js/classList.js", condition: function () { return !document.body.classList; } },
+                { src: "lib/reveal/plugin/markdown/marked.js", condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: "lib/reveal/plugin/markdown/markdown.js", condition: function () { return !!document.querySelector('[data-markdown]'); } },
+                { src: "lib/highlight/js/highlight.js" },
+                { src: "lib/reveal/plugin/chalkboard/chalkboard.js" },
+                { src: "lib/reveal/plugin/code-focus/reveal-code-focus.js", callback: function () { RevealCodeFocus(); } },
+                { src: "lib/reveal/plugin/zoom-js/zoom.js", async: true },
+                { src: "lib/reveal/plugin/notes/notes.js", async: true },
+            ],
+            keyboard: {
+                67: function () { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+                66: function () { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+                46: function () { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+                8: function () { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+                68: function () { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+            },
+        });
 
-</script>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    </script>
+    <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </body>
+
 </html>
