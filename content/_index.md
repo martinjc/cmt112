@@ -2,13 +2,17 @@
 
 These pages contain the course notes, links, videos and reading for CMT112 - Web Application Development.
 
+{{% panel theme="danger" header="Warning!" %}}
+I am still in the process of updating these pages for 2019-20. Some links may be broken and some content may be missing. I will endeavour to stay ahead of the [week-by-week](#structure) plan by 2 or 3 weeks at a time so that those who wish to skip ahead may do so.
+
+If you spot anything broken that you think should be working, [get in touch](#lecturing-staff), or if you'd like [submit a pull request](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112/merge_requests) to fix it!
+{{% /panel %}}
+
 [Latest Module Description](https://data.cardiff.ac.uk/legacy/grails/module/CMT112/19A.html)
 
 
-!TODO - re-record this module introduction video!
-
-<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2eb7f837-aec5-4fc4-afa1-aacc014f5a54" target="blank">link to the full version of the video</a></small></p>
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=2eb7f837-aec5-4fc4-afa1-aacc014f5a54&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9b9fc6c8-510f-4e41-9095-aace00cf6458" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=9b9fc6c8-510f-4e41-9095-aace00cf6458&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 
 <small>[Slides for the Course Introduction Video](slides/course-introduction.html)</small>
