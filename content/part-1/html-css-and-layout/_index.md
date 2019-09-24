@@ -16,27 +16,34 @@ The reading for this topic will begin to show you how to combine the structure o
 * [All about Grid systems](https://webdesign.tutsplus.com/articles/all-about-grid-systems--webdesign-14471) - don't confuse this with CSS-Grid, which is a new CSS technology that makes implementing Grids easier. This is about the general design concept of using a Grid to layout content. 
 * [Introduction to CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS) - this is a very thorough introduction to CSS and is probably best read in depth after you've read some of the other introductions and had a play with using CSS yourself. You've already read the first section `How CSS Works` in the previous section.
 
+## Notes
+
+
+
 ## Videos
 
 You should watch all these videos before the contact session in Week 2.
 
 #### CSS - Selectors and Specificity
 
-<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=87a7d88b-05ab-4892-82f7-a96d00d1b566" target="blank">link to the full version of the video</a></small></p>
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=87a7d88b-05ab-4892-82f7-a96d00d1b566&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=14288cc1-1aae-4ab6-93c6-aacc014f5cd9" target="blank">link to the full version of the video</a></small></p>
+
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=14288cc1-1aae-4ab6-93c6-aacc014f5cd9&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 <small>[Slides for the CSS Selectors and Specificity video](/slides/css-selectors-specificity.html)</small>
 
 #### CSS - Selectors and Specificity - Example Code
 
 <p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=445a57b2-c030-499d-a051-60ed2a8ec568" target="blank">link to the full version of the video</a></small></p>
+
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=445a57b2-c030-499d-a051-60ed2a8ec568&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 
 #### CSS - Positioning and Layout
 
-<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b20c5ca3-d566-4f3e-b52f-a96d00d4fd91" target="blank">link to the full version of the video</a></small></p>
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=b20c5ca3-d566-4f3e-b52f-a96d00d4fd91&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ce8034e2-112f-4f93-91c0-aacc014f5e17" target="blank">link to the full version of the video</a></small></p>
+
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=ce8034e2-112f-4f93-91c0-aacc014f5e17&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 <small>[Slides for the CSS Positioning and Layout video](/slides/css-layout.html)</small>
 
