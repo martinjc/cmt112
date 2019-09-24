@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "http://scm2mjc.pages.cs.cf.ac.uk/cmt112/"
 
 languageCode = "en-gb"
 DefaultContentLanguage = "en"
