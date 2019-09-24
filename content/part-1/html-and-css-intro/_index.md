@@ -27,21 +27,21 @@ Some notes from me on this week's topics:
 You should watch all these videos before the contact session in Week 1.
 
 #### Introduction to HTML
-<p><small>If the embed does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8d6f11f2-286b-4b67-aa82-a96100cb81f7" target="blank">link to the full version of the video</a> and also the <a href="http://scm2mjc.pages.cs.cf.ac.uk/cmt112/part-1/slides/1-2-intro-to-html.html#/" target="blank">slides</a></small></p>
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=8d6f11f2-286b-4b67-aa82-a96100cb81f7&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+<p><small>If the embed does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3ab5380c-f3f8-4bed-88d8-aacc014f5b1e" target="blank">link to the full version of the video</a> and also the <a href="http://scm2mjc.pages.cs.cf.ac.uk/cmt112/part-1/slides/1-2-intro-to-html.html#/" target="blank">slides</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3ab5380c-f3f8-4bed-88d8-aacc014f5b1e&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 <small>[Slides for the Introduction to HTML](/slides/intro-to-html.html)</small>
 
 #### Introduction to CSS
-<p><small>If the embed does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3217bae9-6f52-4695-a284-a96800be814f" target="blank">link to the full version of the video</a> and also the <a href="http://scm2mjc.pages.cs.cf.ac.uk/cmt112/part-1/slides/1-2-intro-to-css.html#/" target="blank">slides</a></small></p>
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=3217bae9-6f52-4695-a284-a96800be814f&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+<p><small>If the embed does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c43a5edd-23bd-4693-b7c2-aacc014f5bac" target="blank">link to the full version of the video</a> and also the <a href="http://scm2mjc.pages.cs.cf.ac.uk/cmt112/part-1/slides/1-2-intro-to-css.html#/" target="blank">slides</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=c43a5edd-23bd-4693-b7c2-aacc014f5bac&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 <small>[Slides for the Introduction to CSS](/slides/intro-to-css.html)</small>
 
 
 #### Writing a Web Page
-<p><small>If the embed does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=09133cfa-71aa-42b8-bd83-a96800c81732" target="blank">link to the full version of the video</a></small></p>
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=09133cfa-71aa-42b8-bd83-a96800c81732&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+<p><small>If the embed does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=170c0688-d440-4fca-8812-aacc014f5c53" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=170c0688-d440-4fca-8812-aacc014f5c53&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 
 
