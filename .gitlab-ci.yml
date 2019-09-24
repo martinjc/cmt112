@@ -1,11 +1,11 @@
-image: alpine:latest
+image: monachus/hugo
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
 
 pages:
-  stage: deploy
   script:
-  - mkdir .public
-  - cp -r * .public
-  - mv .public public
+  - hugo
   artifacts:
     paths:
     - public
