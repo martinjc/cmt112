@@ -12,10 +12,11 @@ If you spot anything broken that you think should be working, [get in touch](#le
 
 
 <p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9b9fc6c8-510f-4e41-9095-aace00cf6458" target="blank">link to the full version of the video</a></small></p>
+
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=9b9fc6c8-510f-4e41-9095-aace00cf6458&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 
-<small>[Slides for the Course Introduction Video](slides/course-introduction.html)</smallg>
+<small>[Slides for the Course Introduction Video](slides/course-introduction.html)</small>
 
 ## Structure
 
