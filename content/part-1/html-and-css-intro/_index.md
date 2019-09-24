@@ -20,6 +20,7 @@ The reading for this topic will introduce you to HyperText Markup Language, or H
 Some notes from me on this week's topics:
 
 * [Introduction to HTML](html-intro)
+* [Introduction to CSS](css-intro)
 
 
 ## Videos
