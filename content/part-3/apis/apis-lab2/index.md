@@ -1,3 +1,10 @@
++++
+type="page"
+title="Lab Exercise: APIs"
+draft=true
+weight=2
++++
+
 ## Lab Exercise: APIs
 
 !> Before we start - yet another survey for you to complete! The Welcome to Cardiff survey is for all new students to give us their feedback on the first few weeks of their degree programme. Before we start looking at putting an API request together, please take 5 minutes to complete this [survey](https://go.cf.ac.uk/welcomePGT18)
@@ -42,9 +49,7 @@ Lets set up a basic page with a text input box and an action button, and give it
     <body>
         <div id="input">
             <form>
-                <label for="lat_search"
-                    >Enter the Latitude to search for: <input type="text" id="lat_search" />
-                </label>
+                <label for="lat_search">Enter the Latitude to search for: <input type="text" id="lat_search" /> </label>
                 <label for="lng_search"
                     >Enter the Longitude to search for: <input type="text" id="lng_search" />
                 </label>

@@ -1,4 +1,9 @@
-## Lab Exercise: Server Side JavaScript
++++
+type="page"
+title="Lab Exercise: Server-Side JavaScript"
+draft=true
+weight=2
++++
 
 !> Before you start on today's Lab Exercise, please take 5 minutes to complete the mid-module feedback form here: http://bit.ly/cmt112-mmf. This is completely anonymous, but will help me to continue improving this module. I will look at the responses to the form and discuss them with you at the contact session in Week 9.
 
