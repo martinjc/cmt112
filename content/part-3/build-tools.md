@@ -1,3 +1,10 @@
++++
+type="page"
+title="Build Tools"
+draft=true
+weight=5
++++
+
 ## Overview
 
 In this section we look at more ools and techniques that can improve our lives as developers, and allow us to build simple toolchains that will help get our code ready for production and live deployment.
@@ -11,8 +18,6 @@ In this section we look at more ools and techniques that can improve our lives a
 
 There are some example pieces of code for this topic:
 
-* The code for the [website that uses Jekyll is here](https://github.com/martinjc/martinjc.com)
+-   The code for the [website that uses Jekyll is here](https://github.com/martinjc/martinjc.com)
 
-* The code for the [website that does not use Jekyll is here](https://github.com/martinjc/datajconf)
-
-
+-   The code for the [website that does not use Jekyll is here](https://github.com/martinjc/datajconf)

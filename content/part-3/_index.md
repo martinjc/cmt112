@@ -1,7 +1,8 @@
 +++
 type="page"
 title="Server-Side Development"
-weight=3
+draft=true
+weight=1
 +++
 
 # 3. Server-Side Development

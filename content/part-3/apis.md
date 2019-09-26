@@ -1,12 +1,19 @@
++++
+type="page"
+title="APIs"
+draft=true
+weight=3
++++
+
 ## Overview
 
 In this section we look at REST APIs, what they are, and how to request data from them in our front-end websites. We'll look at a _relatively_ simple way to request data from an API - but be warned that we'll also look at a newer method next week.
 
 ### Compulsory Reading
 
-- [A Beginners Guide to HTTP and REST](https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340) - An introduction to some of the technologies that allow us to build and use Web APIs.
-- [Eloquent JavaScript - HTTP and Forms](http://eloquentjavascript.net/18_http.html) - Another look at HTTP, and a bit of revision on HTML Forms
-- [MDN - Getting Started with AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started) - A look at dynamically updating pages with information retrieved from a server.
+-   [A Beginners Guide to HTTP and REST](https://code.tutsplus.com/tutorials/a-beginners-guide-to-http-and-rest--net-16340) - An introduction to some of the technologies that allow us to build and use Web APIs.
+-   [Eloquent JavaScript - HTTP and Forms](http://eloquentjavascript.net/18_http.html) - Another look at HTTP, and a bit of revision on HTML Forms
+-   [MDN - Getting Started with AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started) - A look at dynamically updating pages with information retrieved from a server.
 
 ### Videos
 
@@ -25,14 +32,14 @@ There are some example pieces of code for this topic. The source code for each e
 
 These examples use the [Sunrise-Sunset API](https://sunrise-sunset.org/api), a simple API which accepts Latitude and Longitude coordinates as input and returns details on the time of sunrise and sunset at that location.
 
-- XMLHttpRequest - Event Listener [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/sunrise-sunset/xhr-listener) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/sunrise-sunset/xhr-listener)
-- XMLHttpRequest OnReadyStateChange [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/sunrise-sunset/xhr-onreadystate) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/sunrise-sunset/xhr-onreadystate)
-- Fetch [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/sunrise-sunset/fetch) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/sunrise-sunset/fetch)
+-   XMLHttpRequest - Event Listener [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/sunrise-sunset/xhr-listener) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/sunrise-sunset/xhr-listener)
+-   XMLHttpRequest OnReadyStateChange [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/sunrise-sunset/xhr-onreadystate) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/sunrise-sunset/xhr-onreadystate)
+-   Fetch [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/sunrise-sunset/fetch) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/sunrise-sunset/fetch)
 
 ### Spotify
 
 These examples use the Spotify API. They are more complicated, as login is required to access data
 
-- Login - An example showing logging in to an API using OAuth< [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/spotify/login) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/spotify/login/login.html)
-- Recently Played - An example showing logging in to an API using OAuth and retrieving some data [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/spotify/recently-played) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/spotify/recently-played/login.html)
-- POST - An example showing logging in to an API using OAuth and then POSTing some data to the API [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/spotify/post) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/spotify/post/login.html)
+-   Login - An example showing logging in to an API using OAuth< [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/spotify/login) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/spotify/login/login.html)
+-   Recently Played - An example showing logging in to an API using OAuth and retrieving some data [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/spotify/recently-played) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/spotify/recently-played/login.html)
+-   POST - An example showing logging in to an API using OAuth and then POSTing some data to the API [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/3-2/spotify/post) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/3-2/spotify/post/login.html)

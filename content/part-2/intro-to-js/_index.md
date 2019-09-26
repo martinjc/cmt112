@@ -1,5 +1,6 @@
 +++
 title="Introduction to JavaScript"
+draft=true
 weight=1
 +++
 

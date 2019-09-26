@@ -1,3 +1,10 @@
++++
+type="page"
+title="More JS"
+draft=true
+weight=4
++++
+
 ## Overview
 
 In this section we look at more advanced and new JavaScript features such as Promises and Async/Await, and how to structure our JavaScript code into modules.

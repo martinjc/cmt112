@@ -1,6 +1,7 @@
 +++
 type="page"
 title="JavaScript Fundamentals"
+draft=true
 weight=2
 +++
 

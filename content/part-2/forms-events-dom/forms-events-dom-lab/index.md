@@ -1,4 +1,7 @@
-## Lab Exercise - Forms & JavaScript Events
++++
+title="Lab Exercise - Forms & JavaScript Events"
+draft=true
++++
 
 We are now going to start to look at dynamically updating our pages using JavaScript, reacting to JavaScript events, and capturing information from the User using Form elements
 
@@ -25,18 +28,15 @@ We'll need a new folder in our project for this week's work. Make a new folder (
 ```html
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JavaScript</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript</title>
-</head>
-
-<body>
-    <script src="week6-part1.js">
-    </script>
-</body>
-
+    <body>
+        <script src="week6-part1.js"></script>
+    </body>
 </html>
 ```
 
@@ -67,7 +67,6 @@ Lets add some content to our page, and some styling. First, the body content:
         </nav>
     </header>
 
-
     <script src="week6-part1.js"></script>
 </body>
 ```
@@ -76,11 +75,11 @@ Now lets style the page. First we'll apply a CSS reset by including a link to on
 
 ```html
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>JavaScript Week 6</title>
-    <link rel="stylesheet" href="https://unpkg.com/reset-css@4.0.1/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/reset-css@4.0.1/reset.css" />
 </head>
 ```
 
@@ -88,12 +87,12 @@ Now let's also add our own CSS file:
 
 ```html
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>JavaScript Week 6</title>
-    <link rel="stylesheet" href="https://unpkg.com/reset-css@4.0.1/reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/reset-css@4.0.1/reset.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 ```
 
@@ -101,30 +100,30 @@ Lets create the file `style.css` and add some contents:
 
 ```css
 h1 {
-  font-size: 2em;
+    font-size: 2em;
 }
 
 header {
-  display: flex;
+    display: flex;
 }
 
 header h1 {
-  padding-left: 20px;
-  padding-top: 10px;
-  width: 60vw;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 60vw;
 }
 
 nav {
-  padding-right: 20px;
-  padding-top: 10px;
-  width: 40vw;
-  text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 40vw;
+    text-align: right;
 }
 
 nav > ul > li {
-  padding-left: 10px;
-  font-size: 1.5em;
-  display: inline-block;
+    padding-left: 10px;
+    font-size: 1.5em;
+    display: inline-block;
 }
 ```
 
@@ -138,7 +137,7 @@ Lets add some event listeners to our page. We'll start by listening to events on
 let nav_element = document.getElementsByTagName("nav")[0];
 
 nav_element.addEventListener("click", function() {
-  console.log("nav clicked");
+    console.log("nav clicked");
 });
 ```
 
@@ -150,9 +149,9 @@ Now let's add another listener to each of the list items in the `<ul>` inside th
 let list_items = document.getElementsByTagName("li");
 
 for (var i = 0; i < list_items.length; i++) {
-  list_items[i].addEventListener("click", function() {
-    console.log("list item clicked");
-  });
+    list_items[i].addEventListener("click", function() {
+        console.log("list item clicked");
+    });
 }
 ```
 
@@ -172,9 +171,9 @@ If you're not seeing the behaviour you expect, then most likely, you've modified
 
 ```js
 for (var i = 0; i < list_items.length; i++) {
-  list_items[i].addEventListener("click", function() {
-    console.log("list item " + i + " clicked");
-  });
+    list_items[i].addEventListener("click", function() {
+        console.log("list item " + i + " clicked");
+    });
 }
 ```
 
@@ -190,11 +189,11 @@ There are two solutions to this problem. One is to wrap our eventListener code i
 
 ```js
 for (var i = 0; i < list_items.length; i++) {
-  (function(i) {
-    list_items[i].addEventListener("click", function() {
-      console.log("list item " + i + " clicked");
-    });
-  })(i);
+    (function(i) {
+        list_items[i].addEventListener("click", function() {
+            console.log("list item " + i + " clicked");
+        });
+    })(i);
 }
 ```
 
@@ -202,9 +201,9 @@ The simpler solution is just to use the `let` keyword for our `for` loop counter
 
 ```js
 for (let i = 0; i < list_items.length; i++) {
-  list_items[i].addEventListener("click", function() {
-    console.log("list item " + i + " clicked");
-  });
+    list_items[i].addEventListener("click", function() {
+        console.log("list item " + i + " clicked");
+    });
 }
 ```
 
@@ -220,8 +219,8 @@ Now lets add a textbox and an input button to our page, and a list that we'll be
 
 ```html
 <label for="nameTextField"></label>
-<input type="text" id="nameTextField">
-<input type="button" value="Okay!" id="okayButton">
+<input type="text" id="nameTextField" />
+<input type="button" value="Okay!" id="okayButton" />
 ```
 
 And lets add some JavaScript that listens for the user pressing the 'Okay' button, and prints the contents of the text box to the console:
@@ -229,8 +228,8 @@ And lets add some JavaScript that listens for the user pressing the 'Okay' butto
 ```js
 let okay_button = document.getElementById("okayButton");
 okay_button.addEventListener("click", function() {
-  let nameTextBox = document.getElementById("nameTextField");
-  console.log(nameTextBox.value);
+    let nameTextBox = document.getElementById("nameTextField");
+    console.log(nameTextBox.value);
 });
 ```
 
@@ -238,10 +237,9 @@ Lets also add a list that we can use to add some output too:
 
 ```html
 <label for="nameTextField"></label>
-<input type="text" id="nameTextField">
-<input type="button" value="Okay!" id="okayButton">
-<ul id="outputList">
-</ul>
+<input type="text" id="nameTextField" />
+<input type="button" value="Okay!" id="okayButton" />
+<ul id="outputList"></ul>
 ```
 
 Now we can get the contents of the text box when the user clicks "Okay", lets add this input to our list, and clear the text box for the next value to be added:
@@ -249,18 +247,18 @@ Now we can get the contents of the text box when the user clicks "Okay", lets ad
 ```js
 let okay_button = document.getElementById("okayButton");
 okay_button.addEventListener("click", function() {
-  let nameTextBox = document.getElementById("nameTextField");
-  let textValue = nameTextBox.value;
+    let nameTextBox = document.getElementById("nameTextField");
+    let textValue = nameTextBox.value;
 
-  let outputList = document.getElementById("outputList");
+    let outputList = document.getElementById("outputList");
 
-  let newListItem = document.createElement("li");
-  let textContent = document.createTextNode(textValue);
+    let newListItem = document.createElement("li");
+    let textContent = document.createTextNode(textValue);
 
-  newListItem.appendChild(textContent);
-  outputList.appendChild(newListItem);
+    newListItem.appendChild(textContent);
+    outputList.appendChild(newListItem);
 
-  nameTextBox.value = "";
+    nameTextBox.value = "";
 });
 ```
 
@@ -268,6 +266,6 @@ okay_button.addEventListener("click", function() {
 
 We've got the beginnings of a basic 'to-do list' application here, but it's very rudimentary. See if you can improve the functionality.
 
-- Can you add some basic error checking to the input to prevent empty items being added to the list?
-- Can you add the functionality to allow a user to remove an item from the list by clicking on it?
-- Can you sort the list alphabetically?
+-   Can you add some basic error checking to the input to prevent empty items being added to the list?
+-   Can you add the functionality to allow a user to remove an item from the list by clicking on it?
+-   Can you sort the list alphabetically?

@@ -1,4 +1,11 @@
-## Lab Exercise - Basic JavaScript & Debugging
++++
+type="page"
+title="Lab Exercise - Basic JavaScript & Debugging"
+draft=true
+weight=3
++++
+
+## 
 
 We are now going to start to use JavaScript, and learn how to use the built-in tools in our browser to monitor how our code executes and debug problems.
 
