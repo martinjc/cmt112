@@ -10,11 +10,9 @@ If you spot anything broken that you think should be working, [get in touch](#le
 
 [Latest Module Description](https://data.cardiff.ac.uk/legacy/grails/module/CMT112/19A.html)
 
-
 <p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9b9fc6c8-510f-4e41-9095-aace00cf6458" target="blank">link to the full version of the video</a></small></p>
 
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=9b9fc6c8-510f-4e41-9095-aace00cf6458&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
-
 
 <small>[Slides for the Course Introduction Video](slides/course-introduction.html)</small>
 
@@ -22,11 +20,9 @@ If you spot anything broken that you think should be working, [get in touch](#le
 
 The module is broken down into three parts:
 
-* [1. Introduction to HTML, CSS & JS](part-1) - (Weeks 1 - 4)
-* [2. JavaScript Fundamentals](part-2) (Weeks 4 - 8)
-* [3. Server Side Development](part-3) (Weeks 8 - 10)
-
-
+-   [1. Introduction to HTML, CSS & JS](part-1) - (Weeks 1 - 4)
+-   [2. JavaScript Fundamentals](part-2) (Weeks 4 - 8)
+-   [3. Server Side Development](part-3) (Weeks 8 - 10)
 
 ## Schedule
 
@@ -37,26 +33,25 @@ From Week 2 onwards, we will be in the Data Science Academy space on the 3rd flo
 
 Contact sessions occur in Weeks 1 to 10. An additional contact session will be held in Week 11, but no new material will be presented, this session will be a coursework surgery for the final assessment in the module.
 
-
 ## Course Resources
 
 All course material including notes, presentations, videos, recommended reading and practical exercises are available here on the School's GitLab server, and are linked to from Learning Central.
 
 The material is arranged by topic. In each topic there will be links to:
 
-* things to read (both 'compulsory' reading which must be done each week, and 'extra' reading for those who are interested)
-* videos to watch 
-* code samples to examine. 
+-   things to read (both 'compulsory' reading which must be done each week, and 'extra' reading for those who are interested)
+-   videos to watch
+-   code samples to examine.
 
 There will also be descriptions of the activities we will be doing during each week's contact session, and details of the individual/group lab exercises.
 
 It is expected that before each week’s contact session you will have:
 
-* read the relevant sections of the notes and watched any accompanying videos
-* read any external recommended reading
-* watched any code example demo videos
-* worked through any recommended external tutorials
-* completed any online quizzes
+-   read the relevant sections of the notes and watched any accompanying videos
+-   read any external recommended reading
+-   watched any code example demo videos
+-   worked through any recommended external tutorials
+-   completed any online quizzes
 
 {{% panel theme="danger" header="Warning" %}}
 Activities within each contact session will depend on you having completed the recommended 'reading', 'watching' and 'doing'. At the end of each contact session you will be advised of which material you need to engage with before the next week's session.
@@ -83,17 +78,18 @@ There is no punishment for non-attendance in the module. However, the level of e
 (This essentially means “don’t skip lectures, not bother with doing the reading, miss all the online quizzes and then expect an answer to your email about the coursework the day before it’s due in, because you won’t be getting one!”)
 
 ## Coursework Assignments
+
 This module is assessed through two coursework assignments, there is no exam.
 
 Coursework 1 is worth 30% of the module marks, and involves developing a simple static website.
 
-* Hand out Week 2
-* Hand out Week 5
+-   Hand out Week 2
+-   Hand out Week 5
 
 Coursework 2 is worth 70% of the module marks, and involves developing an interactive web application.
 
-* Hand out Week 7
-* Hand in Week 12
+-   Hand out Week 7
+-   Hand in Week 12
 
 {{% panel theme="primary" header="Note" %}}
 All assignments will be submitted through Learning Central. Marks and written feedback will be returned via email. This will be supplemented by oral feedback during a contact session.
