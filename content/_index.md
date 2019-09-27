@@ -28,7 +28,8 @@ The module is broken down into three parts:
 
 Contact sessions take place on Thursday or Friday mornings from 9:30am to 1pm.
 
-In Week 1, we will be located in the School's PC Labs: C/2.04 and C/2.05.
+In Week 1, we will be located in the School's PC Labs: C/2.04 and C/2.05 on Thursday, and in room S/2.22 on Friday.
+
 From Week 2 onwards, we will be in the Data Science Academy space on the 3rd floor of the South Building.
 
 Contact sessions occur in Weeks 1 to 10. An additional contact session will be held in Week 11, but no new material will be presented, this session will be a coursework surgery for the final assessment in the module.
