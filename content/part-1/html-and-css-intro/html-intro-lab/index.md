@@ -4,8 +4,10 @@ title="Lab Exercise: Creating a Web Page"
 
 During the lab activity for this topic we will put what we have learnt into practice by creating a simple HTML web page. We will also practice using version control software to ensure our code is safely versioned and stored. 
 
-
+{{% panel theme="danger" header="Note!" %}}
 This lab assumes that you completed the [Introduction to Git](http://comsc.pages.cs.cf.ac.uk/introduction-to-git/) exercise during induction week. If you have not already completed this exercise, please [go and work through that exercise](http://comsc.pages.cs.cf.ac.uk/introduction-to-git/) first, before coming back to complete this activity.
+{{% /panel %}}
+
 
 For this exercise we'll need a few different applications open. You should search for and open all these applications before we start:
 
@@ -13,13 +15,17 @@ For this exercise we'll need a few different applications open. You should searc
 2. A command line terminal
 3. A web browser for viewing the web page we create
 
-Our first step is not to start writing HTML code, but rather to intialise an empty Git repository to use to version our work.  Let's create a directory on our H: drive for our work and then move into that directory:
+Our first step is not to start writing HTML code, but rather to intialise an empty Git repository to use to version our work.  Let's create a directory for our work and then move into that directory:
 
 ```bash
 $ cd ~
 $ mkdir cmt112-labs
 $ cd cmt112-labs
 ```
+
+{{% panel theme="danger" header="Note!" %}}
+Remember, your laptop hard drive is not backed up automatically. Remember to backup important files and documents to OneDrive regularly! Using source control (git) and syncing with a remote repository (such as the School's GitLab server) is another good way to back up your work. We'll see how to do this in just a short while...
+{{% /panel %}}
 
 Then we tell Git to make `cmt112-labs` a repository:
 
