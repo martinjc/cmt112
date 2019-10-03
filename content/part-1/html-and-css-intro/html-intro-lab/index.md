@@ -2,12 +2,11 @@
 title="Lab Exercise: Creating a Web Page"
 +++
 
-During the lab activity for this topic we will put what we have learnt into practice by creating a simple HTML web page. We will also practice using version control software to ensure our code is safely versioned and stored. 
+During the lab activity for this topic we will put what we have learnt into practice by creating a simple HTML web page. We will also practice using version control software to ensure our code is safely versioned and stored.
 
 {{% panel theme="danger" header="Note!" %}}
 This lab assumes that you completed the [Introduction to Git](http://comsc.pages.cs.cf.ac.uk/introduction-to-git/) exercise during induction week. If you have not already completed this exercise, please [go and work through that exercise](http://comsc.pages.cs.cf.ac.uk/introduction-to-git/) first, before coming back to complete this activity.
 {{% /panel %}}
-
 
 For this exercise we'll need a few different applications open. You should search for and open all these applications before we start:
 
@@ -15,7 +14,7 @@ For this exercise we'll need a few different applications open. You should searc
 2. A command line terminal
 3. A web browser for viewing the web page we create
 
-Our first step is not to start writing HTML code, but rather to intialise an empty Git repository to use to version our work.  Let's create a directory for our work and then move into that directory:
+Our first step is not to start writing HTML code, but rather to intialise an empty Git repository to use to version our work. Let's create a directory for our work and then move into that directory:
 
 ```bash
 $ cd ~
@@ -65,7 +64,6 @@ The name `index.html` is an important name for the default first page in a websi
 
 {{% /panel %}}
 
-
 We can view our new HTML page in a number of ways. The easiest is to open a new Google Chrome window, then drag the `index.html` file from a File Explorer window and drop it onto our web browser window. This will open and display the file:
 
 ![Our first web page](img/1.2.1/hello-world.png).
@@ -77,6 +75,7 @@ We're pretty impressed with our first web page, so let's commit it to our git re
 ```bash
 git status
 ```
+
 You should see something similar to:
 
 ```output
@@ -95,7 +94,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 We'll add our `index.html` file to the staging area, ready to be included in a commit:
 
 ```bash
-git add Week1/index.html 
+git add Week1/index.html
 ```
 
 and now, we can again check the status of our repository:
@@ -221,7 +220,6 @@ git add Week1/index.html
 git commit -m "added a paragraph"
 ```
 
-
 {{< panel theme="primary" header="Question" >}}
 How would we revert these changes using Git if we then decided we didn't like the content addition?
 
@@ -230,8 +228,6 @@ We can use the `git checkout` command to roll our repository back to a past comm
 {{% /expand %}}
 
 {{< /panel >}}
-
-
 
 ### Adding CSS
 
@@ -242,7 +238,7 @@ We can add CSS to our HTML files by including it in a separate file. Create a ne
 ![CSS file](img/1.2.1/css-file.png)
 
 Before we can link the CSS to our HTML, we need to save the file. Here I have saved it as `style.css` in a subfolder named `css` within the same directory as
-the `index.html` file. 
+the `index.html` file.
 
 ```
 cmt112-labs/
@@ -264,15 +260,33 @@ If we refresh the page in our browser, we'll see the CSS rules applied to our pa
 
 Now it is your turn to start writing HTML. Experiment with adding more content, using some of the HTML tags we have already seen in this week's reading and videos. Try and add the following types of content to your page:
 
-* a link to another webpage
-* an image
-* a bulleted list
-* a range of headings
-* several paragraphs of text
-* a link from one part of your page to another
+-   a link to another webpage
+-   an image
+-   a bulleted list
+-   a range of headings
+-   several paragraphs of text
+-   a link from one part of your page to another
 
 Use CSS rules to change the formatting of your content.
 
 {{% panel theme="info" header="Notice!" %}}
 Remember to commit your changes frequently, and definitely commit your final code at the end of the lab!
 {{% /panel %}}
+
+### Peer Review
+
+Once you have written a page that you are happy with (or about half an hour before the end of the session, whichever comes first!) it is time to show it to someone else and get their feedback!
+
+You will have been given a 'peer review' sheet to help with this activity. Fill out your details in the top boxes, then find someone else in the lab to pair up with. You should swap sheets with this person, and then show them the webpage you have created. They will look at your website and provide you with some feedback on it. While they are doing this, you should examine their website and answer the questions on the peer review sheet. Look at how the website looks, how it functions, the HTML features they have used. Feel free to look at their HTML and CSS code as well. Try to provide useful feedback that will help the other person improve their coding and design skills.
+
+Once you have filled out the front of the peer-review sheet, hand it back to the creator of the website you reviewed. When they have finished reviewing your website they will return your sheet. You should read their feedback, think about it, and then answer the questions on the reverse of the sheet.
+
+Once you have completed the peer review activity, hand your sheets back to either Martin or Daniela
+
+### ... Just one more thing
+
+{{% panel theme="danger" header="... Just one more thing!" %}}
+Before you finish for the day, take a screenshot (or some screenshots) of your website and email them to ChorleyMJ@cardiff.ac.uk.
+
+If you're not sure how to take a screenshot, why not post a question (or look for an answer) on the [School StackOverflow](https://stackoverflow.com/c/comsc) site?
+{{%  /panel %}}
