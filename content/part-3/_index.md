@@ -2,7 +2,7 @@
 type="page"
 title="Server-Side Development"
 draft=true
-weight=1
+weight=3
 +++
 
 # 3. Server-Side Development
@@ -24,4 +24,3 @@ In Week 8 we will look at REST APIs and the role they can play in a web applicat
 ### Week 10
 
 In Week 9 we will look at some more advanced JavaScript techniques, including new language features and how to write modular, well-structured code. We will also look at tools and techniques that can improve our lives as developers, and allow us to build simple toolchains that will help get our code ready for production and live deployment.
-
