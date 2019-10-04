@@ -157,7 +157,7 @@ cd cmt112-labs
 We can use a built-in feature of the Python programming language to run a simple web server:
 
 ```bash
-python -m http.server
+python3 -m http.server
 ```
 
 This will start a web server in the current directory, which will sit and wait for requests from a web browser:
