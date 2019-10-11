@@ -4,7 +4,7 @@ title="Lab Exercise: CSS Layout"
 
 The task in this lab session is to work in groups to produce a website with a fairly complex layout. In your group you should look at a website you visit often, and attempt to recreate that website layout using the HTML and CSS we have looked at to date.
 
-**One person** should take the lead with coding, and the other(s) act as reviewers and editors, helping the lead coder create the code: suggesting solutions for implementation, watching for typos and minor errors, and providing feedback and evaluation. You will also be using Git for version control for the code on this exercise, and will share it to GitLab so that your entire group has access to the final code.
+**One person** should take the lead with coding, and the other(s) act as reviewers and editors, helping the lead coder create the code: suggesting solutions for implementation, watching for typos and minor errors, and providing feedback and evaluation.
 
 {{% panel theme="danger"  header="Note!"%}}
 
