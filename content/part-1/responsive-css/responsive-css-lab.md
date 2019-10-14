@@ -5,7 +5,7 @@ weight = 3
 
 The task in this lab session is to work in your groups to make a responsive website - that is one that adapts to different types of device and screen size to ensure the user experience is optimal.
 
-**One person** should take the lead with coding, and the other(s) act as reviewers and editors, helping the lead coder create the code: suggesting solutions for implementation, watching for typos and minor errors, and providing feedback and evaluation. You will also be using Git for version control for the code on this exercise, and will share it to GitLab so that your entire group has access to the final code.
+**One person** should take the lead with coding, and the other(s) act as reviewers and editors, helping the lead coder create the code: suggesting solutions for implementation, watching for typos and minor errors, and providing feedback and evaluation.
 
 ### This week's task
 

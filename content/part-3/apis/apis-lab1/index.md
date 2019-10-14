@@ -2,7 +2,7 @@
 type="page"
 title="Lab Exercise: APIs"
 draft=true
-weight=2
+weight=1
 +++
 
 ## Lab Exercise: APIs
