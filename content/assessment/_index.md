@@ -5,7 +5,7 @@ weight = 4
 
 This module is assessed through two coursework assignments, there is no exam.
 
-[Coursework 1]() is worth 30% of the module marks, and involves developing a simple static website.
+[Coursework 1](cw1) is worth 30% of the module marks, and involves developing a simple static website.
 
 -   Hand out Week 2
 -   Hand out Week 5
