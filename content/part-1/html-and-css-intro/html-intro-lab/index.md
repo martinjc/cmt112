@@ -1,5 +1,6 @@
 +++
 title="Lab Exercise: Creating a Web Page"
+weight=4
 +++
 
 During the lab activity for this topic we will put what we have learnt into practice by creating a simple HTML web page. We will also practice using version control software to ensure our code is safely versioned and stored.
