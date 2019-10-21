@@ -18,6 +18,7 @@ In this part we'll look at some of the newer and more advanced techniques we can
 
 -   [A complete guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - A complete guide to CSS Grid
 -   [A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - A complete guide to FlexBox
+-   [Grid by Example](https://gridbyexample.com/examples/) - a useful site with examples of how to use CSS Grid
 
 ### Videos
 
@@ -27,6 +28,11 @@ You should watch all these videos before the contact session in Week 4.
 
 <p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c1b1d869-96fc-4a88-b676-aacc014f6160" target="blank">link to the full version of the video</a></small></p>
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=c1b1d869-96fc-4a88-b676-aacc014f6160&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
+#### CSS Grid
+
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d80035e9-f41e-4c2b-84fc-aaea00e8b470" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=d80035e9-f41e-4c2b-84fc-aaea00e8b470&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 #### CSS Frameworks
 
@@ -44,3 +50,4 @@ There are some example pieces of code for this topic. The source code for each e
 -   Simple grid (without CSS-Grid) [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/simple-grid/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/simple-grid/css/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-5/simple-grid/)
 -   Flexbox example [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/flex/1/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/flex/1/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-5/flex/1)
 -   Responsive Flexbox example [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/flex/2/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/flex/2/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-5/flex/2)
+-   Responsive CSS Grid example [[HTML]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/grid/1/index.html) [[CSS]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/1-5/grid/1/style.css) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/1-5/grid/1)
