@@ -1,27 +1,11 @@
 +++
 title = "Lab Exercise - JavaScript Problems"
-draft=true
+draft=false
 +++
 
 We are now going to practice using JavaScript to solve simple problems, to check we understand some of the fundamentals of the language before we start getting into more complicated code. We are also going to get some experience of using testing frameworks to check our code is correct.
 
 **One person** should take the lead with coding, and the other(s) act as reviewers and editors, helping the lead coder create the code: suggesting solutions for implementation, watching for typos and minor errors, and providing feedback and evaluation. You will also be using Git for version control for the code on this exercise, and will share it to GitLab so that your entire group has access to the final code.
-
-!> This week, the member of the team doing the coding will be the person who is sat furthest to the left in your group.
-
-### Setting things up for this week
-
-By now, you should already have added code from last week's lab exercise into your group's project repository on GitLab.
-
-We'll start by cloning our existing repository to the lab machine you will be working on, if you haven't already.
-
-!> Only the person who is coding needs to do this
-
-```bash
-git clone git@gitlab.cs.cf.ac.uk:cmt112/<GROUPNAME>.git
-```
-
-We'll need a new folder in our project for this week's work. Make a new folder (either in the file explorer or on the command line using the `mkdir` command), and call it 'week5-javascript'.
 
 We have a set of code templates to work from this week. Download [the starting source code for this week](https://gitlab.cs.cf.ac.uk/cmt112/week5-javascript-programming/-/archive/master/week5-javascript-programming-master.zip) and extract it into the week5-javascript folder.
 
@@ -41,8 +25,6 @@ It's difficult to see what's going on when we run all the tests at the same time
 ```bash
 npm test test/test_hello.js
 ```
-
-!> If you are using the Git Bash command line this command should work fine. If you are using the windows command line you should use `npm test test\test_hello.js`.
 
 You should get some output something like the below:
 
