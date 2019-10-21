@@ -1,29 +1,15 @@
 +++
 title="Lab Exercise - Forms & JavaScript Events"
-draft=true
+draft=false
 +++
 
 We are now going to start to look at dynamically updating our pages using JavaScript, reacting to JavaScript events, and capturing information from the User using Form elements
 
-!> You will need to use Google Chrome for the coding exercises in this week's lab sheet.
-
 **One person** should take the lead with coding, and the other(s) act as reviewers and editors, helping the lead coder create the code: suggesting solutions for implementation, watching for typos and minor errors, and providing feedback and evaluation. You will also be using Git for version control for the code on this exercise, and will share it to GitLab so that your entire group has access to the final code.
-
-!> This week, the member of the team doing the coding will be the person sat furthest to the right of the group
 
 ### Setting things up for this week
 
-By now, you should already have added code from last week's lab exercise solving a set of JavaScript problems into your group's project repository on GitLab.
-
-We'll start by cloning our existing repository to the lab machine you will be working on, if you haven't already.
-
-!> Only the person who is coding needs to do this
-
-```bash
-git clone git@gitlab.cs.cf.ac.uk:cmt112/<GROUPNAME>.git
-```
-
-We'll need a new folder in our project for this week's work. Make a new folder (either in the file explorer or on the command line using the `mkdir` command), and call it 'week6-javascript'. Inside that folder, create an `index.html`. This is the base file for this week's project.
+We'll need a new `index.html` for this week's lab. This is the base file for this week's project.
 
 ```html
 <!DOCTYPE html>
@@ -141,7 +127,7 @@ nav_element.addEventListener("click", function() {
 });
 ```
 
-> ? Refresh the page and try clicking on your nav element - you should see output in the console.
+Refresh the page and try clicking on your nav element - you should see output in the console.
 
 Now let's add another listener to each of the list items in the `<ul>` inside the nav:
 
@@ -161,11 +147,11 @@ Now when you click on an item in the nav bar you should see two pieces of output
 
 You can see from the order of the output in the console that the `li` element gets to deal with the event first, then the `nav` element.
 
-?> How would we change the code so that the `nav` element is able to deal with the event first? Try it out.
+How would we change the code so that the `nav` element is able to deal with the event first? Try it out.
 
 If we want a parent element (or grand parent, or any kind of ancestor) to deal with events before the children of that element, we need to register the event listener with the `usecapture` parameter set to `true`. Events on that element will then be dealt with in the capture phase, rather than the bubbling phase, so before they reach the children of the element.
 
-?> Can you modify the code so that it prints the number of the list item that has been clicked? Does it work as you expect?
+Can you modify the code so that it prints the number of the list item that has been clicked? Does it work as you expect?
 
 If you're not seeing the behaviour you expect, then most likely, you've modified the code like this:
 
@@ -207,11 +193,11 @@ for (let i = 0; i < list_items.length; i++) {
 }
 ```
 
-?> Can you add a listener that will turn the title of the page purple when the mouse is above the `h1` element?
+Can you add a listener that will turn the title of the page purple when the mouse is above the `h1` element?
 
 &nbsp;
 
-?> Going back to our work with the debugger a couple of weeks ago, can you add a breakpoint that will pause the code when an element with a 'click' event listener registered is clicked on?
+Going back to our work with the debugger a couple of weeks ago, can you add a breakpoint that will pause the code when an element with a 'click' event listener registered is clicked on?
 
 ### Form input
 
