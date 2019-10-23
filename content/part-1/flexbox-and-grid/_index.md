@@ -1,6 +1,6 @@
 +++
 title="Flexbox and CSS Grid"
-weight=1
+weight=6
 +++
 
 ## Overview
