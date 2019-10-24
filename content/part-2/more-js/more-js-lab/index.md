@@ -7,7 +7,7 @@ We are now going to practice using JavaScript to solve simple problems, to check
 
 **One person** should take the lead with coding, and the other(s) act as reviewers and editors, helping the lead coder create the code: suggesting solutions for implementation, watching for typos and minor errors, and providing feedback and evaluation. You will also be using Git for version control for the code on this exercise, and will share it to GitLab so that your entire group has access to the final code.
 
-We have a set of code templates to work from this week. Download [the starting source code for this week](https://gitlab.cs.cf.ac.uk/cmt112/week5-javascript-programming/-/archive/master/week5-javascript-programming-master.zip) and extract it into the week5-javascript folder.
+We have a set of code templates to work from this week. Download [the starting source code for this week](https://gitlab.cs.cf.ac.uk/cmt112/week5-javascript-programming/-/archive/master/week5-javascript-programming-master.zip) and extract it into the week6-javascript folder.
 
 There are a lot of files in this folder.
 
