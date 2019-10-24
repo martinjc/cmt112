@@ -163,11 +163,3 @@ This function models population growth to see how long it will take a town of a 
 -   the target population
 
 The function will use the first three parameters to calculate and return the number of years before the population hits the supplied target.
-
-### Finished?
-
-If you solve all these problems, go back to the 'Guess the Number' game from last week and make sure you have finished that. Can you refactor\* the code in any way now that you are able to write functions and use Objects?
-
-\*refactoring is re-writing and simplifying
-
-Could you write some test cases for parts of your 'Guess the Number' game?
