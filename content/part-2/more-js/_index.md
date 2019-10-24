@@ -35,7 +35,7 @@ There are some example pieces of code for this topic. The source code for each e
 -   Objects:
     -   1 [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/2-2/objects.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-2/simple-objects.html)
     -   2 [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/2-2/simple-objects.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-2/simple-objects-2.html)
-    -   3 [[Code]]https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/2-2/simple-objects-2.html() [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-2/objects.html)
+    -   3 [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/2-2/simple-objects-2.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-2/objects.html)
 -   Functions:
     -   1 [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/2-2/functions.1.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-2/functions.1.html)
     -   2 [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/blob/master/2-2/functions.2.html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-2/functions.2.html)
