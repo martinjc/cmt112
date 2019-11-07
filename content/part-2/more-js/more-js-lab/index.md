@@ -11,6 +11,12 @@ We have a set of code templates to work from this week. Download [the starting s
 
 There are a lot of files in this folder.
 
+{{% panel theme="danger" header="NPM Update!" %}}
+[Here's a zip file](node_modules.zip) with all the node modules needed to run the tests. You should download this and extract it to the same folder as all the javascript examples.
+
+You can then run tests without npm by using: `./node_modules/mocha/bin/mocha` to run all the tests, or `./node_modules/mocha/bin/mocha test/test_even_or_odd.js` to run a specific test
+{{% /panel %}}
+
 -   There are a number of `.js` files. Each one contains a single JavaScript function that we need to complete.
 -   There is a folder called `test`. This contains test cases that check that the JavaScript functions we are going to write are working correctly.
 -   There is a `.gitignore` file. This tells Git to ignore certain files and folders and not to inlcude them in the repository.
