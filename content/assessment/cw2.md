@@ -51,9 +51,28 @@ API endpoints are implemented in the Server application to allow this functional
 
 You are free to modify the server code as you see fit. You are also free to add additional functionality beyond that requested by the University. Alongside the final source code for your front-end (and the server application if you have modified that) you should submit a short document describing the functionality you have implemented. This does not need to be extensive: one or two sentences on each functional requirement, indicating how and where you have implemented the functionality is fine. You may also include screenshots showing the website functionality.
 
+### Marking Criteria
+
+Design of the front end is not an important issue on this project, though the system is expected to present a usable interface. For this project the functionality of the system is more relevant. The general level of functionality required for each grade boundary is described below.
+
+#### Pass
+
+A frontend is created that fulfils most (>80%) of the functional requirements above.
+The back-end server code has not been significantly modified beyond that provided.
+
+#### Merit
+
+A frontend is created that fulfils all of the functional requirements above.
+The back-end server code may have been modified to improve existing functionality or provide new functionality.
+
+#### Distinction
+
+A frontend is created that fulfils all of the functional requirements above and adds additional functionality.
+The back-end server code will have been modified to improve existing functionality or provide new functionality
+
 ## Learning Central
 
-The assignment and associated reference material can be found [on Learning Central, under 'Assessment' in the CMT112 module](https://learningcentral.cf.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_5004043_1&course_id=_393319_1).
+The assignment and associated reference material can be found [on Learning Central, under 'Assessment' in the CMT112 module](https://learningcentral.cf.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_5004043_1&course_id=_393319_1). Full marking criteria are also listed there.
 
 {{%panel theme="danger" header="Warning"%}}
 All submission will be through Learning Central - no submissions will be accepted via email.
