@@ -39,7 +39,7 @@ You should watch all these videos before the contact session in Week 6.
 There are some example pieces of code for this topic. The source code for each example can be viewed in the GitLab project '[cmt112-examples](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples)' and the end result can be seen on the [GitLab pages site for that project](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/).
 
 -   Dom Structure [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/dom) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/dom/)
--   HTML Form Elements [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/forms) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/forms/)
+-   HTML Form Elements [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/forms/1) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/forms/1)
 -   Selecting elements using JavaScript:
     -   by Class [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/select-class) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/select-class/)
     -   by ID [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/select-id) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/select-id/)
@@ -60,3 +60,4 @@ There are some example pieces of code for this topic. The source code for each e
     -   MouseEnter and Mouseout [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/events/mouseenterout) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/events/mouseenterout/)
     -   Parameters [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/events/params) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/events/params/)
     -   Bubbling [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/events/bubbling) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/events/bubbling/)
+-   HTML Form Elements + JavaScript [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/forms/2) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/forms/2)
