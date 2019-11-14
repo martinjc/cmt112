@@ -48,7 +48,7 @@ There are some example pieces of code for this topic. The source code for each e
 -   Using innerHTML
     -   1 [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/innerHTML/1) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/innerHTML/1/)
     -   2 [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/innerHTML/2) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/innerHTML/2/)
--   Creating HTML [[Code]]() [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/create-html/)
+-   Creating HTML [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/create-html) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/create-html/)
 -   Modifying HTML using JavaScript:
     -   Attributes [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/modify-attributes) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/modify-attributes/)
     -   Style 1 [[Code]](https://gitlab.cs.cf.ac.uk/scm2mjc/cmt112-examples/tree/master/2-3/modify-style/1) [[Demo]](http://scm2mjc.pages.cs.cf.ac.uk/cmt112-examples/2-3/modify-style/1)
