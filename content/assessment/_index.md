@@ -10,7 +10,7 @@ This module is assessed through two coursework assignments, there is no exam.
 -   Hand out Week 2
 -   Hand out Week 5
 
-[Coursework 2]() is worth 70% of the module marks, and involves developing an interactive web application.
+[Coursework 2](cw2) is worth 70% of the module marks, and involves developing an interactive web application.
 
 -   Hand out Week 7
 -   Hand in Week 12

@@ -7,9 +7,9 @@ Coursework 2 is worth 70% of the marks for the module.
 
 It was handed out in Week 7 and is due for submission by 09:30am on 10th January 2020. Marks and written feedback will be returned via email within four working weeks.
 
-#### Coursework Briefing
+<!-- #### Coursework Briefing
 
-<!-- The video below explains the coursework details - please ignore the reference to 2018 in the document shown, this video is from last year, but the general assignment remains the same!
+The video below explains the coursework details - please ignore the reference to 2018 in the document shown, this video is from last year, but the general assignment remains the same!
 
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=5603c23c-8fd9-4b82-ad67-aacc014f739c&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe> -->
 
