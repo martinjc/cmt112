@@ -1,7 +1,6 @@
 +++
 type="page"
 title="Server-Side Development"
-draft=true
 weight=2
 +++
 
@@ -21,13 +20,13 @@ You should watch all these videos before the contact session in Week 7.
 
 #### Server Side Programming
 
-<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=74a784fa-55ca-413a-8d26-f423f38cf035" target="blank">link to the full version of the video</a></small></p>
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=74a784fa-55ca-413a-8d26-f423f38cf035&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=af4a8d72-cd5f-44c4-878b-aacc014f68b6" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=af4a8d72-cd5f-44c4-878b-aacc014f68b6&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 #### Server Side Frameworks
 
-<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=416badb4-1cce-428a-b20b-74b2e8e6e156" target="blank">link to the full version of the video</a></small></p>
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=416badb4-1cce-428a-b20b-74b2e8e6e156&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7d3c210c-5ef3-4ae6-94cd-aacc014f6977" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=7d3c210c-5ef3-4ae6-94cd-aacc014f6977&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 ## Code Examples
 

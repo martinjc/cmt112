@@ -1,13 +1,12 @@
 +++
 type="page"
 title="APIs"
-draft=true
-weight=3
+weight=1
 +++
 
 ## Overview
 
-In this section we look at REST APIs, what they are, and how to request data from them in our front-end websites. We'll look at a _relatively_ simple way to request data from an API - but be warned that we'll also look at a newer method next week.
+In this section we look at REST APIs, what they are, and how to request data from them in our front-end websites. We'll look at a _relatively_ simple way to request data from an API - but be warned that we'll also look at a newer method later.
 
 ### Compulsory Reading
 
@@ -21,8 +20,13 @@ You should watch all these videos before the contact session in Week 8.
 
 #### APIs & JavaScript
 
-<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9be52154-c476-48dc-8072-a5adadfac582" target="blank">link to the full version of the video</a></small></p>
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=9be52154-c476-48dc-8072-a5adadfac582&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dfdc5957-3fd8-4b6b-be43-aacc014f7435" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=dfdc5957-3fd8-4b6b-be43-aacc014f7435&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
+#### Using APIs
+
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9767e661-9a72-49ab-9ff9-aacc014f7507" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=9767e661-9a72-49ab-9ff9-aacc014f7507&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 ## Code Examples
 
