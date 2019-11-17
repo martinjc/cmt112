@@ -1,37 +1,18 @@
 +++
 type="page"
-title="Lab Exercise: APIs"
-draft=true
+title="Lab Exercise: APIs (2)"
 weight=2
 +++
 
-## Lab Exercise: APIs
-
-!> Before we start - yet another survey for you to complete! The Welcome to Cardiff survey is for all new students to give us their feedback on the first few weeks of their degree programme. Before we start looking at putting an API request together, please take 5 minutes to complete this [survey](https://go.cf.ac.uk/welcomePGT18)
+{{% panel theme="warning" header="Do the Welcome to Cardiff Survey!" %}}
+Before we start - please make sure you have completed the Welcome to Cardiff Survey! The Welcome to Cardiff survey is for all new students to give us their feedback on the first few weeks of their degree programme. Before we start looking at putting an API request together, please take 5 minutes to complete this [survey](https://go.cf.ac.uk/welcomePGT19)
+{{% /panel %}}
 
 ### Getting on with it
 
 We are now going to practice using JavaScript to create a page that will take user input and make search requests on the Sunrise-Sunset API.
 
-**One person** should take the lead with coding, and the other(s) act as reviewers and editors, helping the lead coder create the code: suggesting solutions for implementation, watching for typos and minor errors, and providing feedback and evaluation. You will also be using Git for version control for the code on this exercise, and will share it to GitLab so that your entire group has access to the final code.
-
-!> This week, the member of the team doing the coding will be the last person to stand up.
-
 ### Setting things up for this week
-
-By now, you should already have added code from last week's lab exercise into your group's project repository on GitLab.
-
-We'll start by cloning our existing repository to the lab machine you will be working on, if you haven't already.
-
-!> Only the person who is coding needs to do this
-
-```bash
-git clone git@gitlab.cs.cf.ac.uk:cmt112/<GROUPNAME>.git
-```
-
-We'll need a new folder in our project for this week's work. Make a new folder (either in the file explorer or on the command line using the `mkdir` command), and call it 'week8-apis'.
-
-### Basic Page
 
 Lets set up a basic page with a text input box and an action button, and give it some CSS styling:
 
@@ -238,6 +219,6 @@ Our full example will now allow us to search for a location and add details of t
 
 Now we have a basic example working, can you make it do something more interesting?
 
-?> Can you add more details from the data that is returned?
+-   Can you add more details from the data that is returned?
 
-?> Can you use the moment.js library to add a countdown to sunrise or sunset?
+-   Can you use the moment.js library to add a countdown to sunrise or sunset?

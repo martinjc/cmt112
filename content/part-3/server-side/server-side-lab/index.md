@@ -1,39 +1,14 @@
 +++
 type="page"
 title="Lab Exercise: Server-Side JavaScript"
-draft=true
 weight=2
 +++
 
-!> Before you start on today's Lab Exercise, please take 5 minutes to complete the mid-module feedback form here: http://bit.ly/cmt112-mmf. This is completely anonymous, but will help me to continue improving this module. I will look at the responses to the form and discuss them with you at the contact session in Week 9.
-
 We are now going to start having a look at using JavaScript on the server using [NodeJS](https://nodejs.org/en/). [Node](https://nodejs.org/en/about/) is basically a JavaScript engine (the [V8 engine](https://en.wikipedia.org/wiki/Chrome_V8)), but instead of running inside a web browser, it runs on the command line, and includes a lot of handy JavaScript modules for doing certain tasks (like reading and writing files, or running servers).
-
-!> Node should already be installed on your lab machine. If you get an error message when trying to run node stating `command not found` try another lab machine.
-
-**One person** should take the lead with coding, and the other(s) act as reviewers and editors, helping the lead coder create the code: suggesting solutions for implementation, watching for typos and minor errors, and providing feedback and evaluation. You will also be using Git for version control for the code on this exercise, and will share it to GitLab so that your entire group has access to the final code.
-
-!> This week, the member of the team doing the coding will be the last person to read this sentence and say the word 'ostrich'.
 
 ### Setting things up for this week
 
-By now, you should already have added code from last week's lab exercise into your group's project repository on GitLab.
-
-We'll start by cloning our existing repository to the lab machine you will be working on, if you haven't already.
-
-!> Only the person who is coding needs to do this
-
-```bash
-git clone git@gitlab.cs.cf.ac.uk:cmt112/<GROUPNAME>.git
-```
-
-We'll need a new folder in our project for this week's work. Make a new folder (either in the file explorer or on the command line using the `mkdir` command), and call it 'week7-server-side-js'.
-
-!> We'll be working with Node again today, so as we did in Week 5, we'll need to remember to add a `.gitignore` file to make sure our `node_modules` folder is not included in our Git repository
-
-### A simple Web Server
-
-Inside the directory for this week, run the following command:
+Inside a new directory for this week, run the following command:
 
 ```bash
 npm init
@@ -99,6 +74,7 @@ node --inspect-brk server.js
 
 it will start in a debug mode, and pause once our code starts running. If you then open a Chrome tab to `chrome://inspect` and click the `Open dedicated DevTools for Node` link, you should be able to open a debugger that will connect to your Node application and allow you to use the same debugging process as when running JavaScript on a webpage
 
+{{% panel theme="warning" header="Bugs ahead?" %}}
 !> There is an important caveat - Chrome as of v69 [has a bug](https://github.com/ChromeDevTools/devtools-protocol/issues/103) that means breakpoints do not work properly if we just set them in the DevTools. However, there is a workaround. Node also has a handy `debugger` command we can use within our code to set a breakpoint. So, if we do this:
 
 ```js
@@ -110,11 +86,12 @@ const server = http.createServer(function(request, response) {
 });
 ```
 
-!> The Debugger will pause our code at the first line of the function that sends a response to the server, so we can see the values of the request and response variables for ourselves:
+The Debugger will pause our code at the first line of the function that sends a response to the server, so we can see the values of the request and response variables for ourselves:
 
 ![debugger](img/debugger.png)
 
-!> In fact, once our code hits the first breakpoint from the `debugger` command, we can add more breakpoints that will work just fine.
+In fact, once our code hits the first breakpoint from the `debugger` command, we can add more breakpoints that will work just fine.
+{{% /panel %}}
 
 ### Request Objects
 
@@ -295,7 +272,7 @@ Next week, we'll go on to look at how we could make this request using JavaScrip
 
 ### Going further
 
-?> Can you add more functionality to the server? Look at the `fs` module in Node. Could you add some functionality that allows the server to read and return a local file?
+-   Can you add more functionality to the server? Look at the `fs` module in Node. Could you add some functionality that allows the server to read and return a local file?
 
 ### Further Reading
 
