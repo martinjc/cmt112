@@ -80,4 +80,4 @@ All submission will be through Learning Central - no submissions will be accepte
 
 ## Questions and Answers
 
-If you have a question about the coursework, please submit it through the [COMSC StackOverflow site](stackoverflow.com/c/comsc)
+If you have a question about the coursework, please submit it through the [COMSC StackOverflow site](stackoverflow.com/c/comsc) and tag it with 'cmt112-cw'.
