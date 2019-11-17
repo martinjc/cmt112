@@ -123,3 +123,10 @@ Unfortunately due to an issue with the recording equipment in the DSA space no v
 <p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=575bb9bb-642c-42e4-9112-aaf100d46058" target="blank">link to the full version of the video</a></small></p>
 
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=575bb9bb-642c-42e4-9112-aaf100d46058&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+
+## Week 5 
+
+Class was cancelled in Week 5
+
+## Week 6
+
