@@ -1,7 +1,6 @@
 +++
 type="page"
 title="More JS"
-draft=true
 weight=4
 +++
 
@@ -18,8 +17,8 @@ In this section we look at more advanced and new JavaScript features such as Pro
 
 ### Videos
 
-<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=74072c2d-89bc-4221-9f62-a9bc00be34a6" target="blank">link to the full version of the video</a></small></p>
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=74072c2d-89bc-4221-9f62-a9bc00be34a6&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+<p><small>If the embed below does not work here is a <a href="https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=16f4df09-730b-4799-841e-aacc014f7913" target="blank">link to the full version of the video</a></small></p>
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=16f4df09-730b-4799-841e-aacc014f7913&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
 ## Code Examples
 
