@@ -124,9 +124,24 @@ Unfortunately due to an issue with the recording equipment in the DSA space no v
 
 <iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=575bb9bb-642c-42e4-9112-aaf100d46058&v=1" width="720" height="405" style="padding: 0px; border: 1px solid #464646;" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 
-## Week 5 
+## Week 5
 
 Class was cancelled in Week 5
 
 ## Week 6
 
+#### Quiz
+
+{{< panopto videoid="794b3b5f-6960-422b-b8f1-aafe009ea69e" >}}
+
+#### JavaScript Examples
+
+{{< panopto videoid="cbde5844-9169-4fb7-9e00-ab080148f340" >}}
+
+## Week 7
+
+### Thursday
+
+
+
+### Friday
