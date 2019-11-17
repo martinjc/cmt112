@@ -142,6 +142,28 @@ Class was cancelled in Week 5
 
 ### Thursday
 
+#### Quiz
 
+{{< panopto videoid="8e7bc32b-68cc-4a52-b6a6-ab05009d869d" >}}
+
+#### CW2 Briefing
+
+{{< panopto videoid="a8fa012c-7f29-48f9-89df-ab0801490555" >}}
+
+#### Examples and Discussion
+
+{{< panopto videoid="8185be8d-3276-4a5e-a729-ab0801576dd8" >}}
 
 ### Friday
+
+#### Quiz
+
+{{< panopto videoid="05f427ae-71ad-4a07-80ef-ab06009e229a" >}}
+
+#### CW2 Briefing
+
+{{< panopto videoid="6b758ef4-c3bb-4ff0-8210-ab0801582313" >}}
+
+#### Examples and Discussion
+
+{{< panopto videoid="51ae298e-6d05-42f4-82b5-ab0801491324" >}}
