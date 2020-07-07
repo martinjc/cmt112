@@ -4,7 +4,7 @@
   "description": "Course Website for CMT112",
   "main": "index.html",
   "dependencies": {
-    "npm": "^6.4.0"
+    "npm": "^6.14.6"
   },
   "devDependencies": {},
   "scripts": {
